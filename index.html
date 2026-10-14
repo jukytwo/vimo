@@ -16,7 +16,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<script>window.__vmSite = true; window.__vmBuild = "202610141050";</script>
+<script>window.__vmSite = true; window.__vmBuild = "202610141147";</script>
 </head>
 <body>
 
@@ -4323,6 +4323,39 @@ html.qa-lock,html.qa-lock body{overflow:hidden}
     const s = el("span", null, L("Hướng dẫn sử dụng", "How to use this page")); s.appendChild(el("small", null, L("Clip 5 phút 47 giây, xem ngay tại đây", "5 min 47 s video, plays right here"))); b.appendChild(s);
   }
 
+  // ---------- 10. Nhận diện TVN luôn hiện: dấu chìm phủ màn hình và tem logo cố định ----------
+  const WM_L = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMjQwIiB2aWV3Qm94PSIwIDAgMzYwIDI0MCI+PGcgb3BhY2l0eT0iMC4xMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTIyIDE4MCAxMjApIj48c3ZnIHg9IjU4IiB5PSI4NiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQ3IiB2aWV3Qm94PSIwIDAgMjgwIDIxNyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsMjE3LjAwMDAwMCkgc2NhbGUoMS4wMDAwMDAsLTEuMDAwMDAwKSIgZmlsbD0iIzFGMzg2NCI+PHBhdGggZD0iTTE0NCAyMDYgYy0yMiAtMTYgLTI1IC0yMCAtMjggLTMxIC0yIC03IC0zIC0xNzEgLTEgLTE3MiAwIC0xIDMgLTEgNiAwIDMgMCA5IDEgMTMgMiAxMiAyIDIzIDQgMjUgNSAyIDEgMyAyMDcgMSAyMDcgMCAwIC03IC01IC0xNiAtMTF6IG0tMTAgLTEwOSBjNyAtMTEgNyAtMTIgNiAtMTQgLTIgLTIgLTIgLTIgLTExIDEzIC02IDEwIC04IDEzIC02IDEzIDMgMSA1IDAgMTEgLTEyeiBtMjEgMTIgYzAgLTEgLTExIC0yMCAtMTIgLTIwIC00IDAgLTIgOCA1IDE4IDIgMiA1IDMgNyAyeiIvPjxwYXRoIGQ9Ik0yMDQgMjA1IGMtMzEgLTIyIC0yOCAtMTIgLTI5IC0xMTEgMCAtNDkgMCAtODAgMSAtODAgMCAwIDcgMiAxNSA1IDg3IDI3IDExNiA2OSA2MiA4NiAtOSAyIC05IDIgLTQgLTIgMTIgLTkgMTEgLTIwIC0zIC0zMyAtNiAtNiAtMjIgLTE3IC0yNCAtMTYgMCAwIDAgMzcgMCA4MSAwIDQ1IDAgODEgLTEgODEgMCAxIC04IC01IC0xNyAtMTF6IG0xMSAtMTA1IGMwIC05IDAgLTExIC00IC03IC00IDQgLTMgMTcgMSAxNyAyIC0xIDMgLTEgMyAtMTB6IG0tMTUgLTEgYzE2IC0xNCAxNiAtMTQgMTQgLTE2IC0yIC0xIC0yIC0xIC03IDMgLTIzIDE4IC0yNSAyMCAtMjMgMjIgMSAyIDQgMCAxNiAtOXogbS0xNCAwIGMzIC0yIDMgLTE3IDAgLTE3IC0yIDAgLTMgMSAtMyAxMCAwIDkgMCAxMCAzIDd6Ii8+PHBhdGggZD0iTTg0IDE1MiBjLTMwIC0yMSAtMjkgLTE5IC0yOSAtODMgMCAtNTIgMiAtNDcgLTEyIC00MiAtMjMgNyAtMzAgMjAgLTE2IDM1IDUgNiAyIDUgLTcgLTIgLTMxIC0yNCAtMjUgLTQ3IDE0IC01NiAxNiAtMyA1MSAtNSA2MyAtMyBsNCAwIDAgODEgYzAgNTIgLTEgODAgLTEgODEgLTEgMCAtOCAtNSAtMTYgLTExeiBtLTEwIC00MyBjMiAwIDIgMCAxIC0zIC0yIC0zIC0xMiAtMyAtMTMgMCAwIDMgNyA1IDEyIDN6IG0yMCAtMiBjMCAtMyAtMyAtNCAtMTAgLTMgLTIgMCAtMiAtMiAtMyAtMTIgMCAtOSAtMSAtMTAgLTMgLTEwIC0yIDAgLTMgMjAgLTEgMjMgNCA1IDE2IDcgMTcgMnoiLz48L2c+PC9zdmc+PHRleHQgeD0iMTI0IiB5PSIxMTMiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCdUaW1lcyBOZXcgUm9tYW4nLHNlcmlmIiBmb250LXNpemU9IjIyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMUYzODY0Ij5UVk4gJmFtcDsgUGFydG5lcnM8L3RleHQ+PHRleHQgeD0iMTI1IiB5PSIxMzIiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZXR0ZXItc3BhY2luZz0iMS4yIiBmaWxsPSIjMUYzODY0Ij50dm5wYXJ0bmVycy5jb20udm48L3RleHQ+PC9nPjwvc3ZnPg==", WM_D = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMjQwIiB2aWV3Qm94PSIwIDAgMzYwIDI0MCI+PGcgb3BhY2l0eT0iMC4xMCIgdHJhbnNmb3JtPSJyb3RhdGUoLTIyIDE4MCAxMjApIj48c3ZnIHg9IjU4IiB5PSI4NiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQ3IiB2aWV3Qm94PSIwIDAgMjgwIDIxNyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsMjE3LjAwMDAwMCkgc2NhbGUoMS4wMDAwMDAsLTEuMDAwMDAwKSIgZmlsbD0iI0U4QzQ2QSI+PHBhdGggZD0iTTE0NCAyMDYgYy0yMiAtMTYgLTI1IC0yMCAtMjggLTMxIC0yIC03IC0zIC0xNzEgLTEgLTE3MiAwIC0xIDMgLTEgNiAwIDMgMCA5IDEgMTMgMiAxMiAyIDIzIDQgMjUgNSAyIDEgMyAyMDcgMSAyMDcgMCAwIC03IC01IC0xNiAtMTF6IG0tMTAgLTEwOSBjNyAtMTEgNyAtMTIgNiAtMTQgLTIgLTIgLTIgLTIgLTExIDEzIC02IDEwIC04IDEzIC02IDEzIDMgMSA1IDAgMTEgLTEyeiBtMjEgMTIgYzAgLTEgLTExIC0yMCAtMTIgLTIwIC00IDAgLTIgOCA1IDE4IDIgMiA1IDMgNyAyeiIvPjxwYXRoIGQ9Ik0yMDQgMjA1IGMtMzEgLTIyIC0yOCAtMTIgLTI5IC0xMTEgMCAtNDkgMCAtODAgMSAtODAgMCAwIDcgMiAxNSA1IDg3IDI3IDExNiA2OSA2MiA4NiAtOSAyIC05IDIgLTQgLTIgMTIgLTkgMTEgLTIwIC0zIC0zMyAtNiAtNiAtMjIgLTE3IC0yNCAtMTYgMCAwIDAgMzcgMCA4MSAwIDQ1IDAgODEgLTEgODEgMCAxIC04IC01IC0xNyAtMTF6IG0xMSAtMTA1IGMwIC05IDAgLTExIC00IC03IC00IDQgLTMgMTcgMSAxNyAyIC0xIDMgLTEgMyAtMTB6IG0tMTUgLTEgYzE2IC0xNCAxNiAtMTQgMTQgLTE2IC0yIC0xIC0yIC0xIC03IDMgLTIzIDE4IC0yNSAyMCAtMjMgMjIgMSAyIDQgMCAxNiAtOXogbS0xNCAwIGMzIC0yIDMgLTE3IDAgLTE3IC0yIDAgLTMgMSAtMyAxMCAwIDkgMCAxMCAzIDd6Ii8+PHBhdGggZD0iTTg0IDE1MiBjLTMwIC0yMSAtMjkgLTE5IC0yOSAtODMgMCAtNTIgMiAtNDcgLTEyIC00MiAtMjMgNyAtMzAgMjAgLTE2IDM1IDUgNiAyIDUgLTcgLTIgLTMxIC0yNCAtMjUgLTQ3IDE0IC01NiAxNiAtMyA1MSAtNSA2MyAtMyBsNCAwIDAgODEgYzAgNTIgLTEgODAgLTEgODEgLTEgMCAtOCAtNSAtMTYgLTExeiBtLTEwIC00MyBjMiAwIDIgMCAxIC0zIC0yIC0zIC0xMiAtMyAtMTMgMCAwIDMgNyA1IDEyIDN6IG0yMCAtMiBjMCAtMyAtMyAtNCAtMTAgLTMgLTIgMCAtMiAtMiAtMyAtMTIgMCAtOSAtMSAtMTAgLTMgLTEwIC0yIDAgLTMgMjAgLTEgMjMgNCA1IDE2IDcgMTcgMnoiLz48L2c+PC9zdmc+PHRleHQgeD0iMTI0IiB5PSIxMTMiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCdUaW1lcyBOZXcgUm9tYW4nLHNlcmlmIiBmb250LXNpemU9IjIyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjRThDNDZBIj5UVk4gJmFtcDsgUGFydG5lcnM8L3RleHQ+PHRleHQgeD0iMTI1IiB5PSIxMzIiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZXR0ZXItc3BhY2luZz0iMS4yIiBmaWxsPSIjRThDNDZBIj50dm5wYXJ0bmVycy5jb20udm48L3RleHQ+PC9nPjwvc3ZnPg==", WM_LOGO = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODAgMjE3Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwyMTcuMDAwMDAwKSBzY2FsZSgxLjAwMDAwMCwtMS4wMDAwMDApIiBmaWxsPSIjQzg5OTJGIj48cGF0aCBkPSJNMTQ0IDIwNiBjLTIyIC0xNiAtMjUgLTIwIC0yOCAtMzEgLTIgLTcgLTMgLTE3MSAtMSAtMTcyIDAgLTEgMyAtMSA2IDAgMyAwIDkgMSAxMyAyIDEyIDIgMjMgNCAyNSA1IDIgMSAzIDIwNyAxIDIwNyAwIDAgLTcgLTUgLTE2IC0xMXogbS0xMCAtMTA5IGM3IC0xMSA3IC0xMiA2IC0xNCAtMiAtMiAtMiAtMiAtMTEgMTMgLTYgMTAgLTggMTMgLTYgMTMgMyAxIDUgMCAxMSAtMTJ6IG0yMSAxMiBjMCAtMSAtMTEgLTIwIC0xMiAtMjAgLTQgMCAtMiA4IDUgMTggMiAyIDUgMyA3IDJ6Ii8+PHBhdGggZD0iTTIwNCAyMDUgYy0zMSAtMjIgLTI4IC0xMiAtMjkgLTExMSAwIC00OSAwIC04MCAxIC04MCAwIDAgNyAyIDE1IDUgODcgMjcgMTE2IDY5IDYyIDg2IC05IDIgLTkgMiAtNCAtMiAxMiAtOSAxMSAtMjAgLTMgLTMzIC02IC02IC0yMiAtMTcgLTI0IC0xNiAwIDAgMCAzNyAwIDgxIDAgNDUgMCA4MSAtMSA4MSAwIDEgLTggLTUgLTE3IC0xMXogbTExIC0xMDUgYzAgLTkgMCAtMTEgLTQgLTcgLTQgNCAtMyAxNyAxIDE3IDIgLTEgMyAtMSAzIC0xMHogbS0xNSAtMSBjMTYgLTE0IDE2IC0xNCAxNCAtMTYgLTIgLTEgLTIgLTEgLTcgMyAtMjMgMTggLTI1IDIwIC0yMyAyMiAxIDIgNCAwIDE2IC05eiBtLTE0IDAgYzMgLTIgMyAtMTcgMCAtMTcgLTIgMCAtMyAxIC0zIDEwIDAgOSAwIDEwIDMgN3oiLz48cGF0aCBkPSJNODQgMTUyIGMtMzAgLTIxIC0yOSAtMTkgLTI5IC04MyAwIC01MiAyIC00NyAtMTIgLTQyIC0yMyA3IC0zMCAyMCAtMTYgMzUgNSA2IDIgNSAtNyAtMiAtMzEgLTI0IC0yNSAtNDcgMTQgLTU2IDE2IC0zIDUxIC01IDYzIC0zIGw0IDAgMCA4MSBjMCA1MiAtMSA4MCAtMSA4MSAtMSAwIC04IC01IC0xNiAtMTF6IG0tMTAgLTQzIGMyIDAgMiAwIDEgLTMgLTIgLTMgLTEyIC0zIC0xMyAwIDAgMyA3IDUgMTIgM3ogbTIwIC0yIGMwIC0zIC0zIC00IC0xMCAtMyAtMiAwIC0yIC0yIC0zIC0xMiAwIC05IC0xIC0xMCAtMyAtMTAgLTIgMCAtMyAyMCAtMSAyMyA0IDUgMTYgNyAxNyAyeiIvPjwvZz48L3N2Zz4g";
+  const css6 = `
+#x-wm{position:fixed;inset:0;z-index:2147482000;pointer-events:none;background-repeat:repeat;background-size:360px 240px;background-position:center top}
+#x-brand{position:fixed;z-index:2147482001;left:14px;bottom:14px;display:flex;align-items:center;gap:7px;padding:5px 12px 5px 9px;border-radius:999px;background:rgba(14,28,56,.94);border:1px solid rgba(232,196,106,.55);box-shadow:0 8px 22px -12px rgba(0,0,0,.7);color:#F3E3B5;text-decoration:none;font:600 11.5px/1.15 var(--font-anthropic-sans,"Be Vietnam Pro",system-ui,sans-serif)}
+#x-brand img,#x-strip img{display:block;width:26px;height:20px}
+#x-brand b,#x-strip b{font-family:Georgia,"Times New Roman",serif;font-size:13px;color:#E8C46A;font-weight:700}
+#x-brand small{display:block;font-size:9.5px;font-weight:500;opacity:.8;letter-spacing:.04em}
+#x-strip{display:none}
+@media (max-width:560px){
+  #x-brand{display:none}
+  #x-strip{display:flex;position:fixed;z-index:2147482001;top:0;left:0;right:0;height:calc(28px + env(safe-area-inset-top,0px));padding:env(safe-area-inset-top,0px) 12px 0;box-sizing:border-box;align-items:center;justify-content:center;gap:8px;background:#0E1C38;border-bottom:1px solid rgba(232,196,106,.45);color:#F3E3B5;text-decoration:none;font:500 11px/1 var(--font-anthropic-sans,"Be Vietnam Pro",system-ui,sans-serif);letter-spacing:.03em}
+  #x-strip img{width:22px;height:17px}
+  #x-strip span{opacity:.75}
+  body{padding-top:calc(28px + env(safe-area-inset-top,0px))!important}
+  .vm-tabs{top:calc(30px + env(safe-area-inset-top,0px))!important}
+}
+`;
+  const st6 = el("style"); st6.textContent = css6; document.head.appendChild(st6);
+  const isDark = () => { const v = document.querySelector(".vm"); if (v && v.classList.contains("vm-dark")) return true; if (v && v.classList.contains("vm-light")) return false;
+    const m = document.documentElement.dataset.mode; if (m) return m === "dark"; try { return matchMedia("(prefers-color-scheme: dark)").matches; } catch (e) { return false; } };
+  function brandMarks() {
+    let w = $("x-wm"); if (!w) { w = el("div"); w.id = "x-wm"; w.setAttribute("aria-hidden", "true"); document.body.appendChild(w); }
+    const bg = 'url("' + (isDark() ? WM_D : WM_L) + '")'; if (w.style.backgroundImage !== bg) w.style.backgroundImage = bg;
+    if (document.querySelector(".app-bar")) document.documentElement.classList.add("x-app");
+    let b = $("x-brand"); if (!b) { b = el("a"); b.id = "x-brand"; b.setAttribute("data-noi18n", ""); b.href = "https://tvnpartners.com.vn"; b.target = "_blank"; b.rel = "noopener"; b.title = "TVN & Partners";
+      const i = el("img"); i.src = WM_LOGO; i.alt = ""; const s = el("span"); s.appendChild(el("b", null, "TVN & Partners")); s.appendChild(el("small", null, "tvnpartners.com.vn")); b.append(i, s); document.body.appendChild(b); }
+    let t = $("x-strip"); if (!t) { t = el("a"); t.id = "x-strip"; t.setAttribute("data-noi18n", ""); t.href = "https://tvnpartners.com.vn"; t.target = "_blank"; t.rel = "noopener";
+      const i = el("img"); i.src = WM_LOGO; i.alt = ""; t.append(i, el("b", null, "TVN & Partners"), el("span", null, "tvnpartners.com.vn")); document.body.appendChild(t); }
+  }
+  try { matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { try { brandMarks(); } catch (e) {} }); } catch (e) {}
+  new MutationObserver(() => { try { brandMarks(); } catch (e) {} }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-mode"] });
+
   // ---------- móc vào chu trình vẽ ----------
   let lastLang = null;
   function after() {
@@ -4332,6 +4365,7 @@ html.qa-lock,html.qa-lock body{overflow:hidden}
     try { periodBar(); monthStrip(); if (VM.page === "p7") q4(); } catch (e) {}
     try { updBanner(); } catch (e) {}
     try { guideBtn(); } catch (e) {}
+    try { brandMarks(); } catch (e) {}
     try { fsCtl(); brief(); clipLinks(); if (VM.page === "p1") reminders(); if (VM.page === "p7") scorecard(); } catch (e) {}
     try { sparks(); badges(); } catch (e) {}
     try { shareBtns(); } catch (e) {}
