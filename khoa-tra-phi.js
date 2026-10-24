@@ -3,13 +3,14 @@
  * Ảnh 1 trang, Xuất Excel, In và PDF 1 trang, bộ báo cáo tổng thể, xuất kịch bản. Hỏi đáp: chỉ quyền hoi_dap_full ("tk miễn phí ko
  * được hỏi đáp ở bất cứ trang nào").
  * Đăng nhập dùng chung ba app qua https://taikhoan.103-110-85-100.sslip.io/tvn-auth.js (data-app="vimo").
- * BẬT: đổi BAT thành true lúc bật (17:00 thứ Hai 26/10/2026, cùng TVN Insight). Trước đó chỉ chạy khi mở ?thu=1 (nhớ trong máy; tắt ?thu=0).
+ * BẬT: tự bật lúc 17:30 thứ Hai 26/10/2026 (sau bản chốt phiên 17:00), cùng TVN Insight và Hub. Trước đó chỉ chạy khi mở ?thu=1
+ * (nhớ trong máy; tắt ?thu=0). Cần lùi ngày bật hoặc tắt khẩn: sửa dòng BAT dưới đây.
  * Lưu ý: đây là khóa giao diện; số liệu các mục trả phí vẫn nằm trong mã trang cho tới khi tách sang /api/p/vi_mo (việc sau ngày bật).
  * Tệp riêng, nạp bằng một thẻ <script src="khoa-tra-phi.js" defer> cuối index.html: bản dựng mới của Vĩ mô phải giữ thẻ này.
  */
 (function () {
   "use strict";
-  var BAT = false;
+  var BAT = Date.now() >= Date.parse("2026-10-26T17:30:00+07:00");   // tự bật 17:30 thứ Hai 26/10/2026, cùng TVN Insight và Hub
   var q = new URLSearchParams(location.search);
   try { if (q.get("thu") === "1") localStorage.setItem("tvn_thu", "1"); if (q.get("thu") === "0") localStorage.removeItem("tvn_thu"); } catch (e) { /* bỏ */ }
   var thu = false;
