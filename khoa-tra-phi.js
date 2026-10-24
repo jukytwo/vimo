@@ -48,8 +48,9 @@
       s.classList.toggle("tvnK-khoa", khoa);
       if (khoa && !o) {
         o = document.createElement("div"); o.className = "tvnK-o"; s.insertBefore(o, s.firstChild);
-        var tab = document.getElementById("tab-" + s.id);
-        A.khoa(o, "vi_mo_full", { tieu_de: (tab ? tab.textContent.replace("🔒", "").replace(/^\d+\w?/, "").replace("Mới", "").trim() + ": " : "") + "dành cho gói TVN-Trading",
+        var tab = document.getElementById("tab-" + s.id), ten = "";
+        if (tab) { var c = tab.cloneNode(true); c.querySelectorAll(".n,.new,.tvnK-i").forEach(function (x) { x.remove(); }); ten = c.textContent.trim(); }
+        A.khoa(o, "vi_mo_full", { tieu_de: (ten ? ten + ": " : "") + "dành cho gói TVN-Trading",
           mo_ta: "Bản miễn phí xem được 01 Tổng quan và 03 Chiếc bánh. Gói TVN-Trading 3 tháng, 3 triệu đồng mở đủ các mục phân tích, dự báo, kịch bản, xuất báo cáo và Hỏi đáp." });
       }
       if (!khoa && o) o.remove();
@@ -82,7 +83,7 @@
   var s = document.createElement("script");
   s.src = "https://taikhoan.103-110-85-100.sslip.io/tvn-auth.js";
   s.dataset.app = "vimo";
-  if (nhung) s.dataset.dai = "0";
+  if (nhung) s.dataset.dai = "0"; else if (document.querySelector(".vm-top")) s.dataset.chip = ".vm-top";
   s.onload = function () { A = window.TVNAuth; if (A) A.theo(apDung); };
   s.onerror = function () { /* máy chủ tài khoản không tải được: coi như khách */ A = { co: function () { return false; }, khoa: function (el) { el.innerHTML = "<div style='border:1px dashed #C9A227;border-radius:14px;padding:16px;text-align:center'>🔒 Phần này dành cho gói TVN-Trading. Đăng ký: <a href='tel:0938004541'>093 800 4541</a></div>"; } }; apDung(); };
   document.body.appendChild(s);
