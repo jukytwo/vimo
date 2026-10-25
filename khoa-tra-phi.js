@@ -83,7 +83,7 @@
   var s = document.createElement("script");
   s.src = "https://taikhoan.103-110-85-100.sslip.io/tvn-auth.js";
   s.dataset.app = "vimo";
-  if (nhung) s.dataset.dai = "0"; else if (document.querySelector(".vm-top")) s.dataset.chip = ".vm-top";
+  if (nhung) s.dataset.dai = "0"; else s.dataset.chip = "#tvnF-chip, .vm-top";   // khung chung TVN Insight (tvn-khung.js) có chỗ cho nút tài khoản
   s.onload = function () { A = window.TVNAuth; if (A) A.theo(apDung); };
   s.onerror = function () { /* máy chủ tài khoản không tải được: coi như khách */ A = { co: function () { return false; }, khoa: function (el) { el.innerHTML = "<div style='border:1px dashed #C9A227;border-radius:14px;padding:16px;text-align:center'>🔒 Phần này dành cho gói TVN-Trading. Đăng ký: <a href='tel:0938004541'>093 800 4541</a></div>"; } }; apDung(); };
   document.body.appendChild(s);
