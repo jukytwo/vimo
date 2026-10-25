@@ -10,7 +10,8 @@
  */
 (function () {
   "use strict";
-  var BAT = Date.now() >= Date.parse("2026-10-26T17:30:00+07:00");   // tự bật 17:30 thứ Hai 26/10/2026, cùng TVN Insight và Hub
+  // Hủy tự bật 17:30 26/10 (anh Vũ 25/10/2026, thư i-20261025-mo9k): mở toàn bộ tới khi hoàn thiện; bật lại theo thư hẹn giờ mới.
+  var BAT = false;
   var q = new URLSearchParams(location.search);
   try { if (q.get("thu") === "1") localStorage.setItem("tvn_thu", "1"); if (q.get("thu") === "0") localStorage.removeItem("tvn_thu"); } catch (e) { /* bỏ */ }
   var thu = false;
