@@ -338,3 +338,53 @@
   if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', function () { setTimeout(start, 200); });
   else setTimeout(start, 200);
 })();
+
+/* Nút "Xem dạng câu chuyện" (anh Vũ duyệt 27/10/2026): mở /vimo/cau-chuyen/, 73 thẻ có giọng đọc kèm bài phân tích đầy đủ.
+   Chỉ hiện ở bản GitHub (bản trên claude.ai không có thư mục cau-chuyen). Nhúng trong TVN Insight thì mở toàn màn hình (target _top);
+   nút quay về trong trang câu chuyện lùi lại đúng chỗ cũ. */
+(function () {
+  var D = document, W = window;
+  if (!/jukytwo\.github\.io|127\.0\.0\.1|localhost/.test(location.hostname)) return;
+  var css = D.createElement('style');
+  css.textContent = [
+    '.vmx-story{display:flex;align-items:center;gap:14px;margin:0 0 18px;padding:14px 16px;border-radius:14px;text-decoration:none;color:#F2F5FB;',
+    'background:radial-gradient(420px 160px at 90% 0%,rgba(233,185,73,.28),transparent 70%),linear-gradient(135deg,#13254A,#060B18);',
+    'border:1px solid rgba(233,185,73,.45);box-shadow:0 10px 26px -14px rgba(6,11,24,.7);min-height:64px}',
+    '.vmx-story:hover{border-color:#E9B949}.vmx-story:focus-visible{outline:3px solid #E9B949;outline-offset:2px}',
+    '.vmx-story .pl{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#E9B949;color:#13254A}',
+    '.vmx-story .pl svg{width:20px;height:20px;margin-left:3px}',
+    '.vmx-story .tx{display:flex;flex-direction:column;gap:2px;min-width:0}',
+    '.vmx-story b{font-size:16px;line-height:1.3;color:#F7D57E}',
+    '.vmx-story span{font-size:13px;line-height:1.45;color:#C9D2E6}',
+    '.vmx-story .go{margin-left:auto;flex:none;font-size:22px;color:#E9B949}',
+    '@media (max-width:560px){.vmx-story{padding:12px 13px;gap:12px}.vmx-story b{font-size:15px}}'
+  ].join('');
+  (D.head || D.documentElement).appendChild(css);
+  var EMB = /[?&]embed=1/.test(location.search);
+  try { EMB = EMB || W.self !== W.top; } catch (e) { EMB = true; }
+  function en() { return !!(W.VM && W.VM.lang === 'en'); }
+  function chu(a) {
+    a.querySelector('b').textContent = en() ? 'Watch as a story' : 'Xem dạng câu chuyện';
+    a.querySelector('.tx>span').textContent = en()
+      ? '73 cards with narration (Vietnamese), about 50 minutes; read the full analysis alongside'
+      : '73 thẻ có giọng đọc, khoảng 50 phút nghe; đọc kèm bài phân tích đầy đủ ngay bên cạnh';
+  }
+  function dat() {
+    var q = D.getElementById('vm-quick'), t = D.querySelector('.vm-hero .vm-title'), moc = q || t;
+    if (!moc) return false;
+    var a = D.getElementById('vmx-story');
+    if (!a) {
+      a = D.createElement('a'); a.id = 'vmx-story'; a.className = 'vmx-story'; a.href = 'cau-chuyen/';
+      a.setAttribute('data-noi18n', '');
+      if (EMB) a.target = '_top';
+      a.innerHTML = '<span class="pl" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l12-7.5z"/></svg></span>' +
+        '<span class="tx"><b></b><span></span></span><span class="go" aria-hidden="true">›</span>';
+    }
+    chu(a);
+    if (a.previousElementSibling !== moc) moc.after(a);
+    return true;
+  }
+  var n = 0, t = setInterval(function () { if (dat() && ++n > 20) clearInterval(t); }, 500);
+  var sl = W.VM && W.VM.setLang;
+  if (typeof sl === 'function') W.VM.setLang = function () { var r = sl.apply(this, arguments); setTimeout(dat, 50); return r; };
+})();
