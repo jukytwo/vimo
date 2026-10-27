@@ -71,7 +71,10 @@
     'html.vmx-embed .app-bar,html.vmx-embed .app-bar button{font-family:var(--font-anthropic-sans,"Be Vietnam Pro",system-ui,sans-serif)!important}',
     'html.vmx-embed body>a[href="https://tvnpartners.com.vn"][data-noi18n]{display:none!important}html.vmx-embed body{padding-top:0!important}',
     'html.vmx-embed #dash-root{padding-bottom:24px!important}',
-    'html.vmx-embed .sim-dock{bottom:0!important}}'
+    'html.vmx-embed .sim-dock{bottom:0!important}}',
+    /* nền tối: ô Đọc nhanh đang dùng chữ navy cố định (đo 27/10/2026: tương phản 1,4:1) */
+    '.vm-dark .vm-quick .vq-h{color:#F2F5FB!important}',
+    '.vm-dark .vm-quick li b,.vm-dark .vm-quick .vq-y b{color:#F7D57E!important}'
   ].join('\n');
   var st = D.createElement('style'); st.id = 'vmx-css'; st.textContent = css; (D.head || H).appendChild(st);
 
