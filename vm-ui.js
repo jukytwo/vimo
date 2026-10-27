@@ -366,8 +366,8 @@
   function chu(a) {
     a.querySelector('b').textContent = en() ? 'Watch as a story' : 'Xem dạng câu chuyện';
     a.querySelector('.tx>span').textContent = en()
-      ? '73 cards with narration (Vietnamese), about 50 minutes; read the full analysis alongside'
-      : '73 thẻ có giọng đọc, khoảng 50 phút nghe; đọc kèm bài phân tích đầy đủ ngay bên cạnh';
+      ? '85 narrated cards (Vietnamese), about 60 minutes: who buys GDP and who makes it, with the full analysis alongside'
+      : '85 thẻ có giọng đọc, khoảng 60 phút: ai mua và ai làm ra GDP, đọc kèm bài phân tích đầy đủ';
   }
   function dat() {
     var q = D.getElementById('vm-quick'), t = D.querySelector('.vm-hero .vm-title'), moc = q || t;
