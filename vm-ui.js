@@ -59,6 +59,11 @@
     '@media(max-width:760px){.app-bar button span{font-size:12px!important;white-space:nowrap}}',
     '.vmx-tap.vmx-il{display:inline-flex!important;align-items:center;justify-content:center}',
     '@media(min-width:761px){.vmx-tap{min-height:32px!important;min-width:32px!important}}',
+    /* 7b · thanh kéo, nút Nhắc tôi, liên kết chân trang (Team đo 27/10/2026, thư i-20261027-d4m8) */
+    'html.vmx-on .vm input[type="range"]{min-height:36px!important;cursor:pointer}',
+    'html.vmx-on .vm a[href^="https://calendar.google.com"]{display:inline-flex!important;align-items:center;min-height:40px!important}',
+    'html.vmx-on .vm-foot a{display:inline-flex!important;align-items:center;min-height:32px!important}',
+    '@media(min-width:761px){html.vmx-on .vm input[type="range"]{min-height:32px!important}html.vmx-on .vm a[href^="https://calendar.google.com"]{min-height:32px!important}}',
     /* 9 · bảng theo dõi quý: ghi chú cột đang chờ */
     '.vmx-wait-hide{display:none!important}',
     '.vmx-wnote{font-size:12.5px;color:var(--color-muted,#5b6577);margin:6px 0 0;font-weight:600}',
@@ -175,8 +180,12 @@
     var col = $('.vm') || $('#dash-root'); if (!col) return;
     var room = col.getBoundingClientRect().left, need = a.offsetWidth * 0.72 + 16;
     if (!a.__vmxw) a.__vmxw = a.offsetWidth;
+    /* đủ chỗ thì giữ cao tối thiểu 32px để bấm được (Team đo 27/10: 95x23 ở cỡ .62) */
+    if (!a.__vmxh) a.__vmxh = a.offsetHeight || 37;
+    var s = Math.min(1, 32.5 / a.__vmxh);
+    if (room < a.__vmxw * s + 16) s = 0.62;
     if (room < a.__vmxw * 0.62 + 16) { a.style.setProperty('display', 'none', 'important'); }
-    else { a.style.removeProperty('display'); a.style.setProperty('transform', 'scale(.62)', 'important'); a.style.setProperty('transform-origin', 'left bottom', 'important'); }
+    else { a.style.removeProperty('display'); a.style.setProperty('transform', 'scale(' + s.toFixed(3) + ')', 'important'); a.style.setProperty('transform-origin', 'left bottom', 'important'); }
   }
 
   /* 9a · dải chỉ số: bỏ hai số đã có ở cặp số lớn */
@@ -268,15 +277,47 @@
   }
 
   /* 6 · sàn chữ */
+  /* 6b · nhãn biểu đồ: nâng lên 12px theo cỡ hiện trên màn hình (cỡ khai báo × tỉ lệ thu phóng của SVG).
+     Nâng từng nhãn; nhãn nào nâng lên làm chồng chữ thêm (tính theo diện tích chồng) thì thử nửa mức, vẫn chồng thì giữ cỡ gốc. */
+  function svgFonts(root) {
+    $$('svg', root).forEach(function (sv) {
+      var ct = sv.getScreenCTM && sv.getScreenCTM(), sc = ct ? Math.hypot(ct.a, ct.b) : 0;
+      if (!sc || !vis(sv)) return;
+      var ts = $$('text,tspan', sv).filter(function (e) { return e.tagName.toLowerCase() === 'text' || e.getAttribute('font-size') || e.style.fontSize; });
+      if (!ts.length) return;
+      ts.forEach(function (e) { if (e.__vmxS == null) { e.__vmxS0 = e.style.getPropertyValue('font-size'); e.__vmxS = parseFloat(getComputedStyle(e).fontSize) || 0; } });
+      var low = ts.filter(function (e) { return e.__vmxS && e.__vmxS * sc < 11.95; });
+      if (!low.length) return;
+      var key = sc.toFixed(3) + ':' + ts.length; if (sv.__vmxK === key) return; sv.__vmxK = key;
+      var txt = ts.filter(function (e) { return e.tagName.toLowerCase() === 'text' && e.textContent.trim(); });
+      function put(e, t) {
+        if (t <= 0) { if (e.__vmxS0) e.style.setProperty('font-size', e.__vmxS0); else e.style.removeProperty('font-size'); }
+        else e.style.setProperty('font-size', (e.__vmxS + (12 / sc - e.__vmxS) * t).toFixed(2) + 'px', 'important');
+      }
+      function hits() {
+        var r = txt.map(function (e) { return e.getBoundingClientRect(); }), n = 0;
+        for (var i = 0; i < r.length; i++) for (var j = i + 1; j < r.length; j++) {
+          var w = Math.min(r[i].right, r[j].right) - Math.max(r[i].left, r[j].left), h = Math.min(r[i].bottom, r[j].bottom) - Math.max(r[i].top, r[j].top);
+          if (w > 0 && h > 0) n += w * h;
+        }
+        return n;
+      }
+      low.forEach(function (e) { put(e, 0); });
+      var base = hits();
+      low.forEach(function (e) {
+        var steps = [1, 0.5];
+        for (var k = 0; k < steps.length; k++) { put(e, steps[k]); var h = hits(); if (h <= base + 0.5) { base = h; return; } }
+        put(e, 0);
+      });
+    });
+  }
   function fonts(root) {
+    svgFonts(root);
     var els = root.querySelectorAll('*');
     for (var i = 0; i < els.length; i++) {
       var e = els[i]; if (e.__vmxF) continue;
       var tag = e.tagName.toLowerCase();
-      if (tag === 'text' || tag === 'tspan') {
-        var f0 = parseFloat(getComputedStyle(e).fontSize); if (f0 && f0 < 11) e.style.setProperty('font-size', '11px', 'important');
-        e.__vmxF = 1; continue;
-      }
+      if (tag === 'text' || tag === 'tspan') continue;
       if (e.closest('svg') || tag === 'script' || tag === 'style') continue;
       var has = false; for (var k = 0; k < e.childNodes.length; k++) { var n = e.childNodes[k]; if (n.nodeType === 3 && n.nodeValue.trim()) { has = true; break; } }
       if (!has) continue;
