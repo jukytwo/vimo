@@ -11,9 +11,14 @@
 (function () {
   if (window.__vmUi27) return; window.__vmUi27 = 1;
   var D = document, H = D.documentElement, W = window;
-  var EMB = false;
-  try { EMB = W.self !== W.top; } catch (e) { EMB = true; }
-  if (/[?&]embed=1/.test(location.search)) EMB = true;
+  /* chỉ coi là "nhúng trong TVN Insight" khi trang mẹ là jukytwo.github.io (bantin/xem/?p=vimo) hoặc có embed=1;
+     bản trên claude.ai cũng chạy trong khung nhưng không phải nhúng Insight */
+  var EMB = /[?&]embed=1/.test(location.search), inF = false;
+  try { inF = W.self !== W.top; } catch (e) { inF = true; }
+  if (inF && !EMB) {
+    var par = D.referrer || ''; try { if (location.ancestorOrigins && location.ancestorOrigins.length) par = location.ancestorOrigins[0] + ' ' + par; } catch (e) {}
+    EMB = /jukytwo\.github\.io|127\.0\.0\.1|localhost/.test(par);
+  }
   if (EMB) H.classList.add('vmx-embed');
   var mob = function () { return W.innerWidth <= 760; };
 
