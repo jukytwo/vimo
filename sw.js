@@ -1,6 +1,6 @@
 // TVN Vĩ mô: mở được cả khi mất mạng, luôn ưu tiên bản mới nhất khi có mạng. Bản 202610230903
-const C = "tvn-vimo-202610280015";
-self.addEventListener("install", (e) => { self.skipWaiting(); e.waitUntil(caches.open(C).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./vm-ui.js"])).catch(() => {})); });
+const C = "tvn-vimo-202610300930";
+self.addEventListener("install", (e) => { self.skipWaiting(); e.waitUntil(caches.open(C).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./vm-ui.js", "./vm-widata.js", "./widata.json"])).catch(() => {})); });
 self.addEventListener("activate", (e) => e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== C).map((k) => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener("fetch", (e) => {
   const r = e.request; if (r.method !== "GET" || new URL(r.url).origin !== location.origin || r.url.endsWith(".mp4") || r.url.indexOf("/cau-chuyen/") > 0) return;   // trang câu chuyện: giọng đọc, video nặng, không lưu vào bộ nhớ đệm
