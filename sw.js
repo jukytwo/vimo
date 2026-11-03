@@ -1,5 +1,5 @@
 // TVN Vĩ mô: mở được cả khi mất mạng, luôn ưu tiên bản mới nhất khi có mạng. Bản 202610230903
-const C = "tvn-vimo-202611031230";
+const C = "tvn-vimo-202611031235";
 self.addEventListener("install", (e) => { self.skipWaiting(); e.waitUntil(caches.open(C).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./vm-ui.js", "./vm-widata.js", "./widata.json"])).catch(() => {})); });
 self.addEventListener("activate", (e) => e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== C).map((k) => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener("fetch", (e) => {
