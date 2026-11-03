@@ -1,0 +1,146 @@
+[
+ {
+  "table": "realrate",
+  "side": "Chính sách (lãi suất điều hành)",
+  "rate_low": 4.5,
+  "rate_high": 4.5,
+  "real_low": 0,
+  "real_high": 0
+ },
+ {
+  "table": "realrate",
+  "side": "Người gửi tiền (lãi huy động thực nhận)",
+  "rate_low": 5.9,
+  "rate_high": 10,
+  "real_low": 1.5,
+  "real_high": 5
+ },
+ {
+  "table": "realrate",
+  "side": "Người đi vay (lãi cho vay)",
+  "rate_low": 8,
+  "rate_high": 10.7,
+  "real_low": 3,
+  "real_high": 6
+ },
+ {
+  "table": "impact",
+  "factor": "Fed, lãi suất USD",
+  "group": "Bên ngoài",
+  "comp": "I",
+  "sign": "-",
+  "channel": "Chi phí vốn tăng"
+ },
+ {
+  "table": "impact",
+  "factor": "Fed, lãi suất USD",
+  "group": "Bên ngoài",
+  "comp": "C",
+  "sign": "-",
+  "channel": "Lãi suất trong nước phải cao để giữ tỷ giá"
+ },
+ {
+  "table": "impact",
+  "factor": "Tỷ giá",
+  "group": "Bên ngoài",
+  "comp": "NX",
+  "sign": "±",
+  "channel": "Giá hàng xuất, nhập khẩu"
+ },
+ {
+  "table": "impact",
+  "factor": "Thuế Mỹ 12,5%",
+  "group": "Bên ngoài",
+  "comp": "NX",
+  "sign": "-",
+  "channel": "Đơn hàng dệt may, da giày, gỗ"
+ },
+ {
+  "table": "impact",
+  "factor": "Giá dầu",
+  "group": "Bên ngoài",
+  "comp": "C",
+  "sign": "-",
+  "channel": "Giá xăng, vận tải, lạm phát"
+ },
+ {
+  "table": "impact",
+  "factor": "FDI",
+  "group": "Bên ngoài",
+  "comp": "I",
+  "sign": "+",
+  "channel": "Xây nhà máy"
+ },
+ {
+  "table": "impact",
+  "factor": "FDI",
+  "group": "Bên ngoài",
+  "comp": "NX",
+  "sign": "±",
+  "channel": "Nhập linh kiện hôm nay, xuất thành phẩm ngày mai"
+ },
+ {
+  "table": "impact",
+  "factor": "Tín dụng",
+  "group": "Trong nước",
+  "comp": "C",
+  "sign": "+",
+  "channel": "Vay tiêu dùng"
+ },
+ {
+  "table": "impact",
+  "factor": "Tín dụng",
+  "group": "Trong nước",
+  "comp": "I",
+  "sign": "+",
+  "channel": "Vay đầu tư, xây dựng"
+ },
+ {
+  "table": "impact",
+  "factor": "Bất động sản",
+  "group": "Trong nước",
+  "comp": "C",
+  "sign": "±",
+  "channel": "Cảm giác giàu lên, tiền trả nợ"
+ },
+ {
+  "table": "impact",
+  "factor": "Bất động sản",
+  "group": "Trong nước",
+  "comp": "I",
+  "sign": "±",
+  "channel": "Xây dựng mới; mua đất không tạo GDP"
+ },
+ {
+  "table": "impact",
+  "factor": "Lạm phát",
+  "group": "Trong nước",
+  "comp": "C",
+  "sign": "-",
+  "channel": "Bào mòn thu nhập thực"
+ },
+ {
+  "table": "impact",
+  "factor": "Tài khóa",
+  "group": "Trong nước",
+  "comp": "G",
+  "sign": "-",
+  "channel": "Siết chi bộ máy"
+ },
+ {
+  "table": "impact",
+  "factor": "Tài khóa",
+  "group": "Trong nước",
+  "comp": "I",
+  "sign": "+",
+  "channel": "Đầu tư công"
+ },
+ {
+  "table": "impact",
+  "factor": "Thu nhập thực",
+  "group": "Trong nước",
+  "comp": "C",
+  "sign": "+",
+  "channel": "Sức mua bền vững"
+ }
+]

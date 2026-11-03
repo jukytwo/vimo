@@ -1,0 +1,101 @@
+[
+ {
+  "table": "sector",
+  "sector": "Dịch vụ khác (gồm vay tiêu dùng, mua nhà)",
+  "growth": 10.83
+ },
+ {
+  "table": "sector",
+  "sector": "Công nghiệp và xây dựng",
+  "growth": 8.78
+ },
+ {
+  "table": "sector",
+  "sector": "Toàn nền kinh tế",
+  "growth": 8.37
+ },
+ {
+  "table": "sector",
+  "sector": "Bất động sản",
+  "growth": 8.3
+ },
+ {
+  "table": "sector",
+  "sector": "Nông, lâm, thủy sản",
+  "growth": 7.94
+ },
+ {
+  "table": "sector",
+  "sector": "Thương mại, vận tải, viễn thông",
+  "growth": 3.96
+ },
+ {
+  "table": "stress",
+  "scenario": "Hiện tại",
+  "npl_rate": 2.3,
+  "npl": 118,
+  "added": 0
+ },
+ {
+  "table": "stress",
+  "scenario": "Thu nhập chậm, lãi suất cao",
+  "npl_rate": 3.5,
+  "npl": 180,
+  "added": 62
+ },
+ {
+  "table": "stress",
+  "scenario": "Kinh tế chậm, giá nhà giảm",
+  "npl_rate": 5.0,
+  "npl": 257,
+  "added": 139
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Xây nhà, căn hộ, văn phòng, hạ tầng khu công nghiệp",
+  "borrower": "Chủ đầu tư",
+  "gdp": "I: tạo tài sản mới, nuôi xây dựng, thép, xi măng, việc làm"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Nhà xây xong chưa bán, hoặc đang xây để bán",
+  "borrower": "Chủ đầu tư",
+  "gdp": "I: ghi vào tồn kho của chủ đầu tư"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Mua nhà mới xây",
+  "borrower": "Người dân",
+  "gdp": "Không tạo thêm: GDP đã tính lúc xây; tồn kho chủ đầu tư giảm, đầu tư nhà ở của hộ tăng"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Mua nhà cũ, mua đất, chuyển nhượng dự án, mua lại công ty",
+  "borrower": "Cả hai",
+  "gdp": "Không tạo GDP: chỉ đổi chủ tài sản; riêng phí môi giới, công chứng được tính"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Đền bù giải phóng mặt bằng, nộp tiền sử dụng đất",
+  "borrower": "Chủ đầu tư",
+  "gdp": "Không tạo GDP: đất không phải hàng hóa được sản xuất; tiền sử dụng đất là thu ngân sách"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Trả nợ trái phiếu, đảo nợ, trả lãi vay",
+  "borrower": "Cả hai",
+  "gdp": "Không tạo GDP: giao dịch tài chính"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Sửa chữa lớn, cải tạo làm tăng giá trị nhà",
+  "borrower": "Người dân",
+  "gdp": "I"
+ },
+ {
+  "table": "bds_gdp",
+  "use": "Nội thất, đồ điện cho nhà mới; dịch vụ nhà ở (thuê, hoặc tiền thuê quy đổi khi ở nhà mình)",
+  "borrower": "Người dân",
+  "gdp": "C"
+ }
+]

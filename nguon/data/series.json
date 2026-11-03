@@ -1,0 +1,90 @@
+[
+ {
+  "table": "gdp_q",
+  "id": "q0",
+  "order": 0,
+  "label": "Quý I/2025",
+  "label_en": "Q1/2025",
+  "value": 7.05,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q1",
+  "order": 1,
+  "label": "Quý II/2025",
+  "label_en": "Q2/2025",
+  "value": 8.16,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q2",
+  "order": 2,
+  "label": "Quý III/2025",
+  "label_en": "Q3/2025",
+  "value": 8.23,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q3",
+  "order": 3,
+  "label": "Quý IV/2025",
+  "label_en": "Q4/2025",
+  "value": 8.46,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q4",
+  "order": 4,
+  "label": "Quý I/2026",
+  "label_en": "Q1/2026",
+  "value": 8.15,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q5",
+  "order": 5,
+  "label": "Quý II/2026",
+  "label_en": "Q2/2026",
+  "value": 8.81,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q6",
+  "order": 6,
+  "label": "Quý III/2026",
+  "label_en": "Q3/2026",
+  "value": 9.95,
+  "kind": "actual",
+  "low": null,
+  "high": null
+ },
+ {
+  "table": "gdp_q",
+  "id": "q7",
+  "order": 7,
+  "label": "Quý IV/2026",
+  "label_en": "Q4/2026",
+  "value": null,
+  "kind": "forecast",
+  "low": 11,
+  "high": 11.5
+ }
+]

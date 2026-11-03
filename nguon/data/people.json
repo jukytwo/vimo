@@ -1,0 +1,88 @@
+[
+ {
+  "table": "leak",
+  "item": "GDP quý III",
+  "value": 9.95,
+  "unit": "%",
+  "comp": "GDP"
+ },
+ {
+  "table": "leak",
+  "item": "Tiêu dùng hộ 9 tháng",
+  "value": 9.75,
+  "unit": "%",
+  "comp": "C"
+ },
+ {
+  "table": "leak",
+  "item": "Thu nhập thực",
+  "value": 4.87,
+  "unit": "%",
+  "comp": "C"
+ },
+ {
+  "table": "leak",
+  "item": "Lương thực tế người làm công",
+  "value": 2.96,
+  "unit": "%",
+  "comp": "C"
+ },
+ {
+  "table": "leak",
+  "item": "Việc làm",
+  "value": 1.4,
+  "unit": "%",
+  "comp": "C"
+ },
+ {
+  "table": "leak_why",
+  "reason": "GDP đo sản lượng trên lãnh thổ, không đo thu nhập của người Việt",
+  "comp": "GNI",
+  "evidence": "Lợi nhuận FDI chuyển ra khoảng 20–21 tỷ USD mỗi năm, khoảng 4% GDP"
+ },
+ {
+  "table": "leak_why",
+  "reason": "Tăng trưởng dồn vào khu vực dùng ít lao động: nhà máy điện tử FDI và công trình đầu tư công",
+  "comp": "I, NX",
+  "evidence": "Sản xuất tháng 9 tăng 16,7% nhưng lao động công nghiệp chỉ tăng 3,4%; việc làm cả nước +1,4%"
+ },
+ {
+  "table": "leak_why",
+  "reason": "Một phần GDP là hàng làm ra chưa bán được",
+  "comp": "I",
+  "evidence": "Tồn kho cao hơn cùng kỳ 11,9%: tính vào GDP nhưng chưa thành doanh thu, thu nhập"
+ },
+ {
+  "table": "leak_why",
+  "reason": "Lạm phát dồn vào chi tiêu thiết yếu",
+  "comp": "C",
+  "evidence": "Xăng, nhà ở, điện nước, học phí tăng; hộ thu nhập thấp chịu lạm phát khoảng 4,9% so với 4,1% của hộ thu nhập cao"
+ },
+ {
+  "table": "leak_why",
+  "reason": "Tiền đắt",
+  "comp": "C, I",
+  "evidence": "Lãi vay thực dương 3–6 điểm, vay mua nhà 14–16%: hộ đang trả nợ và doanh nghiệp nhỏ chịu sức ép trực tiếp"
+ },
+ {
+  "table": "leak_why",
+  "reason": "Phần lớn lao động nằm ngoài khu vực được hưởng",
+  "comp": "C",
+  "evidence": "Gần 61% lao động phi chính thức; tín dụng thương mại, dịch vụ nhỏ chỉ tăng gần 4%"
+ },
+ {
+  "table": "inflation",
+  "group": "Hộ thu nhập thấp",
+  "cpi": 4.9
+ },
+ {
+  "table": "inflation",
+  "group": "CPI chung (9 tháng)",
+  "cpi": 4.52
+ },
+ {
+  "table": "inflation",
+  "group": "Hộ thu nhập cao",
+  "cpi": 4.1
+ }
+]

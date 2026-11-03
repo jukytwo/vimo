@@ -1,0 +1,465 @@
+[
+ {
+  "table": "q4",
+  "indicator": "GDP quý IV (% so cùng kỳ)",
+  "latest": "Quý III: 9,95%",
+  "co_so": "11–11,5%",
+  "tich_cuc": "12–12,5%",
+  "tieu_cuc": "9,5–10%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "GDP cả năm 2026",
+  "latest": "9 tháng: 9,01%",
+  "co_so": "9,6–9,7%",
+  "tich_cuc": "9,9–10%",
+  "tieu_cuc": "9,2–9,3%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Tích lũy tài sản quý IV (I)",
+  "latest": "Quý III: +21,39%",
+  "co_so": "+25–28%",
+  "tich_cuc": "+31–32%",
+  "tieu_cuc": "+20–23%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Bán lẻ thực quý IV (gần với C)",
+  "latest": "Quý III: khoảng 8,75%",
+  "co_so": "7–7,5%",
+  "tich_cuc": "8%",
+  "tieu_cuc": "6–6,5%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "IIP quý IV",
+  "latest": "Quý III: +14,8%",
+  "co_so": "+10–12%",
+  "tich_cuc": "+13–14%",
+  "tieu_cuc": "+7–9%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "PMI bình quân quý IV",
+  "latest": "Tháng 10: 52,3; quý III: 52,7",
+  "co_so": "50,5–51,5",
+  "tich_cuc": "52–53",
+  "tieu_cuc": "49–50 (thu hẹp)",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "CPI tháng 12 (so cùng kỳ)",
+  "latest": "Tháng 9: 5,08%",
+  "co_so": "5,0–5,3%",
+  "tich_cuc": "4,5–4,8%",
+  "tieu_cuc": "5,6–6,0%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "CPI bình quân cả năm",
+  "latest": "9 tháng: 4,52%",
+  "co_so": "4,6–4,7%",
+  "tich_cuc": "4,5–4,6%",
+  "tieu_cuc": "4,8–4,9%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Lãi suất điều hành",
+  "latest": "4,5%",
+  "co_so": "Giữ 4,5%",
+  "tich_cuc": "Giữ 4,5%",
+  "tieu_cuc": "Tăng lên 5,0%",
+  "track": false,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Lãi suất huy động bình quân",
+  "latest": "Thực nhận 5,9–10% [BC]",
+  "co_so": "Tăng thêm 0,2–0,3 điểm",
+  "tich_cuc": "Đi ngang",
+  "tieu_cuc": "Tăng thêm 0,5–0,8 điểm",
+  "track": false,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Giá USD ngân hàng cuối năm (so cuối 2025)",
+  "latest": "Tháng 9: -1,07%",
+  "co_so": "+0,5% đến +1,5%",
+  "tich_cuc": "-0,5% đến +0,5%",
+  "tieu_cuc": "+2,5% đến +3% (sát trần)",
+  "track": false,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Tín dụng cả năm (so cùng kỳ)",
+  "latest": "Tháng 9: +16,69%",
+  "co_so": "16–17%",
+  "tich_cuc": "17–18%",
+  "tieu_cuc": "14–15%",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "FDI giải ngân cả năm",
+  "latest": "9 tháng: 21,07 tỷ USD",
+  "co_so": "28,5–29,5 tỷ USD",
+  "tich_cuc": "Khoảng 30 tỷ USD",
+  "tieu_cuc": "27,5–28 tỷ USD",
+  "track": false,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Giải ngân đầu tư công cả năm",
+  "latest": "9 tháng: khoảng 60% kế hoạch",
+  "co_so": "85–90% kế hoạch",
+  "tich_cuc": "Từ 95% kế hoạch",
+  "tieu_cuc": "Khoảng 80% kế hoạch",
+  "track": false,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "Dự trữ ngoại hối",
+  "latest": "Khoảng 1,7 tháng nhập khẩu",
+  "co_so": "1,6–1,8 tháng",
+  "tich_cuc": "1,8–2,0 tháng",
+  "tieu_cuc": "1,4–1,5 tháng",
+  "track": false,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "q4",
+  "indicator": "VN-Index quý IV",
+  "latest": "Quý III: -4,91%",
+  "co_so": "1.680–1.830 điểm",
+  "tich_cuc": "1.830–1.950 điểm",
+  "tieu_cuc": "1.550–1.680 điểm",
+  "track": true,
+  "actual": null,
+  "verdict": null,
+  "made": "04/10/2026",
+  "due": "06/01/2027"
+ },
+ {
+  "table": "year",
+  "indicator": "GDP (% so cùng kỳ)",
+  "latest": "9,01%",
+  "co_so": "9,6–9,7%",
+  "tich_cuc": "9,9–10%",
+  "tieu_cuc": "9,2–9,3%"
+ },
+ {
+  "table": "year",
+  "indicator": "Tiêu dùng cuối cùng (C + G)",
+  "latest": "+8,51%",
+  "co_so": "+8,1–8,2%",
+  "tich_cuc": "+8,3–8,4%",
+  "tieu_cuc": "+7,8–7,9%"
+ },
+ {
+  "table": "year",
+  "indicator": "Tích lũy tài sản (I)",
+  "latest": "+17,88%",
+  "co_so": "+20–21%",
+  "tich_cuc": "+21,5–22,5%",
+  "tieu_cuc": "+18,5–19,5%"
+ },
+ {
+  "table": "year",
+  "indicator": "Xuất khẩu hàng hóa và dịch vụ",
+  "latest": "+21,29%",
+  "co_so": "+23–24%",
+  "tich_cuc": "+24–25%",
+  "tieu_cuc": "+21–22%"
+ },
+ {
+  "table": "year",
+  "indicator": "Nhập khẩu hàng hóa và dịch vụ",
+  "latest": "+27,19%",
+  "co_so": "+29–30%",
+  "tich_cuc": "+29–30%",
+  "tieu_cuc": "+27–28%"
+ },
+ {
+  "table": "year",
+  "indicator": "Xuất khẩu hàng hóa (tỷ USD)",
+  "latest": "434,32",
+  "co_so": "602–608",
+  "tich_cuc": "608–614",
+  "tieu_cuc": "590–598"
+ },
+ {
+  "table": "year",
+  "indicator": "Cán cân thương mại hàng hóa (tỷ USD)",
+  "latest": "Nhập siêu 19,39",
+  "co_so": "Nhập siêu 15–18",
+  "tich_cuc": "Nhập siêu 11–14",
+  "tieu_cuc": "Nhập siêu 21–24"
+ },
+ {
+  "table": "year",
+  "indicator": "CPI bình quân",
+  "latest": "4,52%",
+  "co_so": "4,6–4,7%",
+  "tich_cuc": "4,5–4,6%",
+  "tieu_cuc": "4,8–4,9%"
+ },
+ {
+  "table": "year",
+  "indicator": "Tín dụng (so cuối năm 2025)",
+  "latest": "+11,59% (30/9)",
+  "co_so": "+16–17%",
+  "tich_cuc": "+17–18%",
+  "tieu_cuc": "+14–15%"
+ },
+ {
+  "table": "year",
+  "indicator": "FDI giải ngân (tỷ USD)",
+  "latest": "21,07",
+  "co_so": "28,5–29,5",
+  "tich_cuc": "Khoảng 30",
+  "tieu_cuc": "27,5–28"
+ },
+ {
+  "table": "year",
+  "indicator": "Giải ngân đầu tư công",
+  "latest": "Khoảng 60% kế hoạch",
+  "co_so": "85–90% kế hoạch",
+  "tich_cuc": "Từ 95%",
+  "tieu_cuc": "Khoảng 80%"
+ },
+ {
+  "table": "year",
+  "indicator": "Giá USD ngân hàng (so cuối 2025)",
+  "latest": "-1,07% (tháng 9)",
+  "co_so": "+0,5% đến +1,5%",
+  "tich_cuc": "-0,5% đến +0,5%",
+  "tieu_cuc": "+2,5% đến +3%"
+ },
+ {
+  "table": "trade_fc",
+  "scenario": "Cơ sở",
+  "x_q4": 171,
+  "m_q4": 168,
+  "x_year": 605.3199999999999,
+  "m_year": 621.71,
+  "balance_year": -16.39
+ },
+ {
+  "table": "trade_fc",
+  "scenario": "Tích cực",
+  "x_q4": 177,
+  "m_q4": 170,
+  "x_year": 611.3199999999999,
+  "m_year": 623.71,
+  "balance_year": -12.39
+ },
+ {
+  "table": "trade_fc",
+  "scenario": "Tiêu cực",
+  "x_q4": 160,
+  "m_q4": 163,
+  "x_year": 594.3199999999999,
+  "m_year": 616.71,
+  "balance_year": -22.39
+ },
+ {
+  "table": "trade_hist",
+  "period": "Năm 2025",
+  "exports": 475.04,
+  "imports": 455.01
+ },
+ {
+  "table": "trade_hist",
+  "period": "9 tháng 2025",
+  "exports": 348.85,
+  "imports": 331.9
+ },
+ {
+  "table": "trade_hist",
+  "period": "9 tháng 2026",
+  "exports": 434.32,
+  "imports": 453.71
+ },
+ {
+  "table": "q4_need",
+  "scenario": "Mục tiêu 12,5%",
+  "c": 6.0,
+  "nx": -3.8,
+  "i_needed": 10.3,
+  "gdp_q4": 12.5
+ },
+ {
+  "table": "scenarios",
+  "scenario": "Cơ sở",
+  "prob": 55,
+  "gdp_q4": "11–11,5%",
+  "gdp_year": "9,6–9,7%"
+ },
+ {
+  "table": "scenarios",
+  "scenario": "Tích cực",
+  "prob": 20,
+  "gdp_q4": "12–12,5%",
+  "gdp_year": "9,9–10%"
+ },
+ {
+  "table": "scenarios",
+  "scenario": "Tiêu cực",
+  "prob": 25,
+  "gdp_q4": "9,5–10%",
+  "gdp_year": "9,2–9,3%"
+ },
+ {
+  "table": "q4_months",
+  "id": "m10",
+  "label": "Tháng 10",
+  "release": "06/11/2026",
+  "label_en": "October"
+ },
+ {
+  "table": "q4_months",
+  "id": "m11",
+  "label": "Tháng 11",
+  "release": "06/12/2026",
+  "label_en": "November"
+ },
+ {
+  "table": "q4_months",
+  "id": "m12",
+  "label": "Tháng 12",
+  "release": "06/01/2027",
+  "label_en": "December"
+ },
+ {
+  "table": "q4_track",
+  "id": "pmi",
+  "label": "PMI chế biến",
+  "unit": "điểm",
+  "q3": 52.7,
+  "dir": 1,
+  "lo": 50.5,
+  "hi": 52,
+  "band": "Cơ sở 50,5–51,5 · Tích cực 52–53 · Tiêu cực 49–50",
+  "m10": 52.3,
+  "m11": null,
+  "m12": null,
+  "label_en": "Manufacturing PMI",
+  "band_en": "Base 50.5–51.5 · Positive 52–53 · Negative 49–50"
+ },
+ {
+  "table": "q4_track",
+  "id": "iip",
+  "label": "Sản xuất công nghiệp (IIP, %)",
+  "unit": "%",
+  "q3": 14.8,
+  "dir": 1,
+  "lo": 10,
+  "hi": 13,
+  "band": "Cơ sở 10–12% · Tích cực 13–14% · Tiêu cực 7–9%",
+  "m10": null,
+  "m11": null,
+  "m12": null,
+  "label_en": "Industrial production (IIP, %)",
+  "band_en": "Base 10–12% · Positive 13–14% · Negative 7–9%"
+ },
+ {
+  "table": "q4_track",
+  "id": "retail",
+  "label": "Bán lẻ thực (ước, %)",
+  "unit": "%",
+  "q3": 8.75,
+  "dir": 1,
+  "lo": 7,
+  "hi": 8,
+  "band": "Cơ sở 7–7,5% · Tích cực 8% · Tiêu cực 6–6,5%",
+  "m10": null,
+  "m11": null,
+  "m12": null,
+  "label_en": "Real retail sales (est., %)",
+  "band_en": "Base 7–7.5% · Positive 8% · Negative 6–6.5%"
+ },
+ {
+  "table": "q4_track",
+  "id": "cpi",
+  "label": "CPI so cùng kỳ (%)",
+  "unit": "%",
+  "q3": 4.8,
+  "dir": -1,
+  "lo": 4.8,
+  "hi": 5.5,
+  "band": "Cơ sở 5,0–5,3% · Tích cực 4,5–4,8% · Tiêu cực 5,6–6,0%",
+  "m10": null,
+  "m11": null,
+  "m12": null,
+  "label_en": "CPI, year on year (%)",
+  "band_en": "Base 5.0–5.3% · Positive 4.5–4.8% · Negative 5.6–6.0%"
+ }
+]

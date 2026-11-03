@@ -1,0 +1,3910 @@
+[
+ {
+  "vi": "# % kế hoạch",
+  "en": "# % of plan"
+ },
+ {
+  "vi": "# USD/thùng",
+  "en": "# USD/barrel"
+ },
+ {
+  "vi": "# nhập",
+  "en": "# imports"
+ },
+ {
+  "vi": "# so với cơ sở",
+  "en": "# vs base"
+ },
+ {
+  "vi": "# tháng",
+  "en": "# months"
+ },
+ {
+  "vi": "# tháng #",
+  "en": "# months #"
+ },
+ {
+  "vi": "# tháng (%)",
+  "en": "# months (%)"
+ },
+ {
+  "vi": "# tháng tăng #%",
+  "en": "# months up #%"
+ },
+ {
+  "vi": "# tháng đạt #% kế hoạch",
+  "en": "# months at #% of plan"
+ },
+ {
+  "vi": "# tháng: # tỷ USD",
+  "en": "# months: # billion USD"
+ },
+ {
+  "vi": "# tháng: #%",
+  "en": "# months: #%"
+ },
+ {
+  "vi": "# tháng: khoảng #% kế hoạch",
+  "en": "# months: about #% of plan"
+ },
+ {
+  "vi": "# tỷ USD.",
+  "en": "# billion USD."
+ },
+ {
+  "vi": "# · Bản đồ tác động",
+  "en": "# · Impact map"
+ },
+ {
+  "vi": "# · Bất động sản",
+  "en": "# · Real estate"
+ },
+ {
+  "vi": "# · Bộ ba bất khả thi",
+  "en": "# · The impossible trinity"
+ },
+ {
+  "vi": "# · Công cụ dự báo",
+  "en": "# · Forecasting tool"
+ },
+ {
+  "vi": "# · Dự báo theo công thức",
+  "en": "# · Formula-based forecast"
+ },
+ {
+  "vi": "# · Hàm ý đầu tư",
+  "en": "# · Investment implications"
+ },
+ {
+  "vi": "# · Kiểm chứng",
+  "en": "# · Cross-checks"
+ },
+ {
+  "vi": "# · Nghịch lý của quý III",
+  "en": "# · The Q3 paradox"
+ },
+ {
+  "vi": "# · Nguồn gốc tăng trưởng",
+  "en": "# · Sources of growth"
+ },
+ {
+  "vi": "# · Tín dụng chảy về đâu",
+  "en": "# · Where credit flows"
+ },
+ {
+  "vi": "# · Đèn cảnh báo sớm",
+  "en": "# · Early warning lights"
+ },
+ {
+  "vi": "# · Đến tay người dân",
+  "en": "# · Reaching households"
+ },
+ {
+  "vi": "# điểm",
+  "en": "# pts"
+ },
+ {
+  "vi": "# điểm CPI",
+  "en": "# CPI pts"
+ },
+ {
+  "vi": "# điểm so với cơ sở",
+  "en": "# pts vs base"
+ },
+ {
+  "vi": "# đèn đỏ · # đèn vàng · # đèn xanh",
+  "en": "# red · # amber · # green"
+ },
+ {
+  "vi": "# đồng",
+  "en": "# VND"
+ },
+ {
+  "vi": "#% (tháng #)",
+  "en": "#% (month #)"
+ },
+ {
+  "vi": "#% khi GDP tăng #%: thị trường đi ngược nền kinh tế.",
+  "en": "#% while GDP grew #%: the market is moving against the economy."
+ },
+ {
+  "vi": "#% đến #%",
+  "en": "#% to #%"
+ },
+ {
+  "vi": "#% đến +#%",
+  "en": "#% to +#%"
+ },
+ {
+  "vi": "#% đến +#% (sát trần)",
+  "en": "#% to +#% (near the ceiling)"
+ },
+ {
+  "vi": "#/# tăng; dẫn đầu Hà Tĩnh, Quảng Ninh, Bắc Ninh, Nghệ An, Quảng Trị; điện tử TP HCM chỉ #%; chế biến Đà Nẵng #%",
+  "en": "#/# up; led by Ha Tinh, Quang Ninh, Bac Ninh, Nghe An, Quang Tri; Ho Chi Minh City electronics only #%; Da Nang manufacturing #%"
+ },
+ {
+  "vi": "#–# (thu hẹp)",
+  "en": "#–# (contraction)"
+ },
+ {
+  "vi": "#–# tháng",
+  "en": "#–# months"
+ },
+ {
+  "vi": "#–# tỷ USD",
+  "en": "#–# billion USD"
+ },
+ {
+  "vi": "#–# điểm",
+  "en": "#–# pts"
+ },
+ {
+  "vi": "#–#% kế hoạch",
+  "en": "#–#% of plan"
+ },
+ {
+  "vi": "% của",
+  "en": "% of"
+ },
+ {
+  "vi": "% dư nợ",
+  "en": "% of outstanding credit"
+ },
+ {
+  "vi": "% kế hoạch",
+  "en": "% of plan"
+ },
+ {
+  "vi": "(I) phải tăng khoảng #%, cao hơn quý III # điểm. Kịch bản có xác suất cao nhất là cơ sở (#%): GDP quý IV #–#%, cả năm #–#%.",
+  "en": "(I) needs to grow about #%, # points above Q3. The most likely scenario is Base (#%): Q4 GDP #–#%, full year #–#%."
+ },
+ {
+  "vi": "(I) phải tăng khoảng #%; hiện đang là #%.",
+  "en": "(I) needs to grow about #%; currently #%."
+ },
+ {
+  "vi": "(tháng trước",
+  "en": "(previous month"
+ },
+ {
+  "vi": ") góp # điểm và đầu tư (I) góp # điểm, phần đầu tư cao hơn bình quân # tháng, trong khi xuất khẩu ròng trừ # điểm. Thu nhập thực của người dân chỉ tăng #% và lãi vay thực còn dương #–# điểm.",
+  "en": ") contributed # points and investment (I) contributed # points, with investment above the #-month average, while net exports subtracted # points. Real household income rose only #% and real lending rates remain positive at #–# points."
+ },
+ {
+  "vi": "+# so với cơ sở",
+  "en": "+# vs base"
+ },
+ {
+  "vi": "+# điểm %",
+  "en": "+# pts"
+ },
+ {
+  "vi": ", hạ tầng, khu công nghiệp có khách thuê thật), thận trọng với ngành sống nhờ sức mua của số đông và nhạy lãi suất.",
+  "en": ", infrastructure, industrial parks with real tenants), and stay cautious on sectors that rely on mass consumer spending and are sensitive to interest rates."
+ },
+ {
+  "vi": ", nhanh hơn GDP danh nghĩa ước #% khoảng # điểm; mỗi đồng GDP tăng thêm cần khoảng # đồng tín dụng. Câu hỏi quyết định là tiền vay đi vào nhà máy, vào tiêu dùng hay chỉ đổi chủ tài sản.",
+  "en": ", faster than estimated nominal GDP of #% by about # points; each additional VND of GDP requires about # VND of credit. The decisive question is whether borrowed money goes into factories, into consumption or merely changes the ownership of assets."
+ },
+ {
+  "vi": ", nhanh hơn tháng trước",
+  "en": ", faster than the previous month"
+ },
+ {
+  "vi": ", nhưng chưa đến tay người dân",
+  "en": ", but not yet reaching households"
+ },
+ {
+  "vi": ", nhưng mới đến tay người dân một phần",
+  "en": ", but only partly reaching households"
+ },
+ {
+  "vi": ", nhưng thu nhập, lương và việc làm tăng chậm hơn nhiều: phần chênh dựa vào vay nợ và giá tài sản.",
+  "en": ", but income, wages and jobs are growing much more slowly: the gap relies on borrowing and asset prices."
+ },
+ {
+  "vi": ", nên phải nhường quyền tự quyết lãi suất.",
+  "en": ", so it must give up control over interest rates."
+ },
+ {
+  "vi": ", phần đầu tư cao hơn bình quân # tháng",
+  "en": ", with investment above the #-month average"
+ },
+ {
+  "vi": ", thay đổi tỷ lệ nợ xấu. Là phép thử độ nhạy, không phải dự báo.",
+  "en": ", varying the NPL ratio. A sensitivity test, not a forecast."
+ },
+ {
+  "vi": ", tiền đồng phải đắt.",
+  "en": ", the dong must stay expensive."
+ },
+ {
+  "vi": ", trong khi IIP tăng",
+  "en": ", while IIP rose"
+ },
+ {
+  "vi": ", xuất #",
+  "en": ", exports #"
+ },
+ {
+  "vi": "-# so với cơ sở",
+  "en": "-# vs base"
+ },
+ {
+  "vi": "-# điểm %",
+  "en": "-# pts"
+ },
+ {
+  "vi": ". Tệp xuất từ dashboard lúc",
+  "en": ". File exported from the dashboard at"
+ },
+ {
+  "vi": ": xuất khẩu khoảng # tỷ USD, nhập khẩu # tỷ USD, cán cân nhập siêu # tỷ USD.",
+  "en": ": exports about # billion USD, imports # billion USD, a trade deficit of # billion USD."
+ },
+ {
+  "vi": "; cột đậm là kết quả theo giả định của anh chị.",
+  "en": "; bold columns show results under your assumptions."
+ },
+ {
+  "vi": "; mỗi đồng GDP tăng thêm cần khoảng",
+  "en": "; each additional VND of GDP requires about"
+ },
+ {
+  "vi": "Ai mua thêm chiếc bánh?",
+  "en": "Who is buying more of the pie?"
+ },
+ {
+  "vi": "Anh chị chọn",
+  "en": "You selected"
+ },
+ {
+  "vi": "Ba kịch bản và xác suất (%)",
+  "en": "Three scenarios and probabilities (%)"
+ },
+ {
+  "vi": "Ba điều ước, chỉ được chọn hai",
+  "en": "Three wishes, pick only two"
+ },
+ {
+  "vi": "Bào mòn thu nhập thực",
+  "en": "Eroding real income"
+ },
+ {
+  "vi": "Bám",
+  "en": "Track"
+ },
+ {
+  "vi": "Bán lẻ",
+  "en": "Retail"
+ },
+ {
+  "vi": "Bán lẻ danh nghĩa quý III",
+  "en": "Nominal retail sales Q3"
+ },
+ {
+  "vi": "Bán lẻ thực quý III (ước)",
+  "en": "Real retail sales Q3 (est.)"
+ },
+ {
+  "vi": "Bán lẻ thực quý III khoảng #% và lương làm công thực #% (Chênh khoảng # điểm)",
+  "en": "Real retail sales in Q3 about #% and real wages #% (gap of about # points)"
+ },
+ {
+  "vi": "Bán lẻ thực quý IV (gần với C)",
+  "en": "Real retail sales Q4 (close to C)"
+ },
+ {
+  "vi": "Bán lẻ thực và lương thực tế",
+  "en": "Real retail sales and real wages"
+ },
+ {
+  "vi": "Báo cáo PDF",
+  "en": "PDF report"
+ },
+ {
+  "vi": "Báo cáo trọng tâm nhiều trang: đèn cảnh báo, nhận định, từng chương có bảng và biểu đồ, dự báo, kịch bản tự dự báo, ngành, lịch công bố, thuật ngữ",
+  "en": "Multi-page focus report: warning lights, insights, each chapter with tables and charts, forecasts, your forecast scenario, sectors, release calendar, glossary"
+ },
+ {
+  "vi": "Bên ngoài",
+  "en": "External"
+ },
+ {
+  "vi": "Bình ổn giá lương thực, thực phẩm",
+  "en": "Stabilise food prices"
+ },
+ {
+  "vi": "BĐS và GDP",
+  "en": "Real estate and GDP"
+ },
+ {
+  "vi": "Bơm thêm tín dụng",
+  "en": "More credit"
+ },
+ {
+  "vi": "Bước",
+  "en": "Step"
+ },
+ {
+  "vi": "Bản đồ tác động",
+  "en": "Impact map"
+ },
+ {
+  "vi": "Bảng",
+  "en": "Table"
+ },
+ {
+  "vi": "Bảng đã thay số:",
+  "en": "Table with updated figures:"
+ },
+ {
+  "vi": "Bất động sản",
+  "en": "Real estate"
+ },
+ {
+  "vi": "Bất động sản hút vốn nhưng không phải động cơ chính của GDP năm nay: mua đất, nhà cũ, dự án và đảo nợ không tạo sản lượng mới.",
+  "en": "Real estate absorbs capital but is not the main driver of GDP this year: buying land, existing homes, projects and rolling over debt create no new output."
+ },
+ {
+  "vi": "Bất động sản → C",
+  "en": "Real estate to C"
+ },
+ {
+  "vi": "Bất động sản → I",
+  "en": "Real estate to I"
+ },
+ {
+  "vi": "Bất động sản, khu công nghiệp",
+  "en": "Real estate, industrial parks"
+ },
+ {
+  "vi": "Bằng chứng",
+  "en": "Evidence"
+ },
+ {
+  "vi": "Bộ ba bất khả thi",
+  "en": "Impossible trinity"
+ },
+ {
+  "vi": "Bộ ba bất khả thi giữ tiền đồng đắt",
+  "en": "The impossible trinity keeps the dong expensive"
+ },
+ {
+  "vi": "Bộ dữ liệu",
+  "en": "Dataset"
+ },
+ {
+  "vi": "C + G (điểm)",
+  "en": "C + G (pts)"
+ },
+ {
+  "vi": "C + G thay đổi khi lãi suất cho vay tăng # điểm (điểm %)",
+  "en": "Change in C + G when lending rates rise # points (percentage points)"
+ },
+ {
+  "vi": "C + G thực giảm khi CPI quý IV cao hơn nền # điểm (điểm %)",
+  "en": "Decline in real C + G when Q4 CPI is # points above baseline (percentage points)"
+ },
+ {
+  "vi": "C + G tăng thêm khi tín dụng tăng thêm # điểm (điểm %)",
+  "en": "Increase in C + G when credit growth rises a further # points (percentage points)"
+ },
+ {
+  "vi": "C + G: tiêu dùng cuối cùng",
+  "en": "C + G: final consumption"
+ },
+ {
+  "vi": "C của số đông còn yếu, dựa vào vay",
+  "en": "C for most households is still weak and relies on borrowing"
+ },
+ {
+  "vi": "C góp vào tăng trưởng # tháng",
+  "en": "C contribution to growth, # months"
+ },
+ {
+  "vi": "C và G # tháng theo số chính thức; quý III Cục Thống kê chỉ công bố gộp C và G. Rê chuột lên từng bậc để xem ý nghĩa.",
+  "en": "C and G for # months per official data; for Q3 the Statistics Office only publishes C and G combined. Hover over each step to see what it means."
+ },
+ {
+  "vi": "C: tiêu dùng hộ",
+  "en": "C: household consumption"
+ },
+ {
+  "vi": "CPI #% so cùng kỳ; giá bán đầu ra PMI tăng chậm nhất từ #/#",
+  "en": "CPI #% year on year; PMI output prices rising at the slowest pace since #/#"
+ },
+ {
+  "vi": "CPI bình quân",
+  "en": "Average CPI"
+ },
+ {
+  "vi": "CPI bình quân # tháng (%)",
+  "en": "Average CPI, # months (%)"
+ },
+ {
+  "vi": "CPI bình quân # tháng (đã công bố)",
+  "en": "Average CPI, # months (published)"
+ },
+ {
+  "vi": "CPI bình quân cả năm",
+  "en": "Full-year average CPI"
+ },
+ {
+  "vi": "CPI bình quân cả năm khoảng #%, cao hơn mục tiêu khoảng #% # điểm. Mỗi điểm CPI quý IV cao hơn nền làm tiêu dùng thực giảm khoảng # điểm.",
+  "en": "Full-year average CPI about #%, above the target of about #% by # points. Each point of Q4 CPI above baseline cuts real consumption by about # points."
+ },
+ {
+  "vi": "CPI bình quân cả năm khoảng #%, thấp hơn hoặc bằng mục tiêu khoảng #%. Mỗi điểm CPI quý IV cao hơn nền làm tiêu dùng thực giảm khoảng # điểm.",
+  "en": "Full-year average CPI about #%, at or below the target of about #%. Each point of Q4 CPI above baseline cuts real consumption by about # points."
+ },
+ {
+  "vi": "CPI bình quân quý IV",
+  "en": "Q4 average CPI"
+ },
+ {
+  "vi": "CPI bình quân quý IV ở kịch bản cơ sở (%)",
+  "en": "Q4 average CPI in the Base case (%)"
+ },
+ {
+  "vi": "CPI bình quân quý IV: #%",
+  "en": "Q4 average CPI: #%"
+ },
+ {
+  "vi": "CPI chung (# tháng)",
+  "en": "Headline CPI (# months)"
+ },
+ {
+  "vi": "CPI năm",
+  "en": "Full-year CPI"
+ },
+ {
+  "vi": "CPI quý IV",
+  "en": "Q4 CPI"
+ },
+ {
+  "vi": "CPI quý IV được cộng từ đâu (%)",
+  "en": "What makes up Q4 CPI (%)"
+ },
+ {
+  "vi": "CPI quý IV:",
+  "en": "Q4 CPI:"
+ },
+ {
+  "vi": "CPI thay đổi khi lãi suất cho vay tăng # điểm (điểm %)",
+  "en": "Change in CPI when lending rates rise # points (percentage points)"
+ },
+ {
+  "vi": "CPI tháng #",
+  "en": "CPI, month #"
+ },
+ {
+  "vi": "CPI tháng # #%, cao hơn mục tiêu khoảng #% là # điểm; hộ thu nhập thấp chịu lạm phát #%, cao hơn hộ khá giả # điểm.",
+  "en": "CPI in month # at #%, above the target of about #% by # points; low-income households face inflation of #%, # points higher than better-off households."
+ },
+ {
+  "vi": "CPI tháng # (so cùng kỳ)",
+  "en": "CPI, month # (year on year)"
+ },
+ {
+  "vi": "CPI tháng # cao hơn mục tiêu #% khoảng # điểm.",
+  "en": "CPI in month # is above the #% target by about # points."
+ },
+ {
+  "vi": "CPI tăng khi Brent tăng # USD (điểm %)",
+  "en": "CPI increase when Brent rises # USD (percentage points)"
+ },
+ {
+  "vi": "CPI tăng khi GDP quý IV cao hơn nền # điểm (điểm %)",
+  "en": "CPI increase when Q4 GDP is # points above baseline (percentage points)"
+ },
+ {
+  "vi": "CPI tăng khi giá lương thực, thực phẩm tăng thêm # điểm (điểm %)",
+  "en": "CPI increase when food prices rise a further # points (percentage points)"
+ },
+ {
+  "vi": "CPI tăng khi tín dụng tăng thêm # điểm (điểm %)",
+  "en": "CPI increase when credit growth rises a further # points (percentage points)"
+ },
+ {
+  "vi": "CPI tăng khi tỷ giá tăng thêm #% (điểm %)",
+  "en": "CPI increase when the exchange rate rises a further #% (percentage points)"
+ },
+ {
+  "vi": "CPI và giá bán đầu ra PMI",
+  "en": "CPI and PMI output prices"
+ },
+ {
+  "vi": "Cao nhất",
+  "en": "Highest"
+ },
+ {
+  "vi": "Chi phí vốn tăng",
+  "en": "Rising cost of capital"
+ },
+ {
+  "vi": "Chiếc bánh C+G+I+NX",
+  "en": "The C+G+I+NX pie"
+ },
+ {
+  "vi": "Chiếc bánh to hơn, nhưng phần bánh trên bàn ăn của nhiều gia đình lại nhỏ đi. Khoảng hở giữa các thanh dưới đây là phần tăng trưởng chưa thành thu nhập.",
+  "en": "The pie is bigger, but the slice on many families' tables has shrunk. The gaps between the bars below are growth that has not yet turned into income."
+ },
+ {
+  "vi": "Chiều",
+  "en": "Direction"
+ },
+ {
+  "vi": "Cho sản xuất, kinh doanh",
+  "en": "For production and business"
+ },
+ {
+  "vi": "Chuỗi GDP theo quý",
+  "en": "Quarterly GDP series"
+ },
+ {
+  "vi": "Chuỗi tác động",
+  "en": "Impact chain"
+ },
+ {
+  "vi": "Chuỗi tác động của giả định vừa đổi",
+  "en": "Impact chain of the changed assumption"
+ },
+ {
+  "vi": "Chênh lệch",
+  "en": "Gap"
+ },
+ {
+  "vi": "Chênh lệch thống kê (như # tháng)",
+  "en": "Statistical discrepancy (as in # months)"
+ },
+ {
+  "vi": "Chính sách",
+  "en": "Policy"
+ },
+ {
+  "vi": "Chính sách (lãi suất điều hành)",
+  "en": "Policy (policy rate)"
+ },
+ {
+  "vi": "Chính sách trông như nới lỏng, nhưng người gửi và người vay đang sống trong môi trường tiền đắt. Dư địa hạ lãi suất gần như không còn.",
+  "en": "Policy looks accommodative, but savers and borrowers are living with expensive money. There is almost no room left to cut rates."
+ },
+ {
+  "vi": "Chưa có kịch bản nào được lưu.",
+  "en": "No scenarios saved yet."
+ },
+ {
+  "vi": "Chưa xuất được trong khung này (",
+  "en": "Could not export in this frame ("
+ },
+ {
+  "vi": "Chưa đủ số liệu",
+  "en": "Insufficient data"
+ },
+ {
+  "vi": "Chạm hoặc bấm vào một cặp để xem bằng chứng ngay tại đây.",
+  "en": "Tap or click a pair to see the evidence right here."
+ },
+ {
+  "vi": "Chế biến #%, điện #%, khai khoáng #%, nước #% (quý III)",
+  "en": "Manufacturing #%, electricity #%, mining #%, water #% (Q3)"
+ },
+ {
+  "vi": "Chỉ báo",
+  "en": "Indicator"
+ },
+ {
+  "vi": "Chỉ số chính",
+  "en": "Key indicators"
+ },
+ {
+  "vi": "Chỉ số mới",
+  "en": "New indicator"
+ },
+ {
+  "vi": "Chỉ tiêu",
+  "en": "Metric"
+ },
+ {
+  "vi": "Chịu thuế Mục #, NX và việc làm chịu sức ép",
+  "en": "Subject to Section # tariffs; NX and jobs under pressure"
+ },
+ {
+  "vi": "Chọn kịch bản để đổi cột được làm nổi trong các bảng và biểu đồ xuất nhập khẩu.",
+  "en": "Select a scenario to change the highlighted column in the trade tables and charts."
+ },
+ {
+  "vi": "Chọn lọc",
+  "en": "Selective"
+ },
+ {
+  "vi": "Chọn một yếu tố để xem nó chạm vào cấu phần nào, theo chiều nào và qua kênh nào.",
+  "en": "Select a factor to see which component it affects, in which direction and through which channel."
+ },
+ {
+  "vi": "Chọn tệp Excel xuất từ dashboard (đã sửa số) hoặc tệp số liệu JSON mới; mọi biểu đồ, đèn cảnh báo và nhận định tự tính lại",
+  "en": "Select an Excel file exported from the dashboard (with edited figures) or a new JSON data file; all charts, warning lights and assessments recalculate automatically"
+ },
+ {
+  "vi": "Chủ đầu tư",
+  "en": "Developers"
+ },
+ {
+  "vi": "Chủ đề",
+  "en": "Topic"
+ },
+ {
+  "vi": "Các chỉ báo tự đổi màu khi có số liệu mới",
+  "en": "Indicators change colour automatically when new data arrives"
+ },
+ {
+  "vi": "Các phần phân tích",
+  "en": "Analysis sections"
+ },
+ {
+  "vi": "Các số liệu độc lập xác nhận đến đâu?",
+  "en": "How far do independent data confirm it?"
+ },
+ {
+  "vi": "Cách chấm",
+  "en": "Scoring method"
+ },
+ {
+  "vi": "Cách chấm đèn này",
+  "en": "How this light is scored"
+ },
+ {
+  "vi": "Cán cân #",
+  "en": "Trade balance #"
+ },
+ {
+  "vi": "Cán cân cả năm (tỷ USD)",
+  "en": "Full-year trade balance (billion USD)"
+ },
+ {
+  "vi": "Cán cân thương mại hàng hóa (tỷ USD)",
+  "en": "Merchandise trade balance (billion USD)"
+ },
+ {
+  "vi": "Cán cân thương mại tháng và lũy kế",
+  "en": "Monthly and cumulative trade balance"
+ },
+ {
+  "vi": "Có gì mới sau lần làm mới",
+  "en": "What is new after the refresh"
+ },
+ {
+  "vi": "Công cụ",
+  "en": "Tools"
+ },
+ {
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction"
+ },
+ {
+  "vi": "Công nghiệp và xây dựng #%; IIP quý III #% [ƯT]",
+  "en": "Industry and construction #%; Q3 IIP #% [est.]"
+ },
+ {
+  "vi": "Công nghiệp và xây dựng góp gần nửa tăng trưởng, khớp với đầu tư và",
+  "en": "Industry and construction contributed nearly half of growth, consistent with investment and"
+ },
+ {
+  "vi": "Công nghiệp và xây dựng góp gần nửa tăng trưởng, khớp với đầu tư và tồn kho tăng mạnh ở phía chi tiêu.",
+  "en": "Industry and construction contributed nearly half of growth, consistent with the strong rise in investment and inventories on the expenditure side."
+ },
+ {
+  "vi": "Cùng một nền kinh tế, các nhịp tăng rất khác nhau (% so cùng kỳ)",
+  "en": "Same economy, very different growth rates (% year on year)"
+ },
+ {
+  "vi": "Cùng trang đó dưới dạng PDF để in hoặc đính kèm",
+  "en": "The same page as a PDF for printing or attaching"
+ },
+ {
+  "vi": "Cơ sở",
+  "en": "Base"
+ },
+ {
+  "vi": "Cơ sở #",
+  "en": "Base #"
+ },
+ {
+  "vi": "Cả hai",
+  "en": "Both"
+ },
+ {
+  "vi": "Cả năm # (",
+  "en": "Full year # ("
+ },
+ {
+  "vi": "Cả năm # (cơ sở)",
+  "en": "Full year # (Base)"
+ },
+ {
+  "vi": "Cả năm # (tiêu cực)",
+  "en": "Full year # (Negative)"
+ },
+ {
+  "vi": "Cả năm # (tích cực)",
+  "en": "Full year # (Positive)"
+ },
+ {
+  "vi": "Cả năm # theo",
+  "en": "Full year # under"
+ },
+ {
+  "vi": "Cả năm # theo kịch bản cơ sở: xuất khẩu khoảng # tỷ USD, nhập khẩu # tỷ USD, cán cân nhập siêu # tỷ USD.",
+  "en": "Full year # under the Base case: exports about # billion USD, imports # billion USD, a trade deficit of # billion USD."
+ },
+ {
+  "vi": "Cả năm # theo kịch bản tiêu cực: xuất khẩu khoảng # tỷ USD, nhập khẩu # tỷ USD, cán cân",
+  "en": "Full year # under the Negative scenario: exports about # billion USD, imports # billion USD, trade balance"
+ },
+ {
+  "vi": "Cả năm # theo kịch bản tiêu cực: xuất khẩu khoảng # tỷ USD, nhập khẩu # tỷ USD, cán cân nhập siêu # tỷ USD.",
+  "en": "Full year # under the Negative scenario: exports about # billion USD, imports # billion USD, a trade deficit of # billion USD."
+ },
+ {
+  "vi": "Cả năm # theo kịch bản tích cực: xuất khẩu khoảng # tỷ USD, nhập khẩu # tỷ USD, cán cân",
+  "en": "Full year # under the Positive scenario: exports about # billion USD, imports # billion USD, trade balance"
+ },
+ {
+  "vi": "Cảm giác giàu lên, tiền trả nợ",
+  "en": "Wealth effect, debt servicing"
+ },
+ {
+  "vi": "Cảng, logistics",
+  "en": "Ports, logistics"
+ },
+ {
+  "vi": "Cảnh báo",
+  "en": "Warning"
+ },
+ {
+  "vi": "Cảnh báo #",
+  "en": "Warning #"
+ },
+ {
+  "vi": "Cấu phần",
+  "en": "Component"
+ },
+ {
+  "vi": "Cần đạt #%",
+  "en": "Required #%"
+ },
+ {
+  "vi": "Cầu trong nước",
+  "en": "Domestic demand"
+ },
+ {
+  "vi": "Cầu, dịch vụ và giá",
+  "en": "Demand, services and prices"
+ },
+ {
+  "vi": "Cặp đối chiếu",
+  "en": "Comparison pair"
+ },
+ {
+  "vi": "Cột",
+  "en": "Column"
+ },
+ {
+  "vi": "Cột mờ là",
+  "en": "Faded columns are"
+ },
+ {
+  "vi": "Cột mờ là kịch bản cơ sở; cột đậm là kết quả theo giả định của anh chị.",
+  "en": "Faded columns are the Base case; bold columns show results under your assumptions."
+ },
+ {
+  "vi": "Danh nghĩa #%",
+  "en": "Nominal #%"
+ },
+ {
+  "vi": "Danh nghĩa #–#%",
+  "en": "Nominal #–#%"
+ },
+ {
+  "vi": "Do khu vực FDI dẫn dắt",
+  "en": "Led by the FDI sector"
+ },
+ {
+  "vi": "Dán mã người khác gửi để mở kịch bản",
+  "en": "Paste a code someone sent you to open their scenario"
+ },
+ {
+  "vi": "Dòng vốn mở",
+  "en": "Open capital flows"
+ },
+ {
+  "vi": "Dùng tiền vay để",
+  "en": "Using borrowed money to"
+ },
+ {
+  "vi": "Dư nợ tín dụng cuối năm 2025 (nghìn tỷ đồng, suy từ 20,75 triệu tỷ ngày 30/9 và +11,59% từ đầu năm)",
+  "en": "Credit outstanding at end-2025 (trillion VND, derived from 20.75 quadrillion on 30/9 and +11.59% year to date)"
+ },
+ {
+  "vi": "Dư nợ tín dụng ngày 30/9/2026 (nghìn tỷ đồng)",
+  "en": "Credit outstanding on 30/9/2026 (trillion VND)"
+ },
+ {
+  "vi": "Dạng bảng",
+  "en": "Table view"
+ },
+ {
+  "vi": "Dạng thẻ",
+  "en": "Card view"
+ },
+ {
+  "vi": "Dầu Brent # USD làm CPI quý IV # điểm, rồi lấy bớt sức mua và chi phí đầu vào nên GDP quý IV thay đổi khoảng # điểm.",
+  "en": "Brent at # USD moves Q4 CPI by # points, then erodes purchasing power and raises input costs, changing Q4 GDP by about # points."
+ },
+ {
+  "vi": "Dệt may, da giày xuất khẩu Mỹ",
+  "en": "Textiles and footwear exported to the US"
+ },
+ {
+  "vi": "Dịch vụ",
+  "en": "Services"
+ },
+ {
+  "vi": "Dịch vụ #%; bán lẻ thực quý III khoảng #% [TVN]; khách quốc tế #%",
+  "en": "Services #%; Q3 real retail sales about #% [TVN]; international arrivals #%"
+ },
+ {
+  "vi": "Dịch vụ khác (gồm vay tiêu dùng, mua nhà)",
+  "en": "Other services (including consumer loans, home purchases)"
+ },
+ {
+  "vi": "Dự báo",
+  "en": "Forecast"
+ },
+ {
+  "vi": "Dự báo XNK",
+  "en": "Trade forecast"
+ },
+ {
+  "vi": "Dự báo cả năm",
+  "en": "Full-year forecast"
+ },
+ {
+  "vi": "Dự báo lũy kế cả năm #",
+  "en": "Cumulative full-year forecast #"
+ },
+ {
+  "vi": "Dự báo quý IV",
+  "en": "Q4 forecast"
+ },
+ {
+  "vi": "Dự báo quý IV/#",
+  "en": "Q4/# forecast"
+ },
+ {
+  "vi": "Dự trữ ngoại hối",
+  "en": "Foreign exchange reserves"
+ },
+ {
+  "vi": "FDI giải ngân",
+  "en": "FDI disbursement"
+ },
+ {
+  "vi": "FDI giải ngân (tỷ USD)",
+  "en": "FDI disbursement (billion USD)"
+ },
+ {
+  "vi": "FDI giải ngân cả năm",
+  "en": "Full-year FDI disbursement"
+ },
+ {
+  "vi": "FDI giải ngân quý IV tăng",
+  "en": "Q4 FDI disbursement up"
+ },
+ {
+  "vi": "FDI đăng ký #% và FDI giải ngân #% (Chênh hơn # điểm)",
+  "en": "Registered FDI #% and disbursed FDI #% (gap of more than # points)"
+ },
+ {
+  "vi": "FDI đăng ký và FDI giải ngân",
+  "en": "Registered and disbursed FDI"
+ },
+ {
+  "vi": "Fed tăng lãi suất kéo dòng vốn đi; để giữ",
+  "en": "Fed rate hikes pull capital out; to hold"
+ },
+ {
+  "vi": "Fed tăng lãi suất kéo dòng vốn đi; để giữ tỷ giá, tiền đồng phải đắt.",
+  "en": "Fed rate hikes pull capital out; to hold the exchange rate, the dong must stay expensive."
+ },
+ {
+  "vi": "Fed, lãi suất USD",
+  "en": "Fed, USD interest rates"
+ },
+ {
+  "vi": "Fed, lãi suất USD → C",
+  "en": "Fed, USD interest rates to C"
+ },
+ {
+  "vi": "Fed, lãi suất USD → I",
+  "en": "Fed, USD interest rates to I"
+ },
+ {
+  "vi": "G: tiêu dùng Nhà nước",
+  "en": "G: government consumption"
+ },
+ {
+  "vi": "GDP # tháng",
+  "en": "GDP, # months"
+ },
+ {
+  "vi": "GDP # tháng (%)",
+  "en": "GDP, # months (%)"
+ },
+ {
+  "vi": "GDP #% so với thu nhập thực #%: hở # điểm.",
+  "en": "GDP #% versus real income #%: a gap of # points."
+ },
+ {
+  "vi": "GDP #% và VN-Index quý III #%, khối ngoại bán ròng sau nâng hạng (Thị trường đi ngược kinh tế)",
+  "en": "GDP #% and VN-Index #% in Q3, foreign net selling after the upgrade (market moving against the economy)"
+ },
+ {
+  "vi": "GDP (% so cùng kỳ)",
+  "en": "GDP (% year on year)"
+ },
+ {
+  "vi": "GDP công nghiệp và IIP",
+  "en": "Industrial GDP and IIP"
+ },
+ {
+  "vi": "GDP cả năm",
+  "en": "Full-year GDP"
+ },
+ {
+  "vi": "GDP cả năm #",
+  "en": "Full-year GDP #"
+ },
+ {
+  "vi": "GDP cả năm đạt khoảng #%, thấp hơn mục tiêu #% khoảng # điểm. Quý IV cần #% mới đạt mục tiêu; giả định hiện tại cho #%.",
+  "en": "Full-year GDP about #%, below the #% target by about # points. Q4 needs #% to hit the target; the current assumption gives #%."
+ },
+ {
+  "vi": "GDP cả năm đạt khoảng #%, vượt mục tiêu #% khoảng # điểm. Quý IV cần #% mới đạt mục tiêu; giả định hiện tại cho #%.",
+  "en": "Full-year GDP about #%, above the #% target by about # points. Q4 needs #% to hit the target; the current assumption gives #%."
+ },
+ {
+  "vi": "GDP danh nghĩa",
+  "en": "Nominal GDP"
+ },
+ {
+  "vi": "GDP dịch vụ và bán lẻ thực",
+  "en": "Services GDP and real retail sales"
+ },
+ {
+  "vi": "GDP năm",
+  "en": "Annual GDP"
+ },
+ {
+  "vi": "GDP phía cung và phía cầu",
+  "en": "GDP: supply side and demand side"
+ },
+ {
+  "vi": "GDP quý III",
+  "en": "Q3 GDP"
+ },
+ {
+  "vi": "GDP quý III, nhanh nhất ba năm",
+  "en": "Q3 GDP, fastest in three years"
+ },
+ {
+  "vi": "GDP quý IV",
+  "en": "Q4 GDP"
+ },
+ {
+  "vi": "GDP quý IV (% so cùng kỳ)",
+  "en": "Q4 GDP (% year on year)"
+ },
+ {
+  "vi": "GDP quý IV cần đạt (%)",
+  "en": "Required Q4 GDP (%)"
+ },
+ {
+  "vi": "GDP quý IV là tổng đóng góp; GDP cả năm và CPI cả năm ghép số đã công bố với quý IV theo công thức trong ô. Mô hình đơn giản của TVN, không thay cho dự báo chính thức.",
+  "en": "Q4 GDP is the sum of contributions; full-year GDP and full-year CPI combine published figures with Q4 using the formula in each cell. A simple TVN model, not a substitute for official forecasts."
+ },
+ {
+  "vi": "GDP quý IV thay đổi khi Brent tăng # USD, qua chi phí đầu vào (điểm %)",
+  "en": "Change in Q4 GDP when Brent rises # USD, via input costs (percentage points)"
+ },
+ {
+  "vi": "GDP quý IV được tạo từ đâu (điểm %)",
+  "en": "What makes up Q4 GDP (percentage points)"
+ },
+ {
+  "vi": "GDP quý IV ở kịch bản cơ sở (%)",
+  "en": "Q4 GDP in the Base case (%)"
+ },
+ {
+  "vi": "GDP theo quý",
+  "en": "Quarterly GDP"
+ },
+ {
+  "vi": "GDP tăng #% nhưng thu nhập thực chỉ #%, lương thực tế người làm công #% và việc làm #%. Khoảng hở # điểm cho thấy tăng trưởng chưa đến tay số đông.",
+  "en": "GDP grew #% but real income only #%, real wages #% and employment #%. The # point gap shows growth has not yet reached most people."
+ },
+ {
+  "vi": "GDP tăng, vì sao nhiều người thấy khó khăn hơn?",
+  "en": "GDP is growing, so why do many people feel worse off?"
+ },
+ {
+  "vi": "GDP và GNI",
+  "en": "GDP and GNI"
+ },
+ {
+  "vi": "GDP và thu thuế",
+  "en": "GDP and tax revenue"
+ },
+ {
+  "vi": "GDP và thị trường chứng khoán",
+  "en": "GDP and the stock market"
+ },
+ {
+  "vi": "GDP xây dựng và đầu tư công",
+  "en": "Construction GDP and public investment"
+ },
+ {
+  "vi": "GDP đo sản lượng trên lãnh thổ, không đo thu nhập của người Việt",
+  "en": "GDP measures output within the territory, not the income of Vietnamese people"
+ },
+ {
+  "vi": "Ghi chú",
+  "en": "Notes"
+ },
+ {
+  "vi": "Ghép # tháng với quý IV theo quyền số.",
+  "en": "Combine # months with Q4 by weight."
+ },
+ {
+  "vi": "Giao diện",
+  "en": "Appearance"
+ },
+ {
+  "vi": "Giá USD ngân hàng (so cuối #)",
+  "en": "Bank USD rate (vs end-#)"
+ },
+ {
+  "vi": "Giá USD ngân hàng cuối năm (so cuối #)",
+  "en": "Year-end bank USD rate (vs end-#)"
+ },
+ {
+  "vi": "Giá cả",
+  "en": "Prices"
+ },
+ {
+  "vi": "Giá dầu",
+  "en": "Oil price"
+ },
+ {
+  "vi": "Giá dầu Brent",
+  "en": "Brent oil price"
+ },
+ {
+  "vi": "Giá dầu → C",
+  "en": "Oil price to C"
+ },
+ {
+  "vi": "Giá hàng xuất, nhập khẩu",
+  "en": "Export and import prices"
+ },
+ {
+  "vi": "Giá lương thực, thực phẩm quý IV tăng",
+  "en": "Q4 food prices up"
+ },
+ {
+  "vi": "Giá trị",
+  "en": "Value"
+ },
+ {
+  "vi": "Giá trị làm ra",
+  "en": "Value created"
+ },
+ {
+  "vi": "Giá trị nợ xấu bất động sản",
+  "en": "Real estate NPL value"
+ },
+ {
+  "vi": "Giá xuất khẩu",
+  "en": "Export prices"
+ },
+ {
+  "vi": "Giá xăng, vận tải, lạm phát",
+  "en": "Fuel prices, transport, inflation"
+ },
+ {
+  "vi": "Giá điện, y tế, giáo dục",
+  "en": "Electricity, healthcare, education prices"
+ },
+ {
+  "vi": "Giả định",
+  "en": "Assumptions"
+ },
+ {
+  "vi": "Giả định do anh chị tự chọn trên dashboard",
+  "en": "Assumptions you selected on the dashboard"
+ },
+ {
+  "vi": "Giả định và hệ số của mô hình",
+  "en": "Model assumptions and coefficients"
+ },
+ {
+  "vi": "Giải nghĩa thuật ngữ bằng lời thường kèm ví dụ",
+  "en": "Plain-language glossary with examples"
+ },
+ {
+  "vi": "Giải ngân đầu tư công",
+  "en": "Public investment disbursement"
+ },
+ {
+  "vi": "Giải ngân đầu tư công cả năm",
+  "en": "Full-year public investment disbursement"
+ },
+ {
+  "vi": "Giữ #%",
+  "en": "Hold #%"
+ },
+ {
+  "vi": "Giữ nguyên",
+  "en": "Unchanged"
+ },
+ {
+  "vi": "Giữ nguyên dư nợ, thay đổi tỷ lệ nợ xấu. Là phép thử độ nhạy, không phải dự báo.",
+  "en": "Holding outstanding credit constant, varying the NPL ratio. A sensitivity test, not a forecast."
+ },
+ {
+  "vi": "Giữ ổn định tỷ giá",
+  "en": "Hold the exchange rate steady"
+ },
+ {
+  "vi": "Góc nhà đầu tư",
+  "en": "Investor corner"
+ },
+ {
+  "vi": "Gần #% lao động phi chính thức; tín dụng thương mại, dịch vụ nhỏ chỉ tăng gần #%",
+  "en": "Nearly #% of workers are informal; credit to trade and small services grew only about #%"
+ },
+ {
+  "vi": "Gồm vốn Nhà nước, FDI, tư nhân và tồn kho",
+  "en": "Includes state, FDI and private capital plus inventories"
+ },
+ {
+  "vi": "Gợi ý",
+  "en": "Suggestions"
+ },
+ {
+  "vi": "Hai chiều",
+  "en": "Two-way"
+ },
+ {
+  "vi": "Hai chiều: kéo thanh trượt bên trái để xem kết quả, hoặc kéo thanh trong bốn ô kết quả để đặt chỉ tiêu, giả định bên trái tự tính ngược.",
+  "en": "Two-way: move a slider on the left to see the results, or drag the bar inside a result tile to set a target and the inputs are solved backwards."
+ },
+ {
+  "vi": "Hai nguồn số tín dụng",
+  "en": "Two sources of credit data"
+ },
+ {
+  "vi": "Hiện tại (#%)",
+  "en": "Current (#%)"
+ },
+ {
+  "vi": "Hoãn điều chỉnh giá điện, y tế, giáo dục",
+  "en": "Postpone power, health and education price rises"
+ },
+ {
+  "vi": "Hoặc thị trường định giá sai, hoặc phía sau con số tổng còn những vấn đề về chất lượng. Dashboard đi tìm câu trả lời qua từng cấu phần của",
+  "en": "Either the market is mispricing, or behind the headline figures lie quality problems. The dashboard looks for the answer through each component of"
+ },
+ {
+  "vi": "Hàm ý",
+  "en": "Implications"
+ },
+ {
+  "vi": "Hưởng lợi khi giá dầu cao",
+  "en": "Benefits from high oil prices"
+ },
+ {
+  "vi": "Hạ lãi suất cho vay",
+  "en": "Lower lending rates"
+ },
+ {
+  "vi": "Hệ số",
+  "en": "Coefficient"
+ },
+ {
+  "vi": "Hộ thu nhập cao",
+  "en": "High-income households"
+ },
+ {
+  "vi": "Hộ thu nhập thấp",
+  "en": "Low-income households"
+ },
+ {
+  "vi": "Hộ thu nhập thấp chi nhiều hơn cho ăn uống, nhà ở, điện nước, nên chịu",
+  "en": "Low-income households spend more on food, housing and utilities, so they face"
+ },
+ {
+  "vi": "Hộ thu nhập thấp chi nhiều hơn cho ăn uống, nhà ở, điện nước, nên chịu lạm phát cao hơn.",
+  "en": "Low-income households spend more on food, housing and utilities, so they face higher inflation."
+ },
+ {
+  "vi": "I cần (điểm)",
+  "en": "Required I (pts)"
+ },
+ {
+  "vi": "I cần lấp",
+  "en": "I gap to fill"
+ },
+ {
+  "vi": "I cần tăng #% để đạt #%, quý III mới #%.",
+  "en": "I must grow #% to reach #%; Q3 was only #%."
+ },
+ {
+  "vi": "I phần nền",
+  "en": "I baseline"
+ },
+ {
+  "vi": "I quý IV phải tăng để đạt #%",
+  "en": "Q4 I growth required to reach #%"
+ },
+ {
+  "vi": "I thay đổi khi lãi suất cho vay tăng # điểm (điểm %)",
+  "en": "Change in I when lending rates rise # pts (percentage points)"
+ },
+ {
+  "vi": "I tăng thêm khi FDI giải ngân tăng thêm # điểm (điểm %)",
+  "en": "Additional I when FDI disbursement rises # pts (percentage points)"
+ },
+ {
+  "vi": "I tăng thêm khi giải ngân đầu tư công thêm # điểm kế hoạch (điểm %)",
+  "en": "Additional I when public investment disbursement rises # pts of plan (percentage points)"
+ },
+ {
+  "vi": "I tăng thêm khi tín dụng tăng thêm # điểm (điểm %)",
+  "en": "Additional I when credit growth rises # pts (percentage points)"
+ },
+ {
+  "vi": "I tăng trong quý III",
+  "en": "I growth in Q3"
+ },
+ {
+  "vi": "I: ghi vào tồn kho của chủ đầu tư",
+  "en": "I: recorded in developer inventory"
+ },
+ {
+  "vi": "I: tích lũy tài sản",
+  "en": "I: capital formation"
+ },
+ {
+  "vi": "I: tạo tài sản mới, nuôi xây dựng, thép, xi măng, việc làm",
+  "en": "I: creates new assets, supports construction, steel, cement and jobs"
+ },
+ {
+  "vi": "IIP (% so cùng kỳ, cột)",
+  "en": "IIP (% year on year, bars)"
+ },
+ {
+  "vi": "IIP quý III",
+  "en": "Q3 IIP"
+ },
+ {
+  "vi": "IIP quý IV",
+  "en": "Q4 IIP"
+ },
+ {
+  "vi": "IIP theo ngành chủ lực",
+  "en": "IIP by key industry"
+ },
+ {
+  "vi": "IIP theo ngành cấp #",
+  "en": "IIP by level-# industry"
+ },
+ {
+  "vi": "IIP theo địa phương",
+  "en": "IIP by province"
+ },
+ {
+  "vi": "IIP tháng # #%; PMI # (từ #); đơn hàng xuất khẩu giảm tháng thứ hai",
+  "en": "IIP month #: #%; PMI # (from #); export orders fell for a second month"
+ },
+ {
+  "vi": "IIP và nhập khẩu đầu vào",
+  "en": "IIP and input imports"
+ },
+ {
+  "vi": "IIP và điện",
+  "en": "IIP and electricity"
+ },
+ {
+  "vi": "IIP, GDP và PMI",
+  "en": "IIP, GDP and PMI"
+ },
+ {
+  "vi": "In 1 trang",
+  "en": "Print 1 page"
+ },
+ {
+  "vi": "In trang A4 tóm tắt hoặc lưu thành PDF một trang",
+  "en": "Print the A4 summary or save it as a one-page PDF"
+ },
+ {
+  "vi": "In trang A4 tóm tắt kịch bản",
+  "en": "Print the A4 scenario summary"
+ },
+ {
+  "vi": "In và PDF 1 trang",
+  "en": "Print & 1-page PDF"
+ },
+ {
+  "vi": "In ảnh 1 trang",
+  "en": "Print one-page image"
+ },
+ {
+  "vi": "Khi I gánh phần lớn tăng trưởng, doanh nghiệp thép, xi măng, xây dựng hạ tầng hưởng trước; khi NX còn âm vì nhập linh kiện, doanh nghiệp nội địa trong chuỗi",
+  "en": "When I carries most of the growth, steel, cement and infrastructure firms benefit first; while NX stays negative due to component imports, domestic firms in the supply chain"
+ },
+ {
+  "vi": "Khoản vay không phải C cũng không phải I; GDP tính theo việc tiền vay được dùng để mua gì.",
+  "en": "A loan is neither C nor I; GDP counts what the borrowed money is used to buy."
+ },
+ {
+  "vi": "Khoảng #",
+  "en": "About #"
+ },
+ {
+  "vi": "Khoảng # tháng nhập khẩu",
+  "en": "About # months of imports"
+ },
+ {
+  "vi": "Khoảng # tỷ USD",
+  "en": "About # billion USD"
+ },
+ {
+  "vi": "Khoảng #%",
+  "en": "About #%"
+ },
+ {
+  "vi": "Khoảng #% kế hoạch",
+  "en": "About #% of plan"
+ },
+ {
+  "vi": "Khoảng hở",
+  "en": "Gap"
+ },
+ {
+  "vi": "Khác",
+  "en": "Other"
+ },
+ {
+  "vi": "Không có Tết, tiêu dùng góp ít hơn",
+  "en": "No Tet holiday, so consumption contributes less"
+ },
+ {
+  "vi": "Không có Tết, tiêu dùng góp ít hơn;",
+  "en": "No Tet holiday, so consumption contributes less;"
+ },
+ {
+  "vi": "Không có Tết, tiêu dùng góp ít hơn; NX vẫn trừ khoảng # điểm.",
+  "en": "No Tet holiday, so consumption contributes less; NX still subtracts about # pts."
+ },
+ {
+  "vi": "Không nền kinh tế nào cùng lúc giữ được tỷ giá ổn định, mở cửa dòng vốn và tự quyết lãi suất. Việt Nam đang giữ tỷ giá và dòng vốn",
+  "en": "No economy can simultaneously keep a stable exchange rate, open capital flows and independent interest rate policy. Vietnam is holding the exchange rate and capital flows"
+ },
+ {
+  "vi": "Không nền kinh tế nào cùng lúc giữ được tỷ giá ổn định, mở cửa dòng vốn và tự quyết lãi suất. Việt Nam đang giữ tỷ giá và dòng vốn FDI, nên phải nhường quyền tự quyết lãi suất.",
+  "en": "No economy can simultaneously keep a stable exchange rate, open capital flows and independent interest rate policy. Vietnam is holding the exchange rate and FDI flows, so it must give up interest rate independence."
+ },
+ {
+  "vi": "Không tạo GDP",
+  "en": "Does not create GDP"
+ },
+ {
+  "vi": "Không tạo GDP: chỉ đổi chủ tài sản; riêng phí môi giới, công chứng được tính",
+  "en": "Does not create GDP: only changes asset ownership; brokerage and notary fees are counted"
+ },
+ {
+  "vi": "Không tạo GDP: giao dịch tài chính",
+  "en": "Does not create GDP: financial transaction"
+ },
+ {
+  "vi": "Không tạo GDP: đất không phải hàng hóa được sản xuất; tiền sử dụng đất là thu ngân sách",
+  "en": "Does not create GDP: land is not a produced good; land use fees are budget revenue"
+ },
+ {
+  "vi": "Không tạo thêm: GDP đã tính lúc xây; tồn kho chủ đầu tư giảm, đầu tư nhà ở của hộ tăng",
+  "en": "Creates nothing new: GDP was counted at construction; developer inventory falls, household housing investment rises"
+ },
+ {
+  "vi": "Khơi thông đầu tư tư nhân",
+  "en": "Unlock private investment"
+ },
+ {
+  "vi": "Khối vốn lớn nhất, và rủi ro nợ xấu tiềm ẩn",
+  "en": "Largest capital pool, with latent bad debt risk"
+ },
+ {
+  "vi": "Kinh tế chậm, giá nhà giảm (#%)",
+  "en": "Slow economy, falling house prices (#%)"
+ },
+ {
+  "vi": "Kinh tế tăng nhanh nhất ba năm, chứng khoán lại giảm",
+  "en": "Economy grows fastest in three years, yet stocks fall"
+ },
+ {
+  "vi": "Kiến tạo giá trị, nâng tầm niềm tin.",
+  "en": "Creating value, building trust."
+ },
+ {
+  "vi": "Kiểm chứng",
+  "en": "Verification"
+ },
+ {
+  "vi": "Kiểm chứng độc lập",
+  "en": "Independent verification"
+ },
+ {
+  "vi": "Kéo một thanh trượt để xem tác động lan qua nền kinh tế theo từng mắt xích.",
+  "en": "Drag a slider to see the impact spread through the economy, link by link."
+ },
+ {
+  "vi": "Kéo thanh để đặt chỉ tiêu, các giả định bên trái tự tính ngược",
+  "en": "Drag the bar to set a target; the inputs on the left are solved backwards"
+ },
+ {
+  "vi": "Kéo thông số",
+  "en": "Adjust inputs"
+ },
+ {
+  "vi": "Kéo xuống",
+  "en": "Scroll down"
+ },
+ {
+  "vi": "Kênh",
+  "en": "Channel"
+ },
+ {
+  "vi": "Kích cầu tiêu dùng",
+  "en": "Boost consumption"
+ },
+ {
+  "vi": "Kế hoạch vốn đầu tư công năm 2026 (nghìn tỷ đồng, ước tính TVN từ 95–100% kế hoạch tương ứng quý IV 388–443 nghìn tỷ)",
+  "en": "2026 public investment plan (trillion VND, TVN estimate from 95–100% of plan implying Q4 disbursement of 388–443 trillion)"
+ },
+ {
+  "vi": "Kết luận",
+  "en": "Conclusion"
+ },
+ {
+  "vi": "Kết luận vĩ mô theo giả định đang chọn",
+  "en": "Macro conclusions for the chosen assumptions"
+ },
+ {
+  "vi": "Kết quả",
+  "en": "Result"
+ },
+ {
+  "vi": "Kịch bản",
+  "en": "Scenario"
+ },
+ {
+  "vi": "Kịch bản cơ sở",
+  "en": "Base case"
+ },
+ {
+  "vi": "Kịch bản cơ sở (chưa chỉnh giả định)",
+  "en": "Base case (assumptions unchanged)"
+ },
+ {
+  "vi": "Kịch bản của anh chị: lưu, so sánh, chia sẻ",
+  "en": "Your scenarios: save, compare, share"
+ },
+ {
+  "vi": "Kịch bản lưu trên máy này.",
+  "en": "Scenarios saved on this device."
+ },
+ {
+  "vi": "Kịch bản mẫu",
+  "en": "Sample scenarios"
+ },
+ {
+  "vi": "Kịch bản tiêu cực",
+  "en": "Negative scenario"
+ },
+ {
+  "vi": "Kịch bản tích cực",
+  "en": "Positive scenario"
+ },
+ {
+  "vi": "Kỳ",
+  "en": "Period"
+ },
+ {
+  "vi": "Kỳ số liệu",
+  "en": "Data period"
+ },
+ {
+  "vi": "Kỳ số liệu và ngưỡng cảnh báo",
+  "en": "Data period and alert thresholds"
+ },
+ {
+  "vi": "Lao động doanh nghiệp chế biến #% so cùng kỳ; việc làm cả nước #%; chỉ số việc làm trong PMI thu hẹp tháng thứ hai",
+  "en": "Manufacturing employment #% year on year; national employment #%; PMI employment index contracting for a second month"
+ },
+ {
+  "vi": "Lao động và thu nhập",
+  "en": "Labor and income"
+ },
+ {
+  "vi": "Linh kiện",
+  "en": "Components"
+ },
+ {
+  "vi": "Linh kiện FDI: nhập # xuất #",
+  "en": "FDI components: imports # exports #"
+ },
+ {
+  "vi": "Linh kiện đi kèm",
+  "en": "Accompanying components"
+ },
+ {
+  "vi": "Linh kiện, máy móc cho FDI và đầu tư",
+  "en": "Components and machinery for FDI and investment"
+ },
+ {
+  "vi": "Loại",
+  "en": "Type"
+ },
+ {
+  "vi": "Làm mới dữ liệu (nạp tệp)",
+  "en": "Refresh data (load file)"
+ },
+ {
+  "vi": "Làm nổi cấu phần C",
+  "en": "Highlight component C"
+ },
+ {
+  "vi": "Làm nổi cấu phần G",
+  "en": "Highlight component G"
+ },
+ {
+  "vi": "Làm nổi cấu phần I",
+  "en": "Highlight component I"
+ },
+ {
+  "vi": "Làm nổi cấu phần NX",
+  "en": "Highlight component NX"
+ },
+ {
+  "vi": "Làm nổi theo cấu phần GDP:",
+  "en": "Highlight by GDP component:"
+ },
+ {
+  "vi": "Lãi danh nghĩa cao (%)",
+  "en": "High nominal rate (%)"
+ },
+ {
+  "vi": "Lãi danh nghĩa thấp (%)",
+  "en": "Low nominal rate (%)"
+ },
+ {
+  "vi": "Lãi suất cho vay",
+  "en": "Lending rate"
+ },
+ {
+  "vi": "Lãi suất cho vay giảm # điểm làm I thay đổi +# điểm và hạ nhiệt giá cả # điểm: tăng trưởng và lạm phát luôn đổi chiều cùng nhau.",
+  "en": "A # pt cut in lending rates changes I by +# pts and cools prices by # pts: growth and inflation always move together."
+ },
+ {
+  "vi": "Lãi suất cho vay thay đổi",
+  "en": "Lending rate change"
+ },
+ {
+  "vi": "Lãi suất cho vay tăng # điểm làm I thay đổi # điểm và hạ nhiệt giá cả # điểm: tăng trưởng và lạm phát luôn đổi chiều cùng nhau.",
+  "en": "A # pt rise in lending rates changes I by # pts and cools prices by # pts: growth and inflation always move together."
+ },
+ {
+  "vi": "Lãi suất cho vay tăng # điểm làm I thay đổi -# điểm và hạ nhiệt giá cả # điểm: tăng trưởng và lạm phát luôn đổi chiều cùng nhau.",
+  "en": "A # pt rise in lending rates changes I by -# pts and cools prices by # pts: growth and inflation always move together."
+ },
+ {
+  "vi": "Lãi suất huy động bình quân",
+  "en": "Average deposit rate"
+ },
+ {
+  "vi": "Lãi suất thực",
+  "en": "Real interest rate"
+ },
+ {
+  "vi": "Lãi suất thực nhìn từ ba phía (%)",
+  "en": "Real interest rates from three sides (%)"
+ },
+ {
+  "vi": "Lãi suất trong nước phải cao để giữ tỷ giá",
+  "en": "Domestic interest rates must stay high to defend the exchange rate"
+ },
+ {
+  "vi": "Lãi suất điều hành",
+  "en": "Policy rate"
+ },
+ {
+  "vi": "Lãi thực cao (điểm)",
+  "en": "High real rate (pts)"
+ },
+ {
+  "vi": "Lãi thực thấp (điểm)",
+  "en": "Low real rate (pts)"
+ },
+ {
+  "vi": "Lãi vay nhà #–#%, nợ xấu tăng nhanh hơn dư nợ",
+  "en": "Mortgage rates #–#%, bad debt rising faster than outstanding loans"
+ },
+ {
+  "vi": "Lãi vay thực dương #–# điểm, vay mua nhà #–#%: hộ đang trả nợ và doanh nghiệp nhỏ chịu sức ép trực tiếp",
+  "en": "Real lending rates positive at #–# pts, mortgage rates #–#%: indebted households and small businesses face direct pressure"
+ },
+ {
+  "vi": "Lãi vay thực dương #–# điểm.",
+  "en": "Real lending rates positive at #–# pts."
+ },
+ {
+  "vi": "Lý do",
+  "en": "Reason"
+ },
+ {
+  "vi": "Lưu kịch bản đang chỉnh",
+  "en": "Save current scenario"
+ },
+ {
+  "vi": "Lương",
+  "en": "Wages"
+ },
+ {
+  "vi": "Lương làm công thực",
+  "en": "Real wages of employees"
+ },
+ {
+  "vi": "Lương thực tế người làm công",
+  "en": "Real wages of employees"
+ },
+ {
+  "vi": "Lương thực, thực phẩm",
+  "en": "Food and foodstuffs"
+ },
+ {
+  "vi": "Lạm phát",
+  "en": "Inflation"
+ },
+ {
+  "vi": "Lạm phát (%)",
+  "en": "Inflation (%)"
+ },
+ {
+  "vi": "Lạm phát dồn vào chi tiêu thiết yếu",
+  "en": "Inflation concentrated in essential spending"
+ },
+ {
+  "vi": "Lạm phát không chia đều (% bình quân # tháng)",
+  "en": "Inflation is not evenly spread (% average, # months)"
+ },
+ {
+  "vi": "Lạm phát theo nhóm",
+  "en": "Inflation by group"
+ },
+ {
+  "vi": "Lạm phát → C",
+  "en": "Inflation to C"
+ },
+ {
+  "vi": "Lịch công bố",
+  "en": "Release calendar"
+ },
+ {
+  "vi": "Lịch công bố sắp tới: lúc nên bấm Làm mới dữ liệu",
+  "en": "Upcoming releases: when to click Refresh data"
+ },
+ {
+  "vi": "Lịch sử XNK",
+  "en": "Trade history"
+ },
+ {
+  "vi": "Lọc hóa dầu",
+  "en": "Refining and petrochemicals"
+ },
+ {
+  "vi": "Lộ trình đọc",
+  "en": "Reading guide"
+ },
+ {
+  "vi": "Lời giải cho nghịch lý",
+  "en": "Resolving the paradox"
+ },
+ {
+  "vi": "Lợi nhuận",
+  "en": "Profits"
+ },
+ {
+  "vi": "Lợi nhuận FDI chuyển ra khoảng #–# tỷ USD mỗi năm, khoảng #–#% GDP",
+  "en": "FDI profit repatriation about #–# billion USD per year, about #–#% of GDP"
+ },
+ {
+  "vi": "Lợi nhuận FDI chuyển ra nước ngoài khoảng #–# tỷ USD mỗi năm.",
+  "en": "FDI profit repatriation runs at about #–# billion USD per year."
+ },
+ {
+  "vi": "Lợi nhuận FDI chuyển ra nước ngoài khoảng #–# tỷ USD mỗi năm. GDP tăng nhanh không có nghĩa thu nhập người Việt tăng tương ứng, và đó là lý do sâu hơn khiến tiêu dùng phải dựa vào vay.",
+  "en": "FDI profit repatriation runs at about #–# billion USD per year. Fast GDP growth does not mean Vietnamese incomes rise in step, and that is the deeper reason consumption has to rely on borrowing."
+ },
+ {
+  "vi": "Ma trận # cặp đối chiếu",
+  "en": "Matrix of # cross-check pairs"
+ },
+ {
+  "vi": "Ma trận đối chiếu",
+  "en": "Cross-check matrix"
+ },
+ {
+  "vi": "Mua nhà cũ, mua đất, chuyển nhượng dự án, mua lại công ty",
+  "en": "Buying existing homes, land, project transfers, company acquisitions"
+ },
+ {
+  "vi": "Mua nhà mới xây",
+  "en": "Buying newly built homes"
+ },
+ {
+  "vi": "Muốn quý IV tăng #%, I phải lấp bao nhiêu (điểm %)",
+  "en": "For Q4 growth of #%, how much must I fill (percentage points)"
+ },
+ {
+  "vi": "Muốn quý IV đạt #%,",
+  "en": "For Q4 to reach #%,"
+ },
+ {
+  "vi": "Muốn quý IV đạt #%, tích lũy tài sản (I) phải tăng khoảng #%, cao hơn quý III # điểm. Kịch bản có xác suất cao nhất là cơ sở (#%): GDP quý IV #–#%, cả năm #–#%.",
+  "en": "For Q4 to reach #%, capital formation (I) must grow about #%, # pts above Q3. The most likely scenario is the base case (#%): Q4 GDP #–#%, full year #–#%."
+ },
+ {
+  "vi": "Mã",
+  "en": "Ticker"
+ },
+ {
+  "vi": "Mã QR nhóm Zalo TVN",
+  "en": "TVN Zalo group QR code"
+ },
+ {
+  "vi": "Mã sẽ hiện ở đây",
+  "en": "Code will appear here"
+ },
+ {
+  "vi": "Mô hình - hệ số",
+  "en": "Model - coefficients"
+ },
+ {
+  "vi": "Mô hình - kịch bản mẫu",
+  "en": "Model - sample scenarios"
+ },
+ {
+  "vi": "Mô hình - tham số",
+  "en": "Model - parameters"
+ },
+ {
+  "vi": "Mô hình tự dự báo",
+  "en": "Model forecast"
+ },
+ {
+  "vi": "Mô hình đơn giản do TVN dựng để thử tác động, hiệu chỉnh khớp ba kịch bản trong báo cáo; không thay cho dự báo chính thức. Quyền số theo cơ cấu GDP thực # tháng #.",
+  "en": "A simple model built by TVN to test impacts, calibrated to the three scenarios in the report; not a substitute for official forecasts. Weights follow the real GDP structure for # months of #."
+ },
+ {
+  "vi": "Mọi yếu tố đều đi vào nền kinh tế qua một cấu phần GDP",
+  "en": "Every factor enters the economy through a GDP component"
+ },
+ {
+  "vi": "Mốc tới: Fed họp chính sách (FOMC) (#/#, còn # ngày)",
+  "en": "Next milestone: Fed policy meeting (FOMC) (#/#, # days away)"
+ },
+ {
+  "vi": "Mỗi câu dưới đây được viết lại từ số liệu mỗi khi dữ liệu thay đổi, không gõ tay.",
+  "en": "Each sentence below is regenerated from the data whenever it changes, not typed by hand."
+ },
+ {
+  "vi": "Mỗi thanh trượt là một giả định cho quý IV/#. Công cụ tính lại tức thì",
+  "en": "Each slider is an assumption for Q4/#. The tool instantly recalculates"
+ },
+ {
+  "vi": "Mỗi thanh trượt là một giả định cho quý IV/#. Công cụ tính lại tức thì GDP quý IV, GDP cả năm, CPI quý IV và CPI bình quân cả năm theo đúng công thức GDP = C + G + I + NX, kể cả các vòng tác động qua lại: giá dầu đẩy CPI lên, CPI lấy bớt sức mua, sức mua yếu kéo GDP xuống.",
+  "en": "Each slider is an assumption for Q4/#. The tool instantly recalculates Q4 GDP, full-year GDP, Q4 CPI and full-year average CPI using the formula GDP = C + G + I + NX, including feedback loops: oil prices push CPI up, CPI erodes purchasing power, and weaker purchasing power drags GDP down."
+ },
+ {
+  "vi": "Mỗi đèn so số liệu mới nhất với ngưỡng TVN đặt sẵn. Bấm Làm mới dữ liệu sau mỗi kỳ công bố: đèn, nhận định và mọi biểu đồ tự tính lại.",
+  "en": "Each light compares the latest data with preset TVN thresholds. Click Refresh data after each release: lights, assessments and all charts recalculate automatically."
+ },
+ {
+  "vi": "Mỗi đồng",
+  "en": "Each VND"
+ },
+ {
+  "vi": "Mỗi đồng GDP tăng thêm cần khoảng # đồng tín dụng. Lời giải nằm ở chỗ tiền vay đi đâu: vào I, vào C, hay chỉ đổi chủ tài sản.",
+  "en": "Each additional VND of GDP requires about # VND of credit. The answer lies in where the borrowed money goes: into I, into C, or merely into changing asset ownership."
+ },
+ {
+  "vi": "Một lô điện thoại xuất khẩu giá # đồng (số minh họa).",
+  "en": "A batch of exported phones worth # VND (illustrative figure)."
+ },
+ {
+  "vi": "Một phần GDP là hàng làm ra chưa bán được",
+  "en": "Part of GDP is goods produced but not yet sold"
+ },
+ {
+  "vi": "Một trang A4 dạng ảnh: kết quả, việc phải làm, kết luận, giả định đã đổi",
+  "en": "One A4 page as an image: results, tasks, conclusions, changed assumptions"
+ },
+ {
+  "vi": "Một trang A4: bốn con số, đèn cảnh báo và tám nhận định, để in hoặc gửi Zalo",
+  "en": "One A4 page: four key numbers, warning lights and eight insights, to print or send on Zalo"
+ },
+ {
+  "vi": "Một trang đèn cảnh báo và nhận định, gửi nhanh qua Zalo",
+  "en": "One page of alert lights and assessments, quick to share via Zalo"
+ },
+ {
+  "vi": "Mới",
+  "en": "New"
+ },
+ {
+  "vi": "Mới nhất",
+  "en": "Latest"
+ },
+ {
+  "vi": "Mở hộp thoại in với trang A4 tóm tắt",
+  "en": "Opens the print dialog with the A4 summary page"
+ },
+ {
+  "vi": "Mở kịch bản",
+  "en": "Open scenario"
+ },
+ {
+  "vi": "Mở thẻ",
+  "en": "Open card"
+ },
+ {
+  "vi": "Mục tiêu #%",
+  "en": "Target #%"
+ },
+ {
+  "vi": "Mục tiêu GDP cả năm (%)",
+  "en": "Full-year GDP target (%)"
+ },
+ {
+  "vi": "Mục tiêu khoảng #%",
+  "en": "Target about #%"
+ },
+ {
+  "vi": "Mục tiêu lạm phát (%)",
+  "en": "Inflation target (%)"
+ },
+ {
+  "vi": "Mức chung",
+  "en": "Headline"
+ },
+ {
+  "vi": "NHẬN ĐỊNH TỰ TÍNH TỪ SỐ LIỆU",
+  "en": "ASSESSMENTS COMPUTED FROM DATA"
+ },
+ {
+  "vi": "NX (điểm)",
+  "en": "NX (pts)"
+ },
+ {
+  "vi": "NX kéo lùi # tháng",
+  "en": "NX drag over # months"
+ },
+ {
+  "vi": "NX kéo lùi # điểm tăng trưởng quý III.",
+  "en": "NX subtracted # pts from Q3 growth."
+ },
+ {
+  "vi": "NX: xuất khẩu ròng",
+  "en": "NX: net exports"
+ },
+ {
+  "vi": "Nghiên cứu kinh tế vĩ mô",
+  "en": "Macroeconomic research"
+ },
+ {
+  "vi": "Ngoại thương, FDI, thị trường",
+  "en": "Trade, FDI, markets"
+ },
+ {
+  "vi": "Nguồn: Cục Thống kê, Cục Hải quan, Ngân hàng Nhà nước, Bộ Tài chính, S&P Global, IMF; phân tích và dự báo của TVN. Thông tin tham khảo, không phải lời mời mua bán chứng khoán.",
+  "en": "Source: Statistics Office, Customs, State Bank of Vietnam, Ministry of Finance, S&P Global, IMF; analysis and forecasts by TVN. For reference only, not an offer to buy or sell securities."
+ },
+ {
+  "vi": "Ngành",
+  "en": "Sector"
+ },
+ {
+  "vi": "Ngành nhạy lãi suất, tỷ giá",
+  "en": "Interest rate and FX sensitive sectors"
+ },
+ {
+  "vi": "Ngành theo dõi",
+  "en": "Sectors to watch"
+ },
+ {
+  "vi": "Ngành đi cùng cấu phần đang tăng có lợi thế; ngành dựa vào cấu phần đang yếu chịu sức ép.",
+  "en": "Sectors aligned with rising components have an edge; sectors relying on weak components face pressure."
+ },
+ {
+  "vi": "Ngày #/#: # USD",
+  "en": "On #/#: # USD"
+ },
+ {
+  "vi": "Ngân hàng",
+  "en": "Banks"
+ },
+ {
+  "vi": "Ngôn ngữ",
+  "en": "Language"
+ },
+ {
+  "vi": "Người dân",
+  "en": "Households"
+ },
+ {
+  "vi": "Người gửi tiền (lãi huy động thực nhận)",
+  "en": "Depositors (real deposit rate received)"
+ },
+ {
+  "vi": "Người vay",
+  "en": "Borrowers"
+ },
+ {
+  "vi": "Người đi vay (lãi cho vay)",
+  "en": "Borrowers (lending rate)"
+ },
+ {
+  "vi": "Ngưỡng #",
+  "en": "Threshold #"
+ },
+ {
+  "vi": "Ngưỡng cảnh báo",
+  "en": "Alert threshold"
+ },
+ {
+  "vi": "Ngưỡng vàng",
+  "en": "Amber threshold"
+ },
+ {
+  "vi": "Ngưỡng đỏ",
+  "en": "Red threshold"
+ },
+ {
+  "vi": "Nhà xây xong chưa bán, hoặc đang xây để bán",
+  "en": "Completed homes unsold, or under construction for sale"
+ },
+ {
+  "vi": "Nhóm",
+  "en": "Group"
+ },
+ {
+  "vi": "Nhóm Zalo TVN",
+  "en": "TVN Zalo group"
+ },
+ {
+  "vi": "Nhóm chiếm khoảng #/# rổ CPI",
+  "en": "Group accounts for about #/# of the CPI basket"
+ },
+ {
+  "vi": "Nhận định",
+  "en": "Assessment"
+ },
+ {
+  "vi": "Nhập khẩu",
+  "en": "Imports"
+ },
+ {
+  "vi": "Nhập khẩu #",
+  "en": "Imports #"
+ },
+ {
+  "vi": "Nhập khẩu (tỷ USD)",
+  "en": "Imports (billion USD)"
+ },
+ {
+  "vi": "Nhập khẩu cả năm (tỷ USD)",
+  "en": "Full-year imports (billion USD)"
+ },
+ {
+  "vi": "Nhập khẩu hàng hóa và dịch vụ",
+  "en": "Imports of goods and services"
+ },
+ {
+  "vi": "Nhập khẩu quý IV (tỷ USD)",
+  "en": "Q4 imports (billion USD)"
+ },
+ {
+  "vi": "Nhập khẩu thay đổi khi tỷ giá tăng thêm #% (điểm %)",
+  "en": "Change in imports when the exchange rate rises a further #% (percentage points)"
+ },
+ {
+  "vi": "Nhập khẩu tăng thêm khi FDI giải ngân tăng thêm # điểm (điểm %)",
+  "en": "Additional imports when FDI disbursement rises # pts (percentage points)"
+ },
+ {
+  "vi": "Nhập khẩu tăng thêm khi I tăng thêm # điểm (máy móc, vật tư) (điểm %)",
+  "en": "Additional imports when I rises # pts (machinery, materials) (percentage points)"
+ },
+ {
+  "vi": "Nhập khẩu tăng ở kịch bản cơ sở (%)",
+  "en": "Import growth in the base case (%)"
+ },
+ {
+  "vi": "Nhập khẩu đi kèm mỗi # đồng xuất khẩu thêm",
+  "en": "Imports accompanying each additional # VND of exports"
+ },
+ {
+  "vi": "Nhập linh kiện",
+  "en": "Component imports"
+ },
+ {
+  "vi": "Nhập linh kiện hôm nay, xuất thành phẩm ngày mai",
+  "en": "Components imported today, finished goods exported tomorrow"
+ },
+ {
+  "vi": "Nhập linh kiện điện tử # tỷ USD, #%",
+  "en": "Electronic component imports # billion USD, #%"
+ },
+ {
+  "vi": "Nhập máy móc",
+  "en": "Machinery imports"
+ },
+ {
+  "vi": "Nhập siêu",
+  "en": "Trade deficit"
+ },
+ {
+  "vi": "Nhập siêu #",
+  "en": "Trade deficit #"
+ },
+ {
+  "vi": "Nhập siêu #–#",
+  "en": "Trade deficit #–#"
+ },
+ {
+  "vi": "Nhịp sản xuất",
+  "en": "Production pace"
+ },
+ {
+  "vi": "Nhịp tăng",
+  "en": "Growth pace"
+ },
+ {
+  "vi": "Nông, lâm nghiệp và thủy sản",
+  "en": "Agriculture, forestry and fisheries"
+ },
+ {
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture, forestry, fisheries"
+ },
+ {
+  "vi": "Năm #",
+  "en": "Year #"
+ },
+ {
+  "vi": "Nền #% của kịch bản cơ sở, cộng hoặc trừ phần thay đổi của từng yếu tố.",
+  "en": "Base of #% from the base case, plus or minus the change from each factor."
+ },
+ {
+  "vi": "Nền cơ sở",
+  "en": "Baseline"
+ },
+ {
+  "vi": "Nền quý IV không có Tết; quý III là #%",
+  "en": "Q4 base has no Tet holiday; Q3 was #%"
+ },
+ {
+  "vi": "Nền sáng",
+  "en": "Light theme"
+ },
+ {
+  "vi": "Nền tối",
+  "en": "Dark theme"
+ },
+ {
+  "vi": "Nội dung",
+  "en": "Content"
+ },
+ {
+  "vi": "Nội thất, đồ điện cho nhà mới; dịch vụ nhà ở (thuê, hoặc tiền thuê quy đổi khi ở nhà mình)",
+  "en": "Furniture and appliances for new homes; housing services (rent, or imputed rent for owner-occupiers)"
+ },
+ {
+  "vi": "Nợ xấu",
+  "en": "Bad debt"
+ },
+ {
+  "vi": "Nợ xấu (nghìn tỷ)",
+  "en": "Bad debt (trillion VND)"
+ },
+ {
+  "vi": "Nợ xấu bất động sản tăng #%,",
+  "en": "Real estate bad debt up #%,"
+ },
+ {
+  "vi": "Nợ xấu bất động sản tăng #%, dư nợ bất động sản #%.",
+  "en": "Real estate bad debt up #%, real estate lending up #%."
+ },
+ {
+  "vi": "PDF 1 trang",
+  "en": "One-page PDF"
+ },
+ {
+  "vi": "PDF kịch bản",
+  "en": "Scenario PDF"
+ },
+ {
+  "vi": "PDF nhiều trang: bốn kết quả, chỉ tiêu vừa kéo và việc phải làm, kết luận vĩ mô, giả định, GDP và CPI được tạo từ đâu, đặt mục tiêu",
+  "en": "Multi-page PDF: the four results, the target you dragged and what must be done, macro conclusions, assumptions, where GDP and CPI come from, target setting"
+ },
+ {
+  "vi": "PMI (đường)",
+  "en": "PMI (line)"
+ },
+ {
+  "vi": "PMI T# # (tháng trước #): còn mở rộng nhưng hạ tốc.",
+  "en": "PMI month #: # (previous #), still expanding but slowing."
+ },
+ {
+  "vi": "PMI T# # (tháng trước #): vẫn trên # nhưng hạ tốc, trong khi",
+  "en": "PMI month #: # (previous #), still above # but slowing, while"
+ },
+ {
+  "vi": "PMI T# # (tháng trước #): vẫn trên # nhưng hạ tốc, trong khi IIP tăng #%, nhanh hơn tháng trước: độ lớn cao nhưng độ rộng hẹp, hai chỉ số đang phân kỳ.",
+  "en": "PMI month #: # (previous #), still above # but slowing, while IIP rose #%, faster than the previous month: high magnitude but narrow breadth, the two indicators are diverging."
+ },
+ {
+  "vi": "PMI bình quân quý IV",
+  "en": "Q4 average PMI"
+ },
+ {
+  "vi": "PMI trên # là mở rộng. Tháng # PMI hạ tốc nhưng vẫn trên #, trong khi",
+  "en": "PMI above # means expansion. In month # PMI slowed but stayed above #, while"
+ },
+ {
+  "vi": "PMI trên # là mở rộng. Tháng # PMI hạ tốc nhưng vẫn trên #, trong khi IIP tăng #%, mạnh hơn tháng trước: độ lớn cao, độ rộng hẹp.",
+  "en": "PMI above # means expansion. In month # PMI slowed but stayed above #, while IIP rose #%, stronger than the previous month: high magnitude, narrow breadth."
+ },
+ {
+  "vi": "PMI và IIP",
+  "en": "PMI and IIP"
+ },
+ {
+  "vi": "PMI và sản xuất công nghiệp: tháng # phân kỳ",
+  "en": "PMI and industrial production: diverging in month #"
+ },
+ {
+  "vi": "Phân kỳ",
+  "en": "Diverges"
+ },
+ {
+  "vi": "Phân kỳ #",
+  "en": "Diverges #"
+ },
+ {
+  "vi": "Phân kỳ giữa",
+  "en": "Divergence between"
+ },
+ {
+  "vi": "Phép thử nợ xấu",
+  "en": "Bad debt stress test"
+ },
+ {
+  "vi": "Phép thử nợ xấu bất động sản (nghìn tỷ đồng)",
+  "en": "Real estate bad debt stress test (trillion VND)"
+ },
+ {
+  "vi": "Phía",
+  "en": "Side"
+ },
+ {
+  "vi": "Phía sản xuất",
+  "en": "Production side"
+ },
+ {
+  "vi": "Phần GDP đó chia ra",
+  "en": "That share of GDP breaks down into"
+ },
+ {
+  "vi": "Phần I góp cao hơn bình quân # tháng (",
+  "en": "I contribution above the #-month average ("
+ },
+ {
+  "vi": "Phần giá do Nhà nước điều chỉnh",
+  "en": "State-administered prices"
+ },
+ {
+  "vi": "Phần lớn lao động nằm ngoài khu vực được hưởng",
+  "en": "Most workers are outside the benefiting sectors"
+ },
+ {
+  "vi": "Quyền số nhập khẩu (M)",
+  "en": "Import weight (M)"
+ },
+ {
+  "vi": "Quyền số tiêu dùng cuối cùng (C + G)",
+  "en": "Final consumption weight (C + G)"
+ },
+ {
+  "vi": "Quyền số tích lũy tài sản (I)",
+  "en": "Capital formation weight (I)"
+ },
+ {
+  "vi": "Quyền số xuất khẩu (X)",
+  "en": "Export weight (X)"
+ },
+ {
+  "vi": "Quý I/#",
+  "en": "Q1/#"
+ },
+ {
+  "vi": "Quý II/#",
+  "en": "Q2/#"
+ },
+ {
+  "vi": "Quý III",
+  "en": "Q3"
+ },
+ {
+  "vi": "Quý III Cục Thống kê chỉ công bố gộp C và G",
+  "en": "For Q3 the Statistics Office only published C and G combined"
+ },
+ {
+  "vi": "Quý III GDP tăng #%: tiêu dùng cuối cùng (C + G) góp # điểm, đầu tư (I) góp # điểm, xuất khẩu ròng kéo lùi # điểm. Phần I góp cao hơn bình quân # tháng (# điểm): tăng trưởng đang dựa nhiều hơn vào đầu tư, gồm cả hàng làm ra còn nằm trong kho.",
+  "en": "Q3 GDP grew #%: final consumption (C + G) contributed # pts, investment (I) # pts, and net exports subtracted # pts. The I contribution was above the #-month average (# pts): growth is relying more on investment, including goods produced but still held in inventory."
+ },
+ {
+  "vi": "Quý III tăng #%",
+  "en": "Q3 up #%"
+ },
+ {
+  "vi": "Quý III/# · số liệu đến #/#/#",
+  "en": "Q3/# · data as of #/#/#"
+ },
+ {
+  "vi": "Quý III: #%",
+  "en": "Q3: #%"
+ },
+ {
+  "vi": "Quý III: #; tháng #: #",
+  "en": "Q3: #; month #: #"
+ },
+ {
+  "vi": "Quý III: khoảng #%",
+  "en": "Q3: about #%"
+ },
+ {
+  "vi": "Quý IV",
+  "en": "Q4"
+ },
+ {
+  "vi": "Quý IV cần bao nhiêu bánh, và cả năm sẽ ra sao",
+  "en": "How big a slice Q4 needs, and how the full year turns out"
+ },
+ {
+  "vi": "Quý IV cần gì",
+  "en": "What Q4 needs"
+ },
+ {
+  "vi": "Quý IV/#",
+  "en": "Q4/#"
+ },
+ {
+  "vi": "Quý gần nhất (%)",
+  "en": "Latest quarter (%)"
+ },
+ {
+  "vi": "Sao chép",
+  "en": "Copy"
+ },
+ {
+  "vi": "Siết chi bộ máy",
+  "en": "Leaner administrative spending"
+ },
+ {
+  "vi": "So cuối năm #",
+  "en": "vs end-#"
+ },
+ {
+  "vi": "So cùng kỳ",
+  "en": "Year on year"
+ },
+ {
+  "vi": "So với mặt bằng hiện tại",
+  "en": "Compared with current levels"
+ },
+ {
+  "vi": "Sáng",
+  "en": "Light"
+ },
+ {
+  "vi": "Sáu lý do",
+  "en": "Six reasons"
+ },
+ {
+  "vi": "Sáu lý do, mỗi lý do gắn với một cấu phần",
+  "en": "Six reasons, each tied to a component"
+ },
+ {
+  "vi": "Sản lượng và lao động",
+  "en": "Output and labor"
+ },
+ {
+  "vi": "Sản xuất",
+  "en": "Production"
+ },
+ {
+  "vi": "Sản xuất tháng # tăng #% nhưng lao động công nghiệp chỉ tăng #%; việc làm cả nước #%",
+  "en": "Production in month # rose #% but industrial employment rose only #%; national employment #%"
+ },
+ {
+  "vi": "Sắc thái",
+  "en": "Theme"
+ },
+ {
+  "vi": "Số # Lô X Đường #, KĐC Tân Quy Đông, KP #, Phường Tân Hưng, TP HCM",
+  "en": "No. #, Lot X, Street #, Tan Quy Dong Residential Area, Quarter #, Tan Hung Ward, Ho Chi Minh City"
+ },
+ {
+  "vi": "Số liệu",
+  "en": "Data"
+ },
+ {
+  "vi": "Số liệu chưa tải xong, anh chị thử lại sau vài giây.",
+  "en": "Data has not finished loading, please try again in a few seconds."
+ },
+ {
+  "vi": "Số liệu đến",
+  "en": "Data as of"
+ },
+ {
+  "vi": "Sổ tay thuật ngữ",
+  "en": "Glossary"
+ },
+ {
+  "vi": "Sức mua (C + G)",
+  "en": "Purchasing power (C + G)"
+ },
+ {
+  "vi": "Sức mua bền vững",
+  "en": "Sustainable purchasing power"
+ },
+ {
+  "vi": "Sửa chữa lớn, cải tạo làm tăng giá trị nhà",
+  "en": "Major repairs and renovations that add value to homes"
+ },
+ {
+  "vi": "T# # (tháng trước #): còn mở rộng nhưng hạ tốc.",
+  "en": "Month #: # (previous #), still expanding but slowing."
+ },
+ {
+  "vi": "T1",
+  "en": "Jan"
+ },
+ {
+  "vi": "T10",
+  "en": "Oct"
+ },
+ {
+  "vi": "T11",
+  "en": "Nov"
+ },
+ {
+  "vi": "T12",
+  "en": "Dec"
+ },
+ {
+  "vi": "T2",
+  "en": "Feb"
+ },
+ {
+  "vi": "T3",
+  "en": "Mar"
+ },
+ {
+  "vi": "T4",
+  "en": "Apr"
+ },
+ {
+  "vi": "T5",
+  "en": "May"
+ },
+ {
+  "vi": "T6",
+  "en": "Jun"
+ },
+ {
+  "vi": "T7",
+  "en": "Jul"
+ },
+ {
+  "vi": "T8",
+  "en": "Aug"
+ },
+ {
+  "vi": "T9",
+  "en": "Sep"
+ },
+ {
+  "vi": "TVN & PARTNERS · Kiến tạo giá trị, nâng tầm niềm tin. · Hotline # # # · # # # · tvnpartners.com.vn · vu.ntn@tvnpartners.com.vn",
+  "en": "TVN & PARTNERS · Creating value, building trust. · Hotline # # # · # # # · tvnpartners.com.vn · vu.ntn@tvnpartners.com.vn"
+ },
+ {
+  "vi": "TVN & Partners · Vĩ mô Việt Nam",
+  "en": "TVN & Partners · Vietnam Macro"
+ },
+ {
+  "vi": "Tham số",
+  "en": "Parameters"
+ },
+ {
+  "vi": "Thanh mờ là lãi suất danh nghĩa, thanh đậm là lãi suất thực sau khi trừ",
+  "en": "Faded bars show nominal rates, solid bars show real rates after deducting"
+ },
+ {
+  "vi": "Thanh mờ là lãi suất danh nghĩa, thanh đậm là lãi suất thực sau khi trừ lạm phát khoảng #%.",
+  "en": "Faded bars show nominal rates, solid bars show real rates after deducting inflation of about #%."
+ },
+ {
+  "vi": "Theo dõi",
+  "en": "Monitor"
+ },
+ {
+  "vi": "Theo giá so sánh,",
+  "en": "At constant prices,"
+ },
+ {
+  "vi": "Theo giá so sánh, so cùng kỳ.",
+  "en": "At constant prices, year on year."
+ },
+ {
+  "vi": "Theo giả định",
+  "en": "Assumption-based"
+ },
+ {
+  "vi": "Theo máy",
+  "en": "System"
+ },
+ {
+  "vi": "Thu nhập chậm, lãi suất cao (#%)",
+  "en": "Slow income growth, high interest rates (#%)"
+ },
+ {
+  "vi": "Thu nhập thực",
+  "en": "Real income"
+ },
+ {
+  "vi": "Thu nhập thực quý III",
+  "en": "Q3 real income"
+ },
+ {
+  "vi": "Thu nhập thực → C",
+  "en": "Real income to C"
+ },
+ {
+  "vi": "Thu nội địa # nghìn tỷ, #% dự toán; thu ngân sách #% [CT]",
+  "en": "Domestic revenue # trillion VND, #% of budget estimate; budget revenue #% [CT]"
+ },
+ {
+  "vi": "Thuế",
+  "en": "Tax"
+ },
+ {
+  "vi": "Thuế Mỹ #%",
+  "en": "US tariff #%"
+ },
+ {
+  "vi": "Thuế Mỹ #% → NX",
+  "en": "US tariff #% to NX"
+ },
+ {
+  "vi": "Thuế không làm GDP thực tăng; nhưng chuyển hộ kinh doanh sang tự kê khai làm tăng chi phí tuân thủ.",
+  "en": "Taxes do not raise real GDP; but moving household businesses to self-declaration raises compliance costs."
+ },
+ {
+  "vi": "Tháng",
+  "en": "Month"
+ },
+ {
+  "vi": "Tháng # xuất siêu # tỷ USD; # tháng nhập siêu # tỷ USD",
+  "en": "Month #: trade surplus of # billion USD; # months: trade deficit of # billion USD"
+ },
+ {
+  "vi": "Tháng #: #%",
+  "en": "Month #: #%"
+ },
+ {
+  "vi": "Tháng #: tồn kho #%, tiêu thụ #% so tháng trước; tồn kho #% so cùng kỳ",
+  "en": "Month #: inventory #%, consumption #% month on month; inventory #% year on year"
+ },
+ {
+  "vi": "Thép, vật liệu xây dựng",
+  "en": "Steel, construction materials"
+ },
+ {
+  "vi": "Thương mại, vận tải, viễn thông",
+  "en": "Trade, transport, telecommunications"
+ },
+ {
+  "vi": "Thấp hơn cùng kỳ gần # điểm: siết chi bộ máy, dồn tiền sang đầu tư",
+  "en": "Nearly # pts below a year earlier: leaner administrative spending, funds shifted to investment"
+ },
+ {
+  "vi": "Thấp nhất",
+  "en": "Lowest"
+ },
+ {
+  "vi": "Thận trọng",
+  "en": "Cautious"
+ },
+ {
+  "vi": "Thị trường",
+  "en": "Market"
+ },
+ {
+  "vi": "Thị trường không sai: nó đang định giá chất lượng tăng trưởng và điều kiện tài chính, không chỉ tốc độ. Quý III tiêu dùng (",
+  "en": "The market is not wrong: it is pricing the quality of growth and financial conditions, not just the pace. In Q3, consumption ("
+ },
+ {
+  "vi": "Thị trường không sai: nó đang định giá chất lượng tăng trưởng và điều kiện tài chính, không chỉ tốc độ. Quý III tiêu dùng (C + G) góp # điểm và đầu tư (I) góp # điểm, phần đầu tư cao hơn bình quân # tháng, trong khi xuất khẩu ròng trừ # điểm. Thu nhập thực của người dân chỉ tăng #% và lãi vay thực còn dương #–# điểm.",
+  "en": "The market is not wrong: it is pricing the quality of growth and financial conditions, not just the pace. In Q3, consumption (C + G) contributed # pts and investment (I) # pts, with the investment share above the #-month average, while net exports subtracted # pts. Real household income rose only #% and real lending rates remain positive at #–# pts."
+ },
+ {
+  "vi": "Thứ tự",
+  "en": "Order"
+ },
+ {
+  "vi": "Thực # điểm",
+  "en": "Real # pts"
+ },
+ {
+  "vi": "Thực #–# điểm",
+  "en": "Real #–# pts"
+ },
+ {
+  "vi": "Thực nhận #–#% [BC]",
+  "en": "Take-home #–#% [BC]"
+ },
+ {
+  "vi": "Thực tế",
+  "en": "Actual"
+ },
+ {
+  "vi": "Thực tế gần nhất để đối chiếu.",
+  "en": "Latest actual for comparison."
+ },
+ {
+  "vi": "Tiêu cực",
+  "en": "Negative"
+ },
+ {
+  "vi": "Tiêu dùng",
+  "en": "Consumption"
+ },
+ {
+  "vi": "Tiêu dùng C + G",
+  "en": "Consumption C + G"
+ },
+ {
+  "vi": "Tiêu dùng Nhà nước",
+  "en": "Government consumption"
+ },
+ {
+  "vi": "Tiêu dùng cuối cùng",
+  "en": "Final consumption"
+ },
+ {
+  "vi": "Tiêu dùng cuối cùng (C + G)",
+  "en": "Final consumption (C + G)"
+ },
+ {
+  "vi": "Tiêu dùng cuối cùng (C + G) tăng, trước tác động giá",
+  "en": "Final consumption (C + G) growth, before price effects"
+ },
+ {
+  "vi": "Tiêu dùng của các gia đình và đầu tư là hai động cơ. Xuất khẩu tăng mạnh nhưng",
+  "en": "Household consumption and investment are the two engines. Exports grew strongly but"
+ },
+ {
+  "vi": "Tiêu dùng của các gia đình và đầu tư là hai động cơ. Xuất khẩu tăng mạnh nhưng xuất khẩu ròng vẫn kéo lùi, vì linh kiện nhập về tăng còn nhanh hơn: nhập #, xuất #.",
+  "en": "Household consumption and investment are the two engines. Exports grew strongly but net exports still dragged, because imported components rose even faster: imports #, exports #."
+ },
+ {
+  "vi": "Tiêu dùng góp",
+  "en": "Consumption contributed"
+ },
+ {
+  "vi": "Tiêu dùng hộ # tháng",
+  "en": "Household consumption # months"
+ },
+ {
+  "vi": "Tiêu dùng hộ gia đình",
+  "en": "Household consumption"
+ },
+ {
+  "vi": "Tiêu dùng tăng gần bằng",
+  "en": "Consumption grew almost as fast as"
+ },
+ {
+  "vi": "Tiêu dùng tăng gần bằng GDP, nhưng thu nhập, lương và việc làm tăng chậm hơn nhiều: phần chênh dựa vào vay nợ và giá tài sản.",
+  "en": "Consumption grew almost as fast as GDP, but income, wages and employment grew much more slowly: the gap is funded by borrowing and asset prices."
+ },
+ {
+  "vi": "Tiêu thụ và tồn kho chế biến",
+  "en": "Manufacturing sales and inventories"
+ },
+ {
+  "vi": "Tiền vay bất động sản tính vào GDP thế nào",
+  "en": "How real estate loans count toward GDP"
+ },
+ {
+  "vi": "Tiền vay dùng để",
+  "en": "Loans used for"
+ },
+ {
+  "vi": "Tiền đắt",
+  "en": "Expensive money"
+ },
+ {
+  "vi": "Toàn bộ số liệu, đèn, nhận định, kịch bản tự dự báo có công thức",
+  "en": "All data, warning lights, assessments and the self-forecast scenario, with formulas"
+ },
+ {
+  "vi": "Toàn nền kinh tế",
+  "en": "Whole economy"
+ },
+ {
+  "vi": "Trang A4 tóm tắt dưới dạng PDF để đính kèm",
+  "en": "The A4 summary page as a PDF to attach"
+ },
+ {
+  "vi": "Trang A4 tóm tắt kịch bản dưới dạng PDF một trang",
+  "en": "The A4 scenario summary as a one-page PDF"
+ },
+ {
+  "vi": "Trang tính",
+  "en": "Worksheet"
+ },
+ {
+  "vi": "Trong # cặp đối chiếu, # cặp ủng hộ, # cặp cảnh báo và # cặp phân kỳ. Nhóm khớp tốt nhất là cầu, dịch vụ và giá (#/# cặp ủng hộ); chỗ cần theo dõi nằm ở nhóm lao động và thu nhập. Tốc độ được xác nhận ở phía sản xuất, câu hỏi còn lại là chất lượng.",
+  "en": "Of # cross-check pairs, # support, # warn and # diverge. The best-matched group is demand, services and prices (#/# pairs supporting); the area to watch is labor and income. The pace is confirmed on the production side; the remaining question is quality."
+ },
+ {
+  "vi": "Trái phiếu bất động sản đáo hạn",
+  "en": "Real estate bonds maturing"
+ },
+ {
+  "vi": "Trạng thái",
+  "en": "Status"
+ },
+ {
+  "vi": "Trả nợ trái phiếu, đảo nợ, trả lãi vay",
+  "en": "Bond repayment, debt rollover, interest payments"
+ },
+ {
+  "vi": "Trừ linh kiện nhập khẩu: phần làm ra ở Việt Nam (GDP)",
+  "en": "Less imported components: value made in Vietnam (GDP)"
+ },
+ {
+  "vi": "Tài khóa",
+  "en": "Fiscal"
+ },
+ {
+  "vi": "Tài khóa → G",
+  "en": "Fiscal to G"
+ },
+ {
+  "vi": "Tài khóa → I",
+  "en": "Fiscal to I"
+ },
+ {
+  "vi": "Tìm mức I cần để quý IV đạt #%",
+  "en": "Find the I needed for Q4 to reach #%"
+ },
+ {
+  "vi": "Tích cực",
+  "en": "Positive"
+ },
+ {
+  "vi": "Tích lũy tài sản",
+  "en": "Capital formation"
+ },
+ {
+  "vi": "Tích lũy tài sản #% trong khi tồn kho tăng; tổng đóng góp C + G + I + NX thấp hơn GDP khoảng # điểm (# tháng, TVN ước, đã dùng số chính thức của C và G)",
+  "en": "Capital formation #% while inventories rose; the combined C + G + I + NX contribution is about # pts below GDP (# months, TVN estimate, using official C and G figures)"
+ },
+ {
+  "vi": "Tích lũy tài sản (I)",
+  "en": "Capital formation (I)"
+ },
+ {
+  "vi": "Tích lũy tài sản (I) tăng, phần nền",
+  "en": "Capital formation (I) growth, underlying"
+ },
+ {
+  "vi": "Tích lũy tài sản quý IV (I)",
+  "en": "Q4 capital formation (I)"
+ },
+ {
+  "vi": "Tín dụng",
+  "en": "Credit"
+ },
+ {
+  "vi": "Tín dụng #% so cùng kỳ và GDP danh nghĩa ước #–#% (Tín dụng nhanh hơn GDP danh nghĩa)",
+  "en": "Credit #% year on year and nominal GDP est. #–#% (credit outpacing nominal GDP)"
+ },
+ {
+  "vi": "Tín dụng #% so với",
+  "en": "Credit #% vs"
+ },
+ {
+  "vi": "Tín dụng #% so với GDP danh nghĩa ước #%.",
+  "en": "Credit #% vs estimated nominal GDP of #%."
+ },
+ {
+  "vi": "Tín dụng #% từ đầu năm và #% so cùng kỳ (Ngân hàng Nhà nước); số tín dụng trong báo cáo Cục Thống kê công bố theo kỳ khác",
+  "en": "Credit #% year to date and #% year on year (State Bank of Vietnam); the credit figure in the Statistics Office report is published for a different period"
+ },
+ {
+  "vi": "Tín dụng #% và huy động #% từ đầu năm (Chênh khoảng # điểm)",
+  "en": "Credit #% and deposits #% year to date (gap of about # pts)"
+ },
+ {
+  "vi": "Tín dụng (so cuối năm #)",
+  "en": "Credit (vs end-#)"
+ },
+ {
+  "vi": "Tín dụng bất động sản",
+  "en": "Real estate credit"
+ },
+ {
+  "vi": "Tín dụng công nghệ cao",
+  "en": "High-tech credit"
+ },
+ {
+  "vi": "Tín dụng cả năm (so cùng kỳ)",
+  "en": "Full-year credit (year on year)"
+ },
+ {
+  "vi": "Tín dụng cả năm tăng",
+  "en": "Full-year credit growth"
+ },
+ {
+  "vi": "Tín dụng theo ngành",
+  "en": "Credit by sector"
+ },
+ {
+  "vi": "Tín dụng tăng #%",
+  "en": "Credit up #%"
+ },
+ {
+  "vi": "Tín dụng tăng #% so cùng kỳ, nhanh hơn GDP danh nghĩa ước #% khoảng # điểm; mỗi đồng GDP tăng thêm cần khoảng # đồng tín dụng. Câu hỏi quyết định là tiền vay đi vào nhà máy, vào tiêu dùng hay chỉ đổi chủ tài sản.",
+  "en": "Credit grew #% year on year, about # pts faster than estimated nominal GDP of #%; each VND of additional GDP requires about # VND of credit. The decisive question is whether loans go into factories, into consumption or merely change the ownership of assets."
+ },
+ {
+  "vi": "Tín dụng tăng nhưng chi phí vốn lên, rủi ro nợ xấu bất động sản",
+  "en": "Credit is growing but funding costs are rising, with real estate NPL risk"
+ },
+ {
+  "vi": "Tín dụng và BĐS",
+  "en": "Credit and real estate"
+ },
+ {
+  "vi": "Tín dụng và GDP danh nghĩa",
+  "en": "Credit and nominal GDP"
+ },
+ {
+  "vi": "Tín dụng và huy động",
+  "en": "Credit and deposits"
+ },
+ {
+  "vi": "Tín dụng và tiền tệ",
+  "en": "Credit and money"
+ },
+ {
+  "vi": "Tín dụng xuất khẩu",
+  "en": "Export credit"
+ },
+ {
+  "vi": "Tín dụng → C",
+  "en": "Credit to C"
+ },
+ {
+  "vi": "Tín dụng → I",
+  "en": "Credit to I"
+ },
+ {
+  "vi": "Tín dụng, bất động sản",
+  "en": "Credit, real estate"
+ },
+ {
+  "vi": "Tín dụng, lãi suất và sức cầu",
+  "en": "Credit, interest rates and demand"
+ },
+ {
+  "vi": "Tính vào GDP",
+  "en": "Counted in GDP"
+ },
+ {
+  "vi": "Tăng # tháng (%)",
+  "en": "Growth # months (%)"
+ },
+ {
+  "vi": "Tăng # tháng (đã công bố)",
+  "en": "Growth # months (published)"
+ },
+ {
+  "vi": "Tăng (%)",
+  "en": "Growth (%)"
+ },
+ {
+  "vi": "Tăng lên #%",
+  "en": "Rises to #%"
+ },
+ {
+  "vi": "Tăng nhanh hơn thu nhập thực khoảng gấp đôi; phần chênh dựa vào vay nợ và giá tài sản",
+  "en": "Growing about twice as fast as real income; the gap relies on borrowing and asset prices"
+ },
+ {
+  "vi": "Tăng quý gần nhất (%)",
+  "en": "Latest quarter growth (%)"
+ },
+ {
+  "vi": "Tăng thêm #–# điểm",
+  "en": "Additional #–# pts"
+ },
+ {
+  "vi": "Tăng thêm (nghìn tỷ)",
+  "en": "Increase (trillion VND)"
+ },
+ {
+  "vi": "Tăng trưởng #%",
+  "en": "Growth #%"
+ },
+ {
+  "vi": "Tăng trưởng GDP theo quý và vùng dự báo quý IV (%)",
+  "en": "Quarterly GDP growth and Q4 forecast range (%)"
+ },
+ {
+  "vi": "Tăng trưởng cao nhưng chất lượng chưa đều: ưu tiên ngành đi cùng I (",
+  "en": "Growth is high but uneven in quality: favor sectors aligned with I ("
+ },
+ {
+  "vi": "Tăng trưởng còn cần kiểm chứng",
+  "en": "Growth still needs verification"
+ },
+ {
+  "vi": "Tăng trưởng cấu phần",
+  "en": "Component growth"
+ },
+ {
+  "vi": "Tăng trưởng dồn vào khu vực dùng ít lao động: nhà máy điện tử FDI và công trình đầu tư công",
+  "en": "Growth is concentrated in low-labor sectors: FDI electronics plants and public investment projects"
+ },
+ {
+  "vi": "Tăng trưởng được xác nhận",
+  "en": "Growth confirmed"
+ },
+ {
+  "vi": "Tăng trưởng được xác nhận, nhưng chưa đến tay người dân. Đi qua từng thẻ theo đúng công thức GDP = C + G + I + NX để thấy tiền đi đâu, ai được hưởng và quý IV cần gì.",
+  "en": "Growth confirmed, but not yet reaching households. Go through each card following the formula GDP = C + G + I + NX to see where the money goes, who benefits and what Q4 needs."
+ },
+ {
+  "vi": "Tạo mã chia sẻ",
+  "en": "Generate share code"
+ },
+ {
+  "vi": "Tải lại số liệu mới nhất; mọi biểu đồ, đèn cảnh báo và nhận định tự tính lại",
+  "en": "Reload the latest data; all charts, warning signals and insights recalculate automatically"
+ },
+ {
+  "vi": "Tải tệp Excel: toàn bộ số liệu, đèn cảnh báo, nhận định và trang tự dự báo có công thức",
+  "en": "Download Excel: all data, warning lights, assessments and the self-forecast sheet with formulas"
+ },
+ {
+  "vi": "Tất cả",
+  "en": "All"
+ },
+ {
+  "vi": "Tốc độ tăng tín dụng theo ngành so với cuối năm # (%, đến #/#/#)",
+  "en": "Credit growth by sector vs end-# (%, as of #/#/#)"
+ },
+ {
+  "vi": "Tốc độ tăng từng cấu phần (%)",
+  "en": "Growth by component (%)"
+ },
+ {
+  "vi": "Tối",
+  "en": "Dark"
+ },
+ {
+  "vi": "Tồn kho",
+  "en": "Inventory"
+ },
+ {
+  "vi": "Tồn kho cao hơn cùng kỳ #%: tính vào GDP nhưng chưa thành doanh thu, thu nhập",
+  "en": "Inventories #% higher year on year: counted in GDP but not yet turned into revenue or income"
+ },
+ {
+  "vi": "Tổng dư nợ #/#",
+  "en": "Total outstanding loans #/#"
+ },
+ {
+  "vi": "Tổng quan",
+  "en": "Overview"
+ },
+ {
+  "vi": "Từ #%",
+  "en": "From #%"
+ },
+ {
+  "vi": "Từ #% kế hoạch",
+  "en": "From #% of plan"
+ },
+ {
+  "vi": "Từ GDP sang GNI: bánh làm ra và bánh thuộc về ai",
+  "en": "From GDP to GNI: the pie produced and who owns it"
+ },
+ {
+  "vi": "Từ GDP đến túi tiền (% tăng so cùng kỳ)",
+  "en": "From GDP to the wallet (% change year on year)"
+ },
+ {
+  "vi": "Từ công thức GDP đến định hướng ngành",
+  "en": "From the GDP formula to sector positioning"
+ },
+ {
+  "vi": "Tự dự báo",
+  "en": "Your forecast"
+ },
+ {
+  "vi": "Tự dự báo GDP và CPI quý IV",
+  "en": "Your forecast: Q4 GDP and CPI"
+ },
+ {
+  "vi": "Tự dự báo GDP và CPI: kéo thanh trượt, xem nền kinh tế phản ứng",
+  "en": "Your forecast of GDP and CPI: drag the sliders, see how the economy responds"
+ },
+ {
+  "vi": "Tự dự báo GDP, CPI",
+  "en": "Your forecast: GDP, CPI"
+ },
+ {
+  "vi": "Tự quyết lãi suất",
+  "en": "Monetary independence"
+ },
+ {
+  "vi": "Tự động",
+  "en": "Auto"
+ },
+ {
+  "vi": "Tỷ giá",
+  "en": "Exchange rate"
+ },
+ {
+  "vi": "Tỷ giá USD/VND tăng so đầu năm",
+  "en": "USD/VND up vs start of year"
+ },
+ {
+  "vi": "Tỷ giá trung tâm",
+  "en": "Central exchange rate"
+ },
+ {
+  "vi": "Tỷ giá trung tâm #%",
+  "en": "Central rate #%"
+ },
+ {
+  "vi": "Tỷ giá ổn định",
+  "en": "Stable exchange rate"
+ },
+ {
+  "vi": "Tỷ giá → NX",
+  "en": "Exchange rate to NX"
+ },
+ {
+  "vi": "Tỷ lệ",
+  "en": "Ratio"
+ },
+ {
+  "vi": "Tỷ lệ nợ xấu (%)",
+  "en": "NPL ratio (%)"
+ },
+ {
+  "vi": "Tỷ trọng # tháng trong GDP năm",
+  "en": "Share of # months in full-year GDP"
+ },
+ {
+  "vi": "USD/thùng",
+  "en": "USD/barrel"
+ },
+ {
+  "vi": "VN-Index #% khi GDP tăng #%: thị trường đi ngược nền kinh tế.",
+  "en": "VN-Index #% while GDP grew #%: the market moved against the economy."
+ },
+ {
+  "vi": "VN-Index #% trong quý III dù GDP tăng #%. Thị trường đang định giá chất lượng tăng trưởng và điều kiện tiền tệ (lãi vay thực dương #–# điểm), không chỉ tốc độ.",
+  "en": "VN-Index #% in Q3 despite GDP growth of #%. The market is pricing growth quality and monetary conditions (real lending rates positive at #–# pts), not just pace."
+ },
+ {
+  "vi": "VN-Index quý III",
+  "en": "VN-Index Q3"
+ },
+ {
+  "vi": "VN-Index quý IV",
+  "en": "VN-Index Q4"
+ },
+ {
+  "vi": "Vay của chủ đầu tư",
+  "en": "Developer borrowing"
+ },
+ {
+  "vi": "Vay tiêu dùng",
+  "en": "Consumer loans"
+ },
+ {
+  "vi": "Vay đầu tư, xây dựng",
+  "en": "Investment and construction loans"
+ },
+ {
+  "vi": "Việc làm",
+  "en": "Employment"
+ },
+ {
+  "vi": "Việc làm quý III",
+  "en": "Q3 employment"
+ },
+ {
+  "vi": "Việt Nam",
+  "en": "Vietnam"
+ },
+ {
+  "vi": "Việt Nam đứng ở đâu trong bộ ba",
+  "en": "Where Vietnam stands in the trilemma"
+ },
+ {
+  "vi": "Vì sao quan trọng",
+  "en": "Why it matters"
+ },
+ {
+  "vi": "Vĩ mô Việt Nam quý III/#:",
+  "en": "Vietnam macro Q3/#:"
+ },
+ {
+  "vi": "Vạch đứt là mức chung của nền kinh tế. Số theo ngành quý III Ngân hàng Nhà nước chưa công bố.",
+  "en": "The dashed line is the economy-wide level. The State Bank of Vietnam has not yet published Q3 sector figures."
+ },
+ {
+  "vi": "Vạch đứt là mức tăng",
+  "en": "The dashed line is the growth of"
+ },
+ {
+  "vi": "Vạch đứt là mức tăng GDP quý III.",
+  "en": "The dashed line is Q3 GDP growth."
+ },
+ {
+  "vi": "Vốn vay đang nuôi sản xuất, tiêu dùng hay tài sản?",
+  "en": "Is borrowed money funding production, consumption or assets?"
+ },
+ {
+  "vi": "Vốn và lao động doanh nghiệp mới",
+  "en": "Capital and labor of new businesses"
+ },
+ {
+  "vi": "Vốn đăng ký #%; lao động đăng ký #% (# tháng)",
+  "en": "Registered capital #%; registered labor #% (# months)"
+ },
+ {
+  "vi": "Với nhà đầu tư, điều này có nghĩa là gì",
+  "en": "What this means for investors"
+ },
+ {
+  "vi": "Xanh ủng hộ, vàng cảnh báo, đỏ phân kỳ. Rê chuột lên từng cặp để xem bằng chứng.",
+  "en": "Green supports, amber warns, red diverges. Hover over each pair to see the evidence."
+ },
+ {
+  "vi": "Xanh: lương và thuế ở lại Việt Nam, thuộc về người Việt (GNI)",
+  "en": "Green: wages and taxes that stay in Vietnam and belong to Vietnamese (GNI)"
+ },
+ {
+  "vi": "Xem ngành theo dõi",
+  "en": "View sectors to watch"
+ },
+ {
+  "vi": "Xuất Excel",
+  "en": "Export Excel"
+ },
+ {
+  "vi": "Xuất khác",
+  "en": "More exports"
+ },
+ {
+  "vi": "Xuất khẩu",
+  "en": "Exports"
+ },
+ {
+  "vi": "Xuất khẩu #",
+  "en": "Exports #"
+ },
+ {
+  "vi": "Xuất khẩu (tỷ USD)",
+  "en": "Exports (billion USD)"
+ },
+ {
+  "vi": "Xuất khẩu cả năm (tỷ USD)",
+  "en": "Full-year exports (billion USD)"
+ },
+ {
+  "vi": "Xuất khẩu hàng hóa (tỷ USD)",
+  "en": "Merchandise exports (billion USD)"
+ },
+ {
+  "vi": "Xuất khẩu hàng hóa và dịch vụ",
+  "en": "Exports of goods and services"
+ },
+ {
+  "vi": "Xuất khẩu hàng hóa và dịch vụ tăng (thực)",
+  "en": "Exports of goods and services growth (real)"
+ },
+ {
+  "vi": "Xuất khẩu quý IV (tỷ USD)",
+  "en": "Q4 exports (billion USD)"
+ },
+ {
+  "vi": "Xuất khẩu thay đổi # điểm nhưng xuất khẩu ròng chỉ đổi # điểm GDP, vì mỗi # đồng xuất khẩu thêm kéo theo khoảng # đồng nhập khẩu linh kiện.",
+  "en": "Exports change by # pts but net exports change by only # pts of GDP, because every # VND of additional exports pulls in about # VND of imported components."
+ },
+ {
+  "vi": "Xuất khẩu thay đổi +# điểm nhưng xuất khẩu ròng chỉ đổi # điểm GDP, vì mỗi # đồng xuất khẩu thêm kéo theo khoảng # đồng nhập khẩu linh kiện.",
+  "en": "Exports change by +# pts but net exports change by only # pts of GDP, because every # VND of additional exports pulls in about # VND of imported components."
+ },
+ {
+  "vi": "Xuất khẩu thay đổi -# điểm nhưng xuất khẩu ròng chỉ đổi # điểm GDP, vì mỗi # đồng xuất khẩu thêm kéo theo khoảng # đồng nhập khẩu linh kiện.",
+  "en": "Exports change by -# pts but net exports change by only # pts of GDP, because every # VND of additional exports pulls in about # VND of imported components."
+ },
+ {
+  "vi": "Xuất khẩu tăng thêm khi tỷ giá tăng thêm #% (điểm %)",
+  "en": "Additional export growth when the exchange rate rises a further #% (percentage points)"
+ },
+ {
+  "vi": "Xuất khẩu tăng tốc",
+  "en": "Faster exports"
+ },
+ {
+  "vi": "Xuất kịch bản",
+  "en": "Export scenario"
+ },
+ {
+  "vi": "Xuất kịch bản đang xem",
+  "en": "Export the scenario on screen"
+ },
+ {
+  "vi": "Xuất nhập khẩu hàng hóa (tỷ USD)",
+  "en": "Merchandise trade (billion USD)"
+ },
+ {
+  "vi": "Xuất tệp",
+  "en": "Export file"
+ },
+ {
+  "vi": "Xác suất (%)",
+  "en": "Probability (%)"
+ },
+ {
+  "vi": "Xác suất theo đánh giá của TVN.",
+  "en": "Probability as assessed by TVN."
+ },
+ {
+  "vi": "Xây dựng mới; mua đất không tạo GDP",
+  "en": "New construction; land purchases do not create GDP"
+ },
+ {
+  "vi": "Xây nhà máy",
+  "en": "Building factories"
+ },
+ {
+  "vi": "Xây nhà, căn hộ, văn phòng, hạ tầng khu công nghiệp",
+  "en": "Building homes, apartments, offices, industrial park infrastructure"
+ },
+ {
+  "vi": "Xăng, nhà ở, điện nước, học phí tăng; hộ thu nhập thấp chịu lạm phát khoảng #% so với #% của hộ thu nhập cao",
+  "en": "Fuel, housing, utilities and tuition up; low-income households face inflation of about #% versus #% for high-income households"
+ },
+ {
+  "vi": "Yếu tố",
+  "en": "Factor"
+ },
+ {
+  "vi": "bình quân cả năm khoảng #%, cao hơn mục tiêu khoảng #% # điểm. Mỗi điểm CPI quý IV cao hơn nền làm tiêu dùng thực giảm khoảng # điểm.",
+  "en": "averages about #% for the full year, above the target of about #% by # pts. Each point of Q4 CPI above baseline cuts real consumption by about # pts."
+ },
+ {
+  "vi": "bất động sản #%.",
+  "en": "real estate #%."
+ },
+ {
+  "vi": "bất động sản tăng nhanh hơn dư nợ: chọn ngân hàng có tỷ trọng cho vay bất động sản thấp và bộ đệm dự phòng dày.",
+  "en": "real estate growing faster than total loans: choose banks with a low share of real estate lending and thick provisioning buffers."
+ },
+ {
+  "vi": "bằng kịch bản cơ sở",
+  "en": "equal to the base case"
+ },
+ {
+  "vi": "cao hơn",
+  "en": "higher"
+ },
+ {
+  "vi": "cao hơn.",
+  "en": "higher."
+ },
+ {
+  "vi": "cho quý tới; vạch là mức cần đạt.",
+  "en": "for the next quarter; the marker is the required level."
+ },
+ {
+  "vi": "chuyển ra nước ngoài khoảng #–# tỷ USD mỗi năm.",
+  "en": "transferred abroad, about #–# billion USD per year."
+ },
+ {
+  "vi": "chậm hơn",
+  "en": "slower"
+ },
+ {
+  "vi": "còn # ngày",
+  "en": "# days left"
+ },
+ {
+  "vi": "có gì mới",
+  "en": "what's new"
+ },
+ {
+  "vi": "cùng chiều",
+  "en": "same direction"
+ },
+ {
+  "vi": "cơ sở",
+  "en": "base"
+ },
+ {
+  "vi": "cả năm hướng tới #–#%",
+  "en": "full year heading toward #–#%"
+ },
+ {
+  "vi": "dương #–# điểm.",
+  "en": "positive #–# pts."
+ },
+ {
+  "vi": "dương cao và tỷ giá sát trần: cổ phiếu nhiều nợ vay, nhiều nợ USD chịu sức ép trước tiên.",
+  "en": "high and positive, with the exchange rate near the ceiling: highly leveraged stocks and those with large USD debt come under pressure first."
+ },
+ {
+  "vi": "dồn vào xăng, nhà ở, học phí",
+  "en": "concentrated in fuel, housing, tuition"
+ },
+ {
+  "vi": "giảm",
+  "en": "down"
+ },
+ {
+  "vi": "góp",
+  "en": "contributes"
+ },
+ {
+  "vi": "góp thêm",
+  "en": "adds"
+ },
+ {
+  "vi": "góp thêm vào tăng trưởng",
+  "en": "adds to growth"
+ },
+ {
+  "vi": "gần gấp đôi GDP danh nghĩa",
+  "en": "nearly double nominal GDP"
+ },
+ {
+  "vi": "hưởng ít hơn con số xuất khẩu.",
+  "en": "benefits less than the export figure suggests."
+ },
+ {
+  "vi": "hạ tốc nhưng vẫn trên #",
+  "en": "slowing but still above #"
+ },
+ {
+  "vi": "khi phân bổ, nhưng đặt trước mức cắt giảm nếu kịch bản tiêu cực xảy ra; các mốc trong lịch công bố là lúc kiểm tra lại.",
+  "en": "when allocating, but set cut-back levels in advance in case the negative scenario materializes; the dates in the release calendar are the points to reassess."
+ },
+ {
+  "vi": "khoảng #% GDP, #/#/#",
+  "en": "about #% of GDP, #/#/#"
+ },
+ {
+  "vi": "khoảng #%.",
+  "en": "about #%."
+ },
+ {
+  "vi": "khám sức khỏe chiếc bánh GDP",
+  "en": "a health check of the GDP pie"
+ },
+ {
+  "vi": "khối ngoại vẫn bán ròng",
+  "en": "foreign investors still net selling"
+ },
+ {
+  "vi": "kéo lùi",
+  "en": "drags"
+ },
+ {
+  "vi": "kéo lùi # điểm tăng trưởng quý III.",
+  "en": "dragged # pts off Q3 growth."
+ },
+ {
+  "vi": "là động cơ lớn nhất.",
+  "en": "is the largest engine."
+ },
+ {
+  "vi": "lần",
+  "en": "times"
+ },
+ {
+  "vi": "lỗi",
+  "en": "error"
+ },
+ {
+  "vi": "lớn nhất, nhưng thu nhập thực chỉ #%",
+  "en": "largest, but real income only #%"
+ },
+ {
+  "vi": "mở rộng nhanh hơn",
+  "en": "expanding faster"
+ },
+ {
+  "vi": "nghìn tỷ đồng",
+  "en": "trillion VND"
+ },
+ {
+  "vi": "nhanh hơn",
+  "en": "faster"
+ },
+ {
+  "vi": "nhanh nhất ba năm",
+  "en": "the fastest in three years"
+ },
+ {
+  "vi": "nhanh nhất ba năm; cao hơn kỳ vọng khoảng # điểm",
+  "en": "fastest in three years; about # pts above expectations"
+ },
+ {
+  "vi": "nhưng",
+  "en": "but"
+ },
+ {
+  "vi": "nhường lãi suất",
+  "en": "gives up rate independence"
+ },
+ {
+  "vi": "nhập",
+  "en": "imports"
+ },
+ {
+  "vi": "nhập linh kiện tăng nhanh hơn xuất khẩu",
+  "en": "component imports growing faster than exports"
+ },
+ {
+  "vi": "nhập siêu",
+  "en": "trade deficit"
+ },
+ {
+  "vi": "nhập siêu #",
+  "en": "trade deficit #"
+ },
+ {
+  "vi": "năm #",
+  "en": "year #"
+ },
+ {
+  "vi": "nửa đầu năm, nhanh hơn dư nợ",
+  "en": "first half, faster than total loans"
+ },
+ {
+  "vi": "phân kỳ",
+  "en": "diverges"
+ },
+ {
+  "vi": "phần còn lại chủ yếu vay cá nhân",
+  "en": "the rest mainly personal loans"
+ },
+ {
+  "vi": "quý III chỉ #%; xác suất #–#%",
+  "en": "Q3 only #%; probability #–#%"
+ },
+ {
+  "vi": "quý III.",
+  "en": "Q3."
+ },
+ {
+  "vi": "quý IV, GDP cả năm, CPI quý IV và CPI bình quân cả năm theo đúng công thức GDP = C + G + I + NX, kể cả các vòng tác động qua lại: giá dầu đẩy CPI lên, CPI lấy bớt sức mua, sức mua yếu kéo GDP xuống.",
+  "en": "Q4, full-year GDP, Q4 CPI and full-year average CPI following the formula GDP = C + G + I + NX, including feedback loops: oil prices push CPI up, CPI erodes purchasing power, weaker purchasing power drags GDP down."
+ },
+ {
+  "vi": "so cuối #",
+  "en": "vs end-#"
+ },
+ {
+  "vi": "so cùng kỳ, đầu năm #",
+  "en": "year on year, start of #"
+ },
+ {
+  "vi": "so với cơ sở",
+  "en": "vs base"
+ },
+ {
+  "vi": "thành",
+  "en": "into"
+ },
+ {
+  "vi": "tháng",
+  "en": "months"
+ },
+ {
+  "vi": "tháng # cao hơn mục tiêu #% khoảng # điểm.",
+  "en": "in month #, above the #% target by about # pts."
+ },
+ {
+  "vi": "thấp",
+  "en": "low"
+ },
+ {
+  "vi": "thấp hơn",
+  "en": "lower"
+ },
+ {
+  "vi": "thấp hơn hoặc bằng",
+  "en": "lower or equal"
+ },
+ {
+  "vi": "thực",
+  "en": "real"
+ },
+ {
+  "vi": "thực # đến +#",
+  "en": "real # to +#"
+ },
+ {
+  "vi": "thực +# đến +#",
+  "en": "real +# to +#"
+ },
+ {
+  "vi": "thực quanh #",
+  "en": "real around #"
+ },
+ {
+  "vi": "triệu tỷ đồng",
+  "en": "quadrillion VND"
+ },
+ {
+  "vi": "tăng",
+  "en": "up"
+ },
+ {
+  "vi": "tăng #%, mạnh hơn tháng trước: độ lớn cao, độ rộng hẹp.",
+  "en": "up #%, stronger than last month: high magnitude, narrow breadth."
+ },
+ {
+  "vi": "tăng #%, nhanh hơn tháng trước: độ lớn cao nhưng độ rộng hẹp, hai chỉ số đang phân kỳ.",
+  "en": "up #%, faster than last month: high magnitude but narrow breadth, the two indicators are diverging."
+ },
+ {
+  "vi": "tăng khoảng # triệu tỷ trong quý III",
+  "en": "up about # quadrillion VND in Q3"
+ },
+ {
+  "vi": "tăng mạnh ở phía chi tiêu.",
+  "en": "strong growth on the spending side."
+ },
+ {
+  "vi": "tăng nhanh không có nghĩa thu nhập người Việt tăng tương ứng, và đó là lý do sâu hơn khiến tiêu dùng phải dựa vào vay.",
+  "en": "growing fast does not mean Vietnamese incomes rise correspondingly, and that is the deeper reason consumption has to rely on borrowing."
+ },
+ {
+  "vi": "tăng thêm cần khoảng # đồng tín dụng. Lời giải nằm ở chỗ tiền vay đi đâu: vào I, vào C, hay chỉ đổi chủ tài sản.",
+  "en": "of additional GDP requires about # VND of credit. The answer lies in where the loans go: into I, into C, or merely changing the ownership of assets."
+ },
+ {
+  "vi": "và",
+  "en": "and"
+ },
+ {
+  "vi": "và IIP là tín hiệu sớm: nếu PMI xuống dưới # hai tháng liền, nên giảm kỳ vọng vào nhóm xuất khẩu và logistics.",
+  "en": "and IIP are early signals: if PMI falls below # for two consecutive months, lower expectations for exporters and logistics."
+ },
+ {
+  "vi": "và đã lan tới thu nhập",
+  "en": "and has reached incomes"
+ },
+ {
+  "vi": "vào GDP quý IV",
+  "en": "to Q4 GDP"
+ },
+ {
+  "vi": "vượt",
+  "en": "exceeds"
+ },
+ {
+  "vi": "vẫn kéo lùi, vì linh kiện nhập về tăng còn nhanh hơn: nhập",
+  "en": "still drags, because imported components are rising even faster: imports"
+ },
+ {
+  "vi": "vẫn kéo lùi, vì linh kiện nhập về tăng còn nhanh hơn: nhập #, xuất #.",
+  "en": "still drags, because imported components are rising even faster: imports #, exports #."
+ },
+ {
+  "vi": "vẫn trừ khoảng",
+  "en": "still subtracts about"
+ },
+ {
+  "vi": "vẫn trừ khoảng # điểm.",
+  "en": "still subtracts about # pts."
+ },
+ {
+  "vi": "vốn tư nhân trong nước chỉ #%",
+  "en": "domestic private capital only #%"
+ },
+ {
+  "vi": "xuất siêu",
+  "en": "trade surplus"
+ },
+ {
+  "vi": "xuất siêu #",
+  "en": "trade surplus #"
+ },
+ {
+  "vi": "xuống dưới #, sản xuất thu hẹp",
+  "en": "below #, manufacturing contracting"
+ },
+ {
+  "vi": "· Kiến tạo giá trị, nâng tầm niềm tin.",
+  "en": "· Creating value, building trust."
+ },
+ {
+  "vi": "Ý nghĩa",
+  "en": "Meaning"
+ },
+ {
+  "vi": "Đang dùng kịch bản mẫu:",
+  "en": "Using sample scenario:"
+ },
+ {
+  "vi": "Đang tải lại số liệu…",
+  "en": "Reloading data…"
+ },
+ {
+  "vi": "Đi cùng I: đầu tư công dồn cuối năm",
+  "en": "Aligned with I: public investment back-loaded to year end"
+ },
+ {
+  "vi": "Đi cùng xuất khẩu và hạ tầng",
+  "en": "Aligned with exports and infrastructure"
+ },
+ {
+  "vi": "Đi ngang",
+  "en": "Flat"
+ },
+ {
+  "vi": "Điều chỉnh giá điện, y tế, giáo dục",
+  "en": "Electricity, healthcare and education price adjustments"
+ },
+ {
+  "vi": "Điểm phần trăm",
+  "en": "Percentage point"
+ },
+ {
+  "vi": "Điện sản xuất tháng #",
+  "en": "Electricity output, month #"
+ },
+ {
+  "vi": "Điện tháng # #%, # tháng #% [CT]",
+  "en": "Electricity month # #%, # months #% [CT]"
+ },
+ {
+  "vi": "Điện tử #%, thực phẩm #% (# tháng); bột ngọt #%, NPK #%, giày dép da #%",
+  "en": "Electronics #%, food #% (# months); MSG #%, NPK #%, leather footwear #%"
+ },
+ {
+  "vi": "Điện và thu thuế xác nhận sản lượng. Nhưng cùng một nền kinh tế, các nhịp tăng rất khác nhau: sản xuất chạy nhanh, phần đến tay người dân chạy chậm.",
+  "en": "Electricity and tax receipts confirm output. But within the same economy, growth rates differ widely: production is running fast, while what reaches households is moving slowly."
+ },
+ {
+  "vi": "ĐÈN CẢNH BÁO SỚM",
+  "en": "EARLY WARNING SIGNALS"
+ },
+ {
+  "vi": "Đã xuất:",
+  "en": "Exported:"
+ },
+ {
+  "vi": "Đã đặt I ở mức cần thiết: tích lũy tài sản phải tăng khoảng #% trong quý IV, so với #% của quý III.",
+  "en": "I has been set at the required level: capital formation must grow about #% in Q4, versus #% in Q3."
+ },
+ {
+  "vi": "Đèn cảnh báo đổi màu:",
+  "en": "Warning signals changing color:"
+ },
+ {
+  "vi": "Đóng",
+  "en": "Close"
+ },
+ {
+  "vi": "Đóng góp",
+  "en": "Contribution"
+ },
+ {
+  "vi": "Đóng góp # điểm",
+  "en": "Contribution # pts"
+ },
+ {
+  "vi": "Đóng góp (điểm %)",
+  "en": "Contribution (pts)"
+ },
+ {
+  "vi": "Đóng góp GDP",
+  "en": "GDP contribution"
+ },
+ {
+  "vi": "Đóng góp vào tăng trưởng theo công thức GDP (điểm %)",
+  "en": "Contribution to growth by GDP formula (pts)"
+ },
+ {
+  "vi": "Đơn hàng dệt may, da giày, gỗ",
+  "en": "Textile, footwear and wood orders"
+ },
+ {
+  "vi": "Đơn vị",
+  "en": "Unit"
+ },
+ {
+  "vi": "Đường liền là số đã công bố; dải mờ là",
+  "en": "Solid lines are published figures; the shaded band is"
+ },
+ {
+  "vi": "Đầu tư",
+  "en": "Investment"
+ },
+ {
+  "vi": "Đầu tư công",
+  "en": "Public investment"
+ },
+ {
+  "vi": "Đầu tư công # nghìn tỷ, #% [CT]; xi măng, thép: chưa có số quý",
+  "en": "Public investment # trillion VND, #% [CT]; cement, steel: no quarterly data yet"
+ },
+ {
+  "vi": "Đầu tư công đã giải ngân 9 tháng (nghìn tỷ đồng, khoảng 60% kế hoạch)",
+  "en": "Public investment disbursed in 9 months (trillion VND, about 60% of plan)"
+ },
+ {
+  "vi": "Đẩy giải ngân FDI",
+  "en": "Faster FDI disbursement"
+ },
+ {
+  "vi": "Đẩy giải ngân đầu tư công",
+  "en": "Faster public investment"
+ },
+ {
+  "vi": "Đẩy lên",
+  "en": "Pushes up"
+ },
+ {
+  "vi": "Đặt lại",
+  "en": "Reset"
+ },
+ {
+  "vi": "Đặt mục tiêu",
+  "en": "Set targets"
+ },
+ {
+  "vi": "Đặt tên, ví dụ: Dầu # USD",
+  "en": "Name it, e.g. Oil # USD"
+ },
+ {
+  "vi": "Đến #/# tăng #% so cuối #",
+  "en": "As of #/# up #% vs end-#"
+ },
+ {
+  "vi": "Đền bù giải phóng mặt bằng, nộp tiền sử dụng đất",
+  "en": "Land clearance compensation, land use fees"
+ },
+ {
+  "vi": "Để quý IV đạt #% với các giả định còn lại giữ nguyên,",
+  "en": "For Q4 to reach #% with other assumptions unchanged,"
+ },
+ {
+  "vi": "Để quý IV đạt #% với các giả định còn lại giữ nguyên, tích lũy tài sản (I) phải tăng khoảng #%; hiện đang là #%.",
+  "en": "For Q4 to reach #% with other assumptions unchanged, capital formation (I) must grow about #%; it is currently #%."
+ },
+ {
+  "vi": "Địa chỉ",
+  "en": "Address"
+ },
+ {
+  "vi": "Đọc kết quả",
+  "en": "Reading the results"
+ },
+ {
+  "vi": "Đọc nhanh",
+  "en": "Quick read"
+ },
+ {
+  "vi": "Nhận định tự tính từ số liệu mới nhất",
+  "en": "Insights computed automatically from the latest data"
+ },
+ {
+  "vi": "Đọc trong # phút: năm câu hỏi, mỗi câu một thẻ",
+  "en": "A #-minute read: five questions, one card each"
+ },
+ {
+  "vi": "Đỏ: lợi nhuận chuyển về công ty mẹ, có trong GDP nhưng không trong GNI",
+  "en": "Red: profits repatriated to parent companies, included in GDP but not in GNI"
+ },
+ {
+  "vi": "Đối chiếu phía sản xuất: đóng góp # tháng (điểm %)",
+  "en": "Production-side cross-check: # months contribution (pts)"
+ },
+ {
+  "vi": "Động cơ tăng trưởng",
+  "en": "Growth engines"
+ },
+ {
+  "vi": "điểm",
+  "en": "pts"
+ },
+ {
+  "vi": "điểm %",
+  "en": "pts"
+ },
+ {
+  "vi": "điểm CPI",
+  "en": "CPI pts"
+ },
+ {
+  "vi": "điểm phần trăm đóng góp",
+  "en": "percentage points of contribution"
+ },
+ {
+  "vi": "điểm): tăng trưởng đang dựa nhiều hơn vào đầu tư, gồm cả hàng làm ra còn nằm trong kho.",
+  "en": "pts): growth is relying more on investment, including goods produced but still in inventory."
+ },
+ {
+  "vi": "đã loại yếu tố giá",
+  "en": "price effects removed"
+ },
+ {
+  "vi": "đến",
+  "en": "to"
+ },
+ {
+  "vi": "đồng",
+  "en": "VND"
+ },
+ {
+  "vi": "đồng tín dụng",
+  "en": "VND of credit"
+ },
+ {
+  "vi": "Ưu tiên",
+  "en": "Priority"
+ },
+ {
+  "vi": "ước #%.",
+  "en": "est. #%."
+ },
+ {
+  "vi": "Ảnh 1 trang",
+  "en": "One-page image"
+ },
+ {
+  "vi": "Ảnh A#",
+  "en": "Image A#"
+ },
+ {
+  "vi": "Ổn",
+  "en": "Stable"
+ },
+ {
+  "vi": "Ủng hộ",
+  "en": "Supports"
+ },
+ {
+  "vi": "Ủng hộ #",
+  "en": "Supports #"
+ },
+ {
+  "vi": "Ủng hộ một phần",
+  "en": "Partly supports"
+ },
+ {
+  "vi": "Tìm trong dashboard: bđs, tín dụng, lạm phát, xuất khẩu…",
+  "en": "Search the dashboard: property, credit, inflation, exports…"
+ },
+ {
+  "vi": "Tìm",
+  "en": "Search"
+ },
+ {
+  "vi": "Làm mới dữ liệu",
+  "en": "Refresh data"
+ },
+ {
+  "vi": "CPI, IIP, bán lẻ, xuất nhập khẩu, FDI, đầu tư công: đèn lạm phát, xuất khẩu ròng, quý IV; tồn kho chế biến cho biết nhà máy có xả được kho không.",
+  "en": "CPI, IIP, retail, trade, FDI and public investment: the inflation, net-export and Q4 lights; manufacturing inventories show whether factories are clearing stock."
+ },
+ {
+  "vi": "Câu trả lời cho mục tiêu 10%: GDP theo chi tiêu và theo ba khu vực sản xuất; mọi đèn và nhận định cập nhật theo quý mới.",
+  "en": "The answer on the 10% target: GDP by spending and by the three production sectors; every light and view updates with the new quarter."
+ },
+ {
+  "vi": "Công nghiệp và xây dựng góp gần một nửa mức tăng 9,01%, khớp với đầu tư và tồn kho tăng mạnh ở phía chi tiêu. Điểm quy đổi từ tỷ lệ đóng góp của Cục Thống kê sau khi tách thuế sản phẩm (TVN ước).",
+  "en": "Industry and construction made almost half of the 9.01% growth, consistent with strong investment and inventories on the spending side. Points are converted from the statistics office's contribution shares after separating product taxes (TVN estimate)."
+ },
+ {
+  "vi": "Thuế sản phẩm trừ trợ cấp",
+  "en": "Product taxes less subsidies"
+ },
+ {
+  "vi": "nhanh hơn GDP danh nghĩa ước khoảng 14–15%",
+  "en": "faster than estimated nominal GDP of about 14–15%"
+ },
+ {
+  "vi": "Tăng nhanh hơn nhiều so với thu nhập thực của người lao động; phần chênh dựa vào vay nợ, giá tài sản và kiều hối",
+  "en": "Growing much faster than workers' real income; the gap leans on borrowing, asset prices and remittances"
+ },
+ {
+  "vi": "Chênh lệch thống kê",
+  "en": "Statistical discrepancy"
+ },
+ {
+  "vi": "Chênh lệch thống kê giữa hai cách đo",
+  "en": "Statistical discrepancy between the two methods"
+ }
+]

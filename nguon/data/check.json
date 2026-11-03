@@ -1,0 +1,300 @@
+[
+ {
+  "table": "pace",
+  "indicator": "IIP quý III",
+  "value": 14.8,
+  "kind": "output"
+ },
+ {
+  "table": "pace",
+  "indicator": "Bán lẻ danh nghĩa quý III",
+  "value": 14.5,
+  "kind": "price"
+ },
+ {
+  "table": "pace",
+  "indicator": "Điện sản xuất tháng 9",
+  "value": 10.3,
+  "kind": "output"
+ },
+ {
+  "table": "pace",
+  "indicator": "GDP quý III",
+  "value": 9.95,
+  "kind": "gdp"
+ },
+ {
+  "table": "pace",
+  "indicator": "Bán lẻ thực quý III (ước)",
+  "value": 8.75,
+  "kind": "people"
+ },
+ {
+  "table": "pace",
+  "indicator": "Thu nhập thực quý III",
+  "value": 4.87,
+  "kind": "people"
+ },
+ {
+  "table": "pace",
+  "indicator": "Lương làm công thực",
+  "value": 2.96,
+  "kind": "people"
+ },
+ {
+  "table": "pace",
+  "indicator": "Việc làm quý III",
+  "value": 1.4,
+  "kind": "people"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "GDP công nghiệp và IIP",
+  "verdict": "Ủng hộ",
+  "evidence": "Công nghiệp và xây dựng +12,50%; IIP quý III +14,8% [ƯT]"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "IIP theo ngành cấp 1",
+  "verdict": "Ủng hộ",
+  "evidence": "Chế biến +15,3%, điện +12,8%, khai khoáng +12,2%, nước +9,5% (quý III)"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "IIP theo ngành chủ lực",
+  "verdict": "Cảnh báo",
+  "evidence": "Điện tử +15,2%, thực phẩm +12,5% (9 tháng); bột ngọt -7,7%, NPK -7,1%, giày dép da -3,9%"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "IIP theo địa phương",
+  "verdict": "Cảnh báo",
+  "evidence": "34/34 tăng; dẫn đầu Hà Tĩnh, Quảng Ninh, Bắc Ninh, Nghệ An, Quảng Trị; điện tử TP HCM chỉ +1,4%; chế biến Đà Nẵng -1,5%"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "IIP và điện",
+  "verdict": "Ủng hộ",
+  "evidence": "Điện tháng 9 +10,3%, 8 tháng +9,3% [CT]"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "IIP, GDP và PMI",
+  "verdict": "Phân kỳ",
+  "evidence": "IIP tháng 9 +16,7%; PMI 51,9 (từ 53,3); đơn hàng xuất khẩu giảm tháng thứ hai"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "Tiêu thụ và tồn kho chế biến",
+  "verdict": "Cảnh báo",
+  "evidence": "Tháng 9: tồn kho +4,3%, tiêu thụ -0,5% so tháng trước; tồn kho +11,9% so cùng kỳ"
+ },
+ {
+  "table": "matrix",
+  "group": "Sản xuất",
+  "pair": "IIP và nhập khẩu đầu vào",
+  "verdict": "Phân kỳ",
+  "evidence": "Nhập linh kiện điện tử 188,9 tỷ USD, +71,7%"
+ },
+ {
+  "table": "matrix",
+  "group": "Lao động và thu nhập",
+  "pair": "Sản lượng và lao động",
+  "verdict": "Phân kỳ",
+  "evidence": "Lao động doanh nghiệp chế biến +3,6% so cùng kỳ; việc làm cả nước +1,4%; chỉ số việc làm trong PMI thu hẹp tháng thứ hai"
+ },
+ {
+  "table": "matrix",
+  "group": "Lao động và thu nhập",
+  "pair": "Vốn và lao động doanh nghiệp mới",
+  "verdict": "Phân kỳ",
+  "evidence": "Vốn đăng ký +32,7%; lao động đăng ký -16,1% (9 tháng)"
+ },
+ {
+  "table": "matrix",
+  "group": "Lao động và thu nhập",
+  "pair": "Bán lẻ thực và lương thực tế",
+  "verdict": "Phân kỳ",
+  "evidence": "Bán lẻ thực quý III khoảng +8,75% và lương làm công thực +2,96% (Chênh khoảng 5,8 điểm)"
+ },
+ {
+  "table": "matrix",
+  "group": "Cầu, dịch vụ và giá",
+  "pair": "GDP xây dựng và đầu tư công",
+  "verdict": "Ủng hộ một phần",
+  "evidence": "Đầu tư công 661,8 nghìn tỷ, +19% [CT]; xi măng, thép: chưa có số quý"
+ },
+ {
+  "table": "matrix",
+  "group": "Cầu, dịch vụ và giá",
+  "pair": "GDP dịch vụ và bán lẻ thực",
+  "verdict": "Ủng hộ",
+  "evidence": "Dịch vụ +9,54%; bán lẻ thực quý III khoảng 8,75% [TVN]; khách quốc tế +14,5%"
+ },
+ {
+  "table": "matrix",
+  "group": "Cầu, dịch vụ và giá",
+  "pair": "GDP và thu thuế",
+  "verdict": "Ủng hộ",
+  "evidence": "Thu nội địa 1.880,3 nghìn tỷ, 85,5% dự toán; thu ngân sách +12,1% [CT]"
+ },
+ {
+  "table": "matrix",
+  "group": "Cầu, dịch vụ và giá",
+  "pair": "GDP phía cung và phía cầu",
+  "verdict": "Cảnh báo",
+  "evidence": "Tích lũy tài sản +21,39% trong khi tồn kho tăng; tổng đóng góp C + G + I + NX thấp hơn GDP khoảng 0,3 điểm (9 tháng, TVN ước, đã dùng số chính thức của C và G)"
+ },
+ {
+  "table": "matrix",
+  "group": "Cầu, dịch vụ và giá",
+  "pair": "CPI và giá bán đầu ra PMI",
+  "verdict": "Phân kỳ",
+  "evidence": "CPI 5,08% so cùng kỳ; giá bán đầu ra PMI tăng chậm nhất từ 6/2025"
+ },
+ {
+  "table": "matrix",
+  "group": "Tín dụng và tiền tệ",
+  "pair": "Hai nguồn số tín dụng",
+  "verdict": "Cảnh báo",
+  "evidence": "Tín dụng +11,59% từ đầu năm và +16,69% so cùng kỳ (Ngân hàng Nhà nước); số tín dụng trong báo cáo Cục Thống kê công bố theo kỳ khác"
+ },
+ {
+  "table": "matrix",
+  "group": "Tín dụng và tiền tệ",
+  "pair": "Tín dụng và GDP danh nghĩa",
+  "verdict": "Cảnh báo",
+  "evidence": "Tín dụng +16,69% so cùng kỳ và GDP danh nghĩa ước 14–15% (Tín dụng nhanh hơn GDP danh nghĩa)"
+ },
+ {
+  "table": "matrix",
+  "group": "Tín dụng và tiền tệ",
+  "pair": "Tín dụng và huy động",
+  "verdict": "Cảnh báo",
+  "evidence": "Tín dụng +11,59% và huy động +9,78% từ đầu năm (Chênh khoảng 1,8 điểm)"
+ },
+ {
+  "table": "matrix",
+  "group": "Ngoại thương, FDI, thị trường",
+  "pair": "Cán cân thương mại tháng và lũy kế",
+  "verdict": "Cảnh báo",
+  "evidence": "Tháng 9 xuất siêu 1,27 tỷ USD; 9 tháng nhập siêu 19,42 tỷ USD"
+ },
+ {
+  "table": "matrix",
+  "group": "Ngoại thương, FDI, thị trường",
+  "pair": "FDI đăng ký và FDI giải ngân",
+  "verdict": "Cảnh báo",
+  "evidence": "FDI đăng ký +76,4% và FDI giải ngân +12,1% (Chênh hơn 60 điểm)"
+ },
+ {
+  "table": "matrix",
+  "group": "Ngoại thương, FDI, thị trường",
+  "pair": "GDP và thị trường chứng khoán",
+  "verdict": "Phân kỳ",
+  "evidence": "GDP +9,95% và VN-Index quý III -4,91%, khối ngoại bán ròng sau nâng hạng (Thị trường đi ngược kinh tế)"
+ },
+ {
+  "table": "pmi_iip",
+  "month": "T5",
+  "pmi": 52.8,
+  "iip": null
+ },
+ {
+  "table": "pmi_iip",
+  "month": "T6",
+  "pmi": 51.8,
+  "iip": null
+ },
+ {
+  "table": "pmi_iip",
+  "month": "T7",
+  "pmi": 52.9,
+  "iip": 15.4
+ },
+ {
+  "table": "pmi_iip",
+  "month": "T8",
+  "pmi": 53.3,
+  "iip": 13.5
+ },
+ {
+  "table": "pmi_iip",
+  "month": "T9",
+  "pmi": 51.9,
+  "iip": 16.7
+ },
+ {
+  "table": "trend",
+  "series": "cpi",
+  "order": 0,
+  "month": "T4",
+  "period": "Tháng 4/2026",
+  "value": 5.46,
+  "unit": "%",
+  "source": "Cục Thống kê (Tổng quan CPI tháng 4/2026)"
+ },
+ {
+  "table": "trend",
+  "series": "cpi",
+  "order": 1,
+  "month": "T5",
+  "period": "Tháng 5/2026",
+  "value": 5.6,
+  "unit": "%",
+  "source": "Cục Thống kê (CPI tháng 5/2026)"
+ },
+ {
+  "table": "trend",
+  "series": "cpi",
+  "order": 2,
+  "month": "T6",
+  "period": "Tháng 6/2026",
+  "value": 4.69,
+  "unit": "%",
+  "source": "Cục Thống kê (CPI tháng 6/2026)"
+ },
+ {
+  "table": "trend",
+  "series": "cpi",
+  "order": 3,
+  "month": "T7",
+  "period": "Tháng 7/2026",
+  "value": 4.45,
+  "unit": "%",
+  "source": "Cục Thống kê (CPI tháng 7/2026)"
+ },
+ {
+  "table": "trend",
+  "series": "cpi",
+  "order": 4,
+  "month": "T8",
+  "period": "Tháng 8/2026",
+  "value": 4.89,
+  "unit": "%",
+  "source": "Cục Thống kê (CPI tháng 8/2026)"
+ },
+ {
+  "table": "trend",
+  "series": "cpi",
+  "order": 5,
+  "month": "T9",
+  "period": "Tháng 9/2026",
+  "value": 5.08,
+  "unit": "%",
+  "source": "Cục Thống kê (CPI tháng 9/2026)"
+ },
+ {
+  "table": "pmi_iip",
+  "month": "T10",
+  "pmi": 52.3,
+  "iip": null
+ }
+]

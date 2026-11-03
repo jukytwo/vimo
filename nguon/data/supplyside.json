@@ -1,0 +1,1987 @@
+[
+ {
+  "table": "page",
+  "id": "lede",
+  "vi": "Quý III, mỗi người lao động làm ra nhiều hơn khoảng 8,5%, nhưng thu nhập thực chỉ tăng khoảng 4,9%; riêng nhà máy chế biến góp khoảng 3,2 điểm, gần một phần ba mức tăng của cả nước. Tab này chỉ ra phần chênh lệch đi đâu. Phía chi tiêu cho biết ai mua chiếc bánh; phía sản xuất cho biết ai làm ra nó: nhà máy, công trường, cửa hàng, ngân hàng hay đồng ruộng. Hai phía phải cộng ra cùng 9,95%, và chỗ chúng vênh nhau chỉ ra phần tăng trưởng cần đọc thận trọng.",
+  "en": "In Q3 each worker produced about 8.5% more, yet real income rose only about 4.9%; manufacturing alone added about 3.2 points, nearly a third of national growth. This tab shows where the gap went. The spending side tells us who bought the pie; the production side tells us who made it: factories, building sites, shops, banks or farms. Both must add up to the same 9.95%, and where they diverge shows which part of growth needs a careful read."
+ },
+ {
+  "table": "page",
+  "id": "hero",
+  "vi": "Quý III tăng 9,95% chủ yếu nhờ nhà máy và công trường: công nghiệp và xây dựng làm ra hơn một nửa mức tăng giá trị tăng thêm, khoảng 4,8 điểm của 9,95%; dịch vụ vẫn tăng 9,54% nhưng phần đóng góp giảm, nông nghiệp góp khoảng 0,5 điểm, thuế sản phẩm khoảng 0,6 điểm.",
+  "en": "Q3 grew 9.95% mainly on factories and building sites: industry and construction made more than half of value-added growth, about 4.8 pts of the 9.95%; services still grew 9.54% but their share fell, agriculture added about 0.5 pts and product taxes about 0.6 pts."
+ },
+ {
+  "table": "kpi",
+  "id": "k0",
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction",
+  "value": 12.5,
+  "unit": "%",
+  "unit_en": "%",
+  "note": "góp khoảng 4,81 điểm vào 9,95%",
+  "note_en": "about 4.81 pts of the 9.95%",
+  "tone": "g"
+ },
+ {
+  "table": "kpi",
+  "id": "k1",
+  "vi": "Dịch vụ",
+  "en": "Services",
+  "value": 9.54,
+  "unit": "%",
+  "unit_en": "%",
+  "note": "góp khoảng 4,03 điểm",
+  "note_en": "about 4.03 pts",
+  "tone": ""
+ },
+ {
+  "table": "kpi",
+  "id": "k2",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture",
+  "value": 4.21,
+  "unit": "%",
+  "unit_en": "%",
+  "note": "góp khoảng 0,48 điểm",
+  "note_en": "about 0.48 pts",
+  "tone": ""
+ },
+ {
+  "table": "kpi",
+  "id": "k3",
+  "vi": "Chế biến, chế tạo",
+  "en": "Manufacturing",
+  "value": 12.28,
+  "unit": "%",
+  "unit_en": "%",
+  "note": "khoảng 3,2 điểm, gần 35% mức tăng giá trị tăng thêm",
+  "note_en": "about 3.2 pts, nearly 35% of value-added growth",
+  "tone": "g"
+ },
+ {
+  "table": "kpi",
+  "id": "k4",
+  "vi": "Năng suất lao động (TVN)",
+  "en": "Labour productivity (TVN)",
+  "value": 8.5,
+  "unit": "%",
+  "unit_en": "%",
+  "note": "thu nhập thực người lao động khoảng +4,9%",
+  "note_en": "real earnings only about +4.9%",
+  "tone": ""
+ },
+ {
+  "table": "kpi",
+  "id": "k5",
+  "vi": "Tồn kho và tài sản quý (TVN)",
+  "en": "Inventories and valuables (TVN)",
+  "value": 2.4,
+  "unit": " điểm",
+  "unit_en": " pts",
+  "note": "điểm trong 9,95%; biên 1,9–2,8",
+  "note_en": "pts of the 9.95%; range 1.9–2.8",
+  "tone": "r"
+ },
+ {
+  "table": "sector",
+  "vi": "Nông, lâm nghiệp và thủy sản",
+  "en": "Agriculture, forestry, fishery",
+  "q3": 4.21,
+  "c3": 5.14,
+  "pts_q3": 0.48,
+  "m9": 4.02,
+  "c9": 5.35,
+  "pts_9m": 0.45,
+  "q3_prev": 3.74,
+  "c3_prev": 5.04
+ },
+ {
+  "table": "sector",
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction",
+  "q3": 12.5,
+  "c3": 51.57,
+  "pts_q3": 4.81,
+  "m9": 11.21,
+  "c9": 49.62,
+  "pts_9m": 4.19,
+  "q3_prev": 9.46,
+  "c3_prev": 46.41
+ },
+ {
+  "table": "sector",
+  "vi": "Dịch vụ",
+  "en": "Services",
+  "q3": 9.54,
+  "c3": 43.29,
+  "pts_q3": 4.03,
+  "m9": 8.69,
+  "c9": 45.03,
+  "pts_9m": 3.81,
+  "q3_prev": 8.56,
+  "c3_prev": 48.55
+ },
+ {
+  "table": "nd",
+  "id": "sector",
+  "vi": [
+   "Quý III là quý của công nghiệp: khu vực công nghiệp và xây dựng tăng 12,50%, nhanh hơn 3,04 điểm so cùng kỳ, và lần đầu làm ra hơn một nửa mức tăng tổng giá trị tăng thêm (51,57%); quy ra GDP, khu vực này góp khoảng 4,8 điểm trong 9,95%.",
+   "Dịch vụ vẫn tăng 9,54%, cao hơn cùng kỳ gần 1 điểm, nhưng phần đóng góp giảm từ 48,55% xuống 43,29% vì công nghiệp tăng nhanh hơn.",
+   "Nông, lâm, thủy sản tăng 4,21%, tốt nhất nhiều năm, nhưng chỉ góp khoảng 0,5 điểm do tỷ trọng còn khoảng 11% GDP; phần còn lại, khoảng 0,6 điểm, là thuế sản phẩm trừ trợ cấp."
+  ],
+  "en": [
+   "Q3 was the quarter of industry: industry and construction grew 12.50%, 3.04 pts faster than a year earlier, and for the first time made more than half of gross value-added growth (51.57%); in GDP terms it added about 4.8 pts of the 9.95%.",
+   "Services still grew 9.54%, almost 1 point faster than a year ago, but their share of the gain fell from 48.55% to 43.29% because industry grew faster.",
+   "Agriculture, forestry and fishery grew 4.21%, the best in years, but added only about 0.5 pts because it is about 11% of GDP; the remaining 0.6 pts or so came from product taxes less subsidies."
+  ],
+  "kl": "Tăng trưởng quý III là thật nhưng dồn vào công nghiệp; quý IV phụ thuộc đơn hàng của nhà máy và tiến độ giải ngân đầu tư công.",
+  "kl_en": "Q3 growth is real but concentrated in industry; Q4 depends on factory orders and the pace of public investment."
+ },
+ {
+  "table": "branch",
+  "vi": "Chế biến, chế tạo",
+  "en": "Manufacturing",
+  "kv": "CN-XD",
+  "g26": 11.36,
+  "s26": 33.85,
+  "g25": 9.92,
+  "s25": 31.73,
+  "pts": 2.86
+ },
+ {
+  "table": "branch",
+  "vi": "Khai khoáng, điện, nước (phần còn lại của công nghiệp)",
+  "en": "Mining, power, water (rest of industry)",
+  "kv": "CN-XD",
+  "g26": null,
+  "s26": 7.54,
+  "g25": null,
+  "s25": 3.33,
+  "pts": 0.64
+ },
+ {
+  "table": "branch",
+  "vi": "Xây dựng",
+  "en": "Construction",
+  "kv": "CN-XD",
+  "g26": 12.22,
+  "s26": 8.23,
+  "g25": 9.33,
+  "s25": 7.99,
+  "pts": 0.7
+ },
+ {
+  "table": "branch",
+  "vi": "Bán buôn, bán lẻ",
+  "en": "Wholesale, retail",
+  "kv": "DV",
+  "g26": 9.85,
+  "s26": 11.99,
+  "g25": 8.28,
+  "s25": 10.72,
+  "pts": 1.01
+ },
+ {
+  "table": "branch",
+  "vi": "Vận tải, kho bãi",
+  "en": "Transport, storage",
+  "kv": "DV",
+  "g26": 11.03,
+  "s26": 7.21,
+  "g25": 10.68,
+  "s25": 8.92,
+  "pts": 0.61
+ },
+ {
+  "table": "branch",
+  "vi": "Tài chính, ngân hàng, bảo hiểm",
+  "en": "Finance, banking, insurance",
+  "kv": "DV",
+  "g26": 9.45,
+  "s26": 5.27,
+  "g25": 7.06,
+  "s25": 5.16,
+  "pts": 0.45
+ },
+ {
+  "table": "branch",
+  "vi": "Lưu trú, ăn uống",
+  "en": "Hotels, restaurants",
+  "kv": "DV",
+  "g26": 8.83,
+  "s26": 2.69,
+  "g25": 10.15,
+  "s25": 3.5,
+  "pts": 0.23
+ },
+ {
+  "table": "branch",
+  "vi": "Dịch vụ khác (bất động sản, giáo dục, y tế, hành chính...)",
+  "en": "Other services (property, education, health, public admin)",
+  "kv": "DV",
+  "g26": null,
+  "s26": 17.87,
+  "g25": null,
+  "s25": 23.29,
+  "pts": 1.51
+ },
+ {
+  "table": "branch",
+  "vi": "Nông nghiệp",
+  "en": "Agriculture",
+  "kv": "NLTS",
+  "g26": 3.72,
+  "s26": 3.6,
+  "g25": 3.46,
+  "s25": 3.52,
+  "pts": 0.3
+ },
+ {
+  "table": "branch",
+  "vi": "Lâm nghiệp",
+  "en": "Forestry",
+  "kv": "NLTS",
+  "g26": 3.99,
+  "s26": 0.25,
+  "g25": 6.46,
+  "s25": 0.42,
+  "pts": 0.02
+ },
+ {
+  "table": "branch",
+  "vi": "Thủy sản",
+  "en": "Fishery",
+  "kv": "NLTS",
+  "g26": 4.99,
+  "s26": 1.5,
+  "g25": 4.48,
+  "s25": 1.41,
+  "pts": 0.13
+ },
+ {
+  "table": "nd",
+  "id": "branch",
+  "vi": [
+   "Ba ngành làm ra khoảng 54% mức tăng 9 tháng: chế biến, chế tạo (33,85%), bán buôn, bán lẻ (11,99%) và xây dựng (8,23%).",
+   "Nhóm khai khoáng, điện, nước tăng phần đóng góp từ 3,3% lên 7,5% nhờ khai khoáng hồi phục và điện tăng mạnh theo sản xuất.",
+   "Nhóm dịch vụ khác giảm mạnh nhất, từ 23,3% xuống 17,9%: bất động sản, giáo dục, y tế, hành chính tăng chậm hơn mặt bằng, phù hợp với việc tinh gọn bộ máy và thị trường nhà ở còn trầm."
+  ],
+  "en": [
+   "Three industries produced about 54% of nine-month growth: manufacturing (33.85%), wholesale and retail (11.99%) and construction (8.23%).",
+   "Mining, power and water raised their share from 3.3% to 7.5% as mining recovered and power demand followed output.",
+   "Other services fell the most, from 23.3% to 17.9%: property, education, health and public administration grew more slowly, in line with a leaner state apparatus and a still-sluggish housing market."
+  ],
+  "kl": "Ba ngành gánh khoảng một nửa mức tăng; khi chế biến chậm lại, chưa ngành nào đủ lớn để thay ngay.",
+  "kl_en": "Three industries carry about half of growth; when manufacturing slows, no other industry is big enough to replace it quickly."
+ },
+ {
+  "table": "retain",
+  "vi": "Quý III/2026",
+  "en": "Q3/2026",
+  "gva": 12.28,
+  "iip": 15.3
+ },
+ {
+  "table": "retain",
+  "vi": "9 tháng/2026",
+  "en": "9M/2026",
+  "gva": 11.36,
+  "iip": 12.9
+ },
+ {
+  "table": "nd",
+  "id": "retain",
+  "vi": [
+   "Nhưng sản lượng tăng 15,3% chỉ chuyển thành 12,28% giá trị tăng thêm: tỷ lệ chuyển hóa khoảng 0,80, thấp hơn mức 0,88 của cả 9 tháng.",
+   "Nguyên nhân là linh kiện nhập khẩu tăng 71,7%: nhà máy lắp ráp nhiều hơn nhưng phần giá trị giữ lại trong nước mỏng đi, đúng với việc nhập khẩu kéo NX âm ở phía chi tiêu.",
+   "Tồn kho tăng 11,9% so cùng kỳ và 4,3% chỉ trong tháng 9, trong khi tiêu thụ tháng 9 giảm 0,5% so tháng 8 (so cùng kỳ vẫn tăng 17,8%): một phần sản lượng quý III đang nằm trong kho chờ đơn hàng."
+  ],
+  "en": [
+   "But a 15.3% rise in output turned into only 12.28% more value added: a conversion ratio of about 0.80, below 0.88 for the nine months.",
+   "The reason is a 71.7% jump in imported components: factories assemble more, but the value kept at home gets thinner, the same thing that pushes NX negative on the spending side.",
+   "Inventories were up 11.9% year on year and 4.3% in September alone, while September sales fell 0.5% from August (still up 17.8% year on year): part of Q3 output is sitting in warehouses waiting for orders."
+  ],
+  "kl": "Tăng trưởng mạnh về khối lượng nhưng mỏng về giá trị giữ lại trong nước; muốn bền phải tăng tỷ lệ nội địa hóa.",
+  "kl_en": "Growth is strong in volume but thin in value kept at home; to last, local content has to rise."
+ },
+ {
+  "table": "labor",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture",
+  "gva": 4.21,
+  "jobs": 13300,
+  "jobs_add": -38.0,
+  "jobs_g": -0.28,
+  "prod": 4.51,
+  "income": 5.4,
+  "income_qq": -1.4,
+  "informal": 98.7
+ },
+ {
+  "table": "labor",
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction",
+  "gva": 12.5,
+  "jobs": 18000,
+  "jobs_add": 394.1,
+  "jobs_g": 2.24,
+  "prod": 10.04,
+  "income": 9.9,
+  "income_qq": 2.0,
+  "informal": 41.9
+ },
+ {
+  "table": "labor",
+  "vi": "Dịch vụ",
+  "en": "Services",
+  "gva": 9.54,
+  "jobs": 21700,
+  "jobs_add": 350.4,
+  "jobs_g": 1.64,
+  "prod": 7.77,
+  "income": 10.9,
+  "income_qq": 3.0,
+  "informal": 52.7
+ },
+ {
+  "table": "labor",
+  "vi": "Toàn nền kinh tế",
+  "en": "Whole economy",
+  "gva": 9.95,
+  "jobs": 53000,
+  "jobs_add": 706.4,
+  "jobs_g": 1.35,
+  "prod": 8.48,
+  "income": 9.2,
+  "income_qq": null,
+  "informal": 60.6
+ },
+ {
+  "table": "nd",
+  "id": "labor",
+  "vi": [
+   "Khoảng 85% mức tăng GDP quý III đến từ năng suất: việc làm chỉ tăng 1,35%, còn năng suất bình quân mỗi lao động tăng khoảng 8,5%.",
+   "Câu trả lời cho nghịch lý mở đầu: năng suất tăng khoảng 8,5% nhưng thu nhập thực chỉ khoảng 4,9%, vì phần lớn giá trị tăng thêm mới nằm ở nhà máy FDI và công trình vốn lớn, nơi phần trả cho khấu hao máy móc và lợi nhuận chủ đầu tư cao, phần trả cho tiền công thấp.",
+   "Một phần năng suất là chuyển dịch: mỗi lao động rời nông nghiệp sang dịch vụ tăng thu nhập từ 5,4 lên 10,9 triệu đồng mỗi tháng, tức gấp đôi."
+  ],
+  "en": [
+   "About 85% of Q3 GDP growth came from productivity: jobs rose only 1.35%, while output per worker rose about 8.5%.",
+   "The answer to the opening puzzle: productivity rose about 8.5% but real earnings only about 4.9%, because most new value added sits in FDI factories and capital-heavy projects, where depreciation and owners' profit take a large share and wages a small one.",
+   "Part of productivity is structural change: a worker moving from farming to services raises monthly income from 5.4 to 10.9 million dong, i.e. doubles it."
+  ],
+  "kl": "Năng suất tăng nhanh gấp khoảng 1,7 lần thu nhập thực: người lao động chưa được chia tương xứng phần tăng trưởng.",
+  "kl_en": "Productivity is rising about 1.7 times as fast as real earnings: workers are not getting a matching share of growth."
+ },
+ {
+  "table": "verify",
+  "vi": "Chế biến, chế tạo (quý III)",
+  "en": "Manufacturing (Q3)",
+  "gva": "+12,28%",
+  "ind": "IIP chế biến +15,3%; tiêu thụ tháng 9 +17,8%; lao động +3,4%",
+  "ind_en": "Factory output +15.3%; September sales +17.8%; jobs +3.4%",
+  "gap": "Sản lượng cao hơn 3,0 điểm",
+  "gap_en": "Output 3.0 pts higher",
+  "verdict": "Xác nhận, giá trị giữ lại mỏng",
+  "verdict_en": "Confirmed, thin value retained",
+  "tone": "g"
+ },
+ {
+  "table": "verify",
+  "vi": "Chế biến, chế tạo (khảo sát)",
+  "en": "Manufacturing (survey)",
+  "gva": "+12,28%",
+  "ind": "PMI tháng 9: 51,9, đơn hàng xuất khẩu giảm",
+  "ind_en": "September PMI 51.9, export orders falling",
+  "gap": "Khảo sát yếu hơn",
+  "gap_en": "Survey weaker",
+  "verdict": "Đà quý IV chậm lại",
+  "verdict_en": "Q4 momentum slowing",
+  "tone": "n"
+ },
+ {
+  "table": "verify",
+  "vi": "Điện",
+  "en": "Power",
+  "gva": "Trong khối công nghiệp",
+  "ind": "IIP điện quý III +12,8%",
+  "ind_en": "Q3 power output +12.8%",
+  "gap": "Co giãn điện so GDP khoảng 1,3",
+  "gap_en": "Power elasticity about 1.3",
+  "verdict": "Xác nhận",
+  "verdict_en": "Confirmed",
+  "tone": "g"
+ },
+ {
+  "table": "verify",
+  "vi": "Xây dựng (quý III)",
+  "en": "Construction (Q3)",
+  "gva": "+14,22%",
+  "ind": "Vốn ngân sách 9 tháng +19% (giá hiện hành); thép thanh +17,1%",
+  "ind_en": "State capital 9M +19% (current prices); steel bars +17.1%",
+  "gap": "Khớp sau khi trừ giá",
+  "gap_en": "Matches after prices",
+  "verdict": "Xác nhận",
+  "verdict_en": "Confirmed",
+  "tone": "g"
+ },
+ {
+  "table": "verify",
+  "vi": "Vận tải, kho bãi",
+  "en": "Transport, storage",
+  "gva": "+11,03%",
+  "ind": "Hàng hóa vận chuyển +15,8%, luân chuyển +12,8%",
+  "ind_en": "Freight +15.8%, freight volume +12.8%",
+  "gap": "Khớp",
+  "gap_en": "Matches",
+  "verdict": "Xác nhận",
+  "verdict_en": "Confirmed",
+  "tone": "g"
+ },
+ {
+  "table": "verify",
+  "vi": "Bán buôn, bán lẻ (9 tháng)",
+  "en": "Wholesale, retail (9M)",
+  "gva": "+9,85%",
+  "ind": "Bán lẻ thực 9 tháng +7,8%",
+  "ind_en": "Real retail sales 9M +7.8%",
+  "gap": "Cao hơn 2 điểm",
+  "gap_en": "2 pts higher",
+  "verdict": "Phần bán buôn kéo lên",
+  "verdict_en": "Wholesale lifts it",
+  "tone": "n"
+ },
+ {
+  "table": "verify",
+  "vi": "Lưu trú, ăn uống",
+  "en": "Hotels, restaurants",
+  "gva": "+8,83%",
+  "ind": "Doanh thu +16,7%; khách quốc tế +14,5%",
+  "ind_en": "Revenue +16.7%; foreign arrivals +14.5%",
+  "gap": "Doanh thu cao hơn 7,9 điểm do giá",
+  "gap_en": "Revenue 7.9 pts higher, prices",
+  "verdict": "Thận trọng về sức mua",
+  "verdict_en": "Careful on purchasing power",
+  "tone": "n"
+ },
+ {
+  "table": "verify",
+  "vi": "Tài chính, ngân hàng",
+  "en": "Finance, banking",
+  "gva": "+9,45%",
+  "ind": "Tín dụng +16,69% so cùng kỳ",
+  "ind_en": "Credit +16.69% y/y",
+  "gap": "Tín dụng nhanh hơn",
+  "gap_en": "Credit faster",
+  "verdict": "Hiệu quả vốn giảm",
+  "verdict_en": "Capital efficiency falling",
+  "tone": "r"
+ },
+ {
+  "table": "verify",
+  "vi": "Nông nghiệp",
+  "en": "Agriculture",
+  "gva": "+3,72%",
+  "ind": "Thịt lợn +4,4%, gia cầm +5,3%, lúa hè thu +0,6%",
+  "ind_en": "Pork +4.4%, poultry +5.3%, summer rice +0.6%",
+  "gap": "Khớp",
+  "gap_en": "Matches",
+  "verdict": "Xác nhận",
+  "verdict_en": "Confirmed",
+  "tone": "g"
+ },
+ {
+  "table": "verify",
+  "vi": "Thủy sản",
+  "en": "Fishery",
+  "gva": "+4,99%",
+  "ind": "Sản lượng +3,9%; nuôi trồng +5,9%",
+  "ind_en": "Output +3.9%; aquaculture +5.9%",
+  "gap": "Khớp",
+  "gap_en": "Matches",
+  "verdict": "Xác nhận",
+  "verdict_en": "Confirmed",
+  "tone": "g"
+ },
+ {
+  "table": "nd",
+  "id": "verify",
+  "vi": [
+   "Phần lớn các cặp đối chiếu xác nhận tốc độ tăng của ngành: con số 9,95% có nền hiện vật thật ở nhà máy, công trường, kho bãi và chuồng trại.",
+   "Hai cặp cần đọc thận trọng là lưu trú, ăn uống và tài chính: doanh thu và tín dụng tăng nhanh hơn nhiều so với giá trị tăng thêm, nghĩa là một phần mức tăng là giá và đòn bẩy.",
+   "PMI 51,9 thấp hơn nhịp IIP không phải mâu thuẫn: khảo sát đo đơn hàng mới và tâm lý tháng 9, còn sản lượng quý III chạy trên đơn hàng cũ; độ vênh này báo trước nhịp chậm lại của quý IV."
+  ],
+  "en": [
+   "Most pairs confirm each industry's growth: the 9.95% rests on physical activity in factories, building sites, warehouses and farms.",
+   "Two pairs need a careful read, hotels and restaurants and finance: revenue and credit rose much faster than value added, so part of the gain is prices and leverage.",
+   "A PMI of 51.9 below the pace of factory output is not a contradiction: the survey measures new orders and sentiment in September, while Q3 output ran on older orders; the gap signals a slower Q4."
+  ],
+  "kl": "Con số 9,95% có nền hiện vật và đáng tin; chỉ cần trừ hao ở lưu trú, ăn uống và tài chính.",
+  "kl_en": "The 9.95% is backed by physical activity and is credible; only hotels, restaurants and finance need a discount."
+ },
+ {
+  "table": "region",
+  "vi": "Quảng Ninh",
+  "en": "Quang Ninh",
+  "m9": 12.54,
+  "q3": 15.04,
+  "note": "Dẫn đầu cả nước cả 9 tháng và quý III",
+  "note_en": "Top of the country in 9M and Q3",
+  "tone": "g"
+ },
+ {
+  "table": "region",
+  "vi": "Hà Tĩnh",
+  "en": "Ha Tinh",
+  "m9": 12.36,
+  "q3": null,
+  "note": "",
+  "note_en": "",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Hải Phòng",
+  "en": "Hai Phong",
+  "m9": 12.08,
+  "q3": null,
+  "note": "Cần khoảng 15,39% quý IV để đạt mục tiêu năm",
+  "note_en": "Needs about 15.39% in Q4 for its annual target",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Bắc Ninh",
+  "en": "Bac Ninh",
+  "m9": 11.81,
+  "q3": 13.83,
+  "note": "Điện tử FDI",
+  "note_en": "FDI electronics",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Ninh Bình",
+  "en": "Ninh Binh",
+  "m9": 11.31,
+  "q3": null,
+  "note": "",
+  "note_en": "",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Thái Nguyên",
+  "en": "Thai Nguyen",
+  "m9": 11.24,
+  "q3": 13.96,
+  "note": "Công nghiệp và xây dựng quý III +20,34%",
+  "note_en": "Industry and construction Q3 +20.34%",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Hưng Yên",
+  "en": "Hung Yen",
+  "m9": 11.22,
+  "q3": null,
+  "note": "",
+  "note_en": "",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Khánh Hòa",
+  "en": "Khanh Hoa",
+  "m9": 11.21,
+  "q3": null,
+  "note": "",
+  "note_en": "",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Đà Nẵng",
+  "en": "Da Nang",
+  "m9": 10.31,
+  "q3": null,
+  "note": "",
+  "note_en": "",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Tây Ninh",
+  "en": "Tay Ninh",
+  "m9": 10.3,
+  "q3": null,
+  "note": "",
+  "note_en": "",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Phú Thọ, Đồng Nai",
+  "en": "Phu Tho, Dong Nai",
+  "m9": 10.01,
+  "q3": null,
+  "note": "Hai địa phương cùng mức",
+  "note_en": "Two provinces at the same rate",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "TP Hồ Chí Minh",
+  "en": "Ho Chi Minh City",
+  "m9": 9.06,
+  "q3": 9.86,
+  "note": "Cần khoảng 13,23% quý IV",
+  "note_en": "Needs about 13.23% in Q4",
+  "tone": "n"
+ },
+ {
+  "table": "region",
+  "vi": "Hà Nội",
+  "en": "Hanoi",
+  "m9": 8.85,
+  "q3": 10.02,
+  "note": "Cần khoảng 16,55% quý IV để đạt 11%",
+  "note_en": "Needs about 16.55% in Q4 to reach 11%",
+  "tone": "r"
+ },
+ {
+  "table": "region",
+  "vi": "Đồng Tháp",
+  "en": "Dong Thap",
+  "m9": 7.44,
+  "q3": null,
+  "note": "Tỷ trọng nông nghiệp lớn",
+  "note_en": "Large farm share",
+  "tone": ""
+ },
+ {
+  "table": "region",
+  "vi": "Cà Mau",
+  "en": "Ca Mau",
+  "m9": 7.37,
+  "q3": null,
+  "note": "Cần khoảng 16,70% quý IV",
+  "note_en": "Needs about 16.70% in Q4",
+  "tone": "r"
+ },
+ {
+  "table": "region",
+  "vi": "Vĩnh Long",
+  "en": "Vinh Long",
+  "m9": 7.32,
+  "q3": null,
+  "note": "Cần khoảng 17,25% quý IV",
+  "note_en": "Needs about 17.25% in Q4",
+  "tone": "r"
+ },
+ {
+  "table": "region",
+  "vi": "Sơn La",
+  "en": "Son La",
+  "m9": 5.59,
+  "q3": null,
+  "note": "Thấp nhất; sản xuất điện giảm",
+  "note_en": "Lowest; power output fell",
+  "tone": "r"
+ },
+ {
+  "table": "nd",
+  "id": "region",
+  "vi": [
+   "Số địa phương tăng từ 10% trở lên lên 12 trong 9 tháng và 17 riêng quý III, từ 7 trong nửa đầu năm: tăng tốc đã lan rộng hơn theo địa lý.",
+   "Hai đầu tàu đều dưới 10% trong 9 tháng (TP Hồ Chí Minh 9,06%, Hà Nội 8,85%), dù quý III đã tăng tốc; vì quy mô lớn, mức đóng góp của hai thành phố vẫn lớn hơn mọi tỉnh tăng hai con số.",
+   "24 trên 34 địa phương còn thấp hơn mục tiêu năm; 9 địa phương, trong đó có Hà Nội và Hải Phòng, phải tăng trên 15% trong quý IV: khi mục tiêu chia nhỏ theo tỉnh, khoảng cách với thực tế còn rộng hơn bức tranh cả nước."
+  ],
+  "en": [
+   "Provinces growing 10% or more rose to 12 over nine months and 17 in Q3 alone, from 7 in the first half: the acceleration has spread geographically.",
+   "Both hubs are below 10% for nine months (Ho Chi Minh City 9.06%, Hanoi 8.85%) despite a faster Q3; given their size, each still contributes more than any double-digit province.",
+   "24 of 34 provinces are below their annual targets; 9, including Hanoi and Hai Phong, need more than 15% in Q4: split by province, the gap to reality is wider than the national picture."
+  ],
+  "kl": "Tăng tốc đã lan ra nhiều tỉnh, nhưng hai thành phố lớn vẫn dưới 10% nên mục tiêu cả nước khó đạt.",
+  "kl_en": "Acceleration has spread to many provinces, but the two big cities are still below 10%, which keeps the national target out of reach."
+ },
+ {
+  "table": "bridge",
+  "side": "sx",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture",
+  "m9": 0.45,
+  "q3": 0.48,
+  "key": "A"
+ },
+ {
+  "table": "bridge",
+  "side": "sx",
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction",
+  "m9": 4.19,
+  "q3": 4.81,
+  "key": "I"
+ },
+ {
+  "table": "bridge",
+  "side": "sx",
+  "vi": "Dịch vụ",
+  "en": "Services",
+  "m9": 3.81,
+  "q3": 4.03,
+  "key": "S"
+ },
+ {
+  "table": "bridge",
+  "side": "sx",
+  "vi": "Thuế sản phẩm trừ trợ cấp",
+  "en": "Product taxes less subsidies",
+  "m9": 0.56,
+  "q3": 0.63,
+  "key": "T"
+ },
+ {
+  "table": "bridge",
+  "side": "ct",
+  "vi": "C + G: tiêu dùng cuối cùng",
+  "en": "C + G: final consumption",
+  "m9": 7.03,
+  "q3": 7.4,
+  "key": "C"
+ },
+ {
+  "table": "bridge",
+  "side": "ct",
+  "vi": "I: tích lũy tài sản",
+  "en": "I: capital formation",
+  "m9": 5.9,
+  "q3": 7.06,
+  "key": "I"
+ },
+ {
+  "table": "bridge",
+  "side": "ct",
+  "vi": "NX: xuất khẩu ròng",
+  "en": "NX: net exports",
+  "m9": -4.22,
+  "q3": -3.79,
+  "key": "NX"
+ },
+ {
+  "table": "bridge",
+  "side": "ct",
+  "vi": "Chênh lệch thống kê",
+  "en": "Statistical discrepancy",
+  "m9": 0.3,
+  "q3": -0.72,
+  "key": "R"
+ },
+ {
+  "table": "inv",
+  "id": "params",
+  "i_pts": 7.06,
+  "inv_nom": 16.7,
+  "defl": 3.5,
+  "defl_min": 1.0,
+  "defl_max": 6.0,
+  "w": 31.0,
+  "w_min": 28.0,
+  "w_max": 34.0,
+  "disc": -0.72,
+  "gdp": 9.95
+ },
+ {
+  "table": "nd",
+  "id": "bridge",
+  "vi": [
+   "Hai phương pháp cho cùng kết luận lớn: 9,95% là tăng tốc thật, dồn vào nhà máy, công trường và đầu tư, trong khi tiêu dùng của số đông và dịch vụ cho người dân đi chậm hơn.",
+   "Con số quan trọng nhất khi ghép hai phía: chúng tôi ước khoảng 1,9–2,8 điểm trong 9,95%, trung tâm khoảng 2,4 điểm, là tồn kho và tài sản quý, tức phần sản lượng chưa thành tiêu thụ hay nhà xưởng, máy móc.",
+   "Ước tính này khớp với ba chỉ báo độc lập ở phía sản xuất: tồn kho chế biến tăng 11,9%, tiêu thụ tháng 9 giảm so tháng 8, và PMI đơn hàng xuất khẩu thu hẹp.",
+   "Điều đọng lại: theo ước tính của chúng tôi, khoảng 2,4 điểm của 9,95% là tồn kho và tài sản quý; phần tồn kho chế biến trong đó là hàng chưa bán, còn vàng và linh kiện nhập để kho không phải sản lượng chờ người mua."
+  ],
+  "en": [
+   "Both methods reach the same big conclusion: 9.95% is a real acceleration, concentrated in factories, building sites and investment, while mass consumption and household services move more slowly.",
+   "The most important number when joining the two sides: we estimate 1.9–2.8 points of the 9.95%, about 2.4 at the centre, are inventories and valuables, i.e. output not yet turned into consumption or plant and machinery.",
+   "The estimate matches three independent production-side signals: manufacturing inventories +11.9%, September sales down on August, and shrinking export orders in the PMI.",
+   "The takeaway: by our estimate about 2.4 pts of the 9.95% are inventories and valuables; the manufacturing stock within it is unsold output, while gold and imported parts in storage are not output waiting for a buyer."
+  ],
+  "kl": "Hai phương pháp cùng xác nhận 9,95%, nhưng khoảng 2,4 điểm là tồn kho và tài sản quý: chất lượng thấp hơn tốc độ.",
+  "kl_en": "Both methods confirm 9.95%, but about 2.4 pts are inventories and valuables: quality lags speed."
+ },
+ {
+  "table": "measure",
+  "vi": "Thu nhập bình quân của người lao động, thực",
+  "en": "Average real earnings of workers",
+  "val": "Khoảng +4,9% (danh nghĩa +9,9%, 9,2 triệu đồng/tháng)",
+  "val_en": "About +4.9% (nominal +9.9%, 9.2 million dong/month)",
+  "what": "Mọi người có việc làm, gồm cả người tự làm",
+  "what_en": "Everyone with a job, incl. self-employed"
+ },
+ {
+  "table": "measure",
+  "vi": "Lương của lao động làm công, thực",
+  "en": "Real wages of employees",
+  "val": "Khoảng +3,0%",
+  "val_en": "About +3.0%",
+  "what": "Chỉ người làm công hưởng lương",
+  "what_en": "Wage employees only"
+ },
+ {
+  "table": "measure",
+  "vi": "Lạm phát của hộ thu nhập thấp",
+  "en": "Inflation of low-income households",
+  "val": "Khoảng 4,9% (hộ thu nhập cao 4,1%)",
+  "val_en": "About 4.9% (high-income 4.1%)",
+  "what": "Giá rổ hàng của hộ thu nhập thấp; đây là giá, không phải thu nhập",
+  "what_en": "A price measure, not income"
+ },
+ {
+  "table": "measure",
+  "vi": "Bán lẻ thực quý III",
+  "en": "Real retail sales Q3",
+  "val": "Khoảng 8,75% (TVN ước)",
+  "val_en": "About 8.75% (TVN est.)",
+  "what": "Doanh thu bán lẻ trừ giá, riêng quý III",
+  "what_en": "Q3 only"
+ },
+ {
+  "table": "measure",
+  "vi": "Bán lẻ thực 9 tháng",
+  "en": "Real retail sales 9M",
+  "val": "+7,8%",
+  "val_en": "+7.8%",
+  "what": "Doanh thu bán lẻ trừ giá, lũy kế 9 tháng",
+  "what_en": "Nine months cumulative"
+ },
+ {
+  "table": "measure",
+  "vi": "Năng suất lao động",
+  "en": "Labour productivity",
+  "val": "Khoảng +8,5% (TVN)",
+  "val_en": "About +8.5% (TVN)",
+  "what": "Giá trị tăng thêm trên mỗi lao động, gồm cả hàng làm ra chưa bán",
+  "what_en": "Includes goods made but not yet sold"
+ },
+ {
+  "table": "q4w",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture",
+  "w": 0.11,
+  "q3": 4.21,
+  "lo": 2.0,
+  "hi": 7.0
+ },
+ {
+  "table": "q4w",
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction",
+  "w": 0.385,
+  "q3": 12.5,
+  "lo": 8.0,
+  "hi": 18.0
+ },
+ {
+  "table": "q4w",
+  "vi": "Dịch vụ",
+  "en": "Services",
+  "w": 0.425,
+  "q3": 9.54,
+  "lo": 6.0,
+  "hi": 15.0
+ },
+ {
+  "table": "q4w",
+  "vi": "Thuế sản phẩm trừ trợ cấp",
+  "en": "Product taxes less subsidies",
+  "w": 0.08,
+  "q3": 8.0,
+  "lo": 5.0,
+  "hi": 15.0
+ },
+ {
+  "table": "q4s",
+  "vi": "Mục tiêu 12,5%",
+  "en": "12.5% target",
+  "v": [
+   4.5,
+   15.3,
+   12.2,
+   12.0
+  ],
+  "prob": "15–20%",
+  "q4": 12.53,
+  "year": 9.99
+ },
+ {
+  "table": "q4s",
+  "vi": "Cơ sở",
+  "en": "Base",
+  "v": [
+   4.3,
+   13.8,
+   10.8,
+   10.8
+  ],
+  "prob": "55%",
+  "q4": 11.24,
+  "year": 9.63
+ },
+ {
+  "table": "q4s",
+  "vi": "Tích cực",
+  "en": "Upside",
+  "v": [
+   4.5,
+   15.0,
+   11.8,
+   12.0
+  ],
+  "prob": "20%",
+  "q4": 12.25,
+  "year": 9.91
+ },
+ {
+  "table": "q4s",
+  "vi": "Tiêu cực",
+  "en": "Downside",
+  "v": [
+   3.8,
+   12.0,
+   9.8,
+   9.5
+  ],
+  "prob": "25%",
+  "q4": 9.96,
+  "year": 9.27
+ },
+ {
+  "table": "q4p",
+  "id": "params",
+  "w9": 0.722,
+  "g9": 9.01,
+  "target": 12.5
+ },
+ {
+  "table": "ceil",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture",
+  "cap": 4.5,
+  "need": 4.5,
+  "cons": "Đất, mùa vụ",
+  "cons_en": "Land, seasons"
+ },
+ {
+  "table": "ceil",
+  "vi": "Công nghiệp và xây dựng",
+  "en": "Industry and construction",
+  "cap": 15.36,
+  "need": 15.3,
+  "cons": "Đơn hàng (chế biến), sức thi công (xây dựng)",
+  "cons_en": "Orders (manufacturing), building capacity (construction)"
+ },
+ {
+  "table": "ceil",
+  "vi": "Dịch vụ",
+  "en": "Services",
+  "cap": 11.62,
+  "need": 12.2,
+  "cons": "Thu nhập thực chỉ tăng khoảng 4,9%",
+  "cons_en": "Real earnings up only about 4.9%"
+ },
+ {
+  "table": "ceil",
+  "vi": "Thuế sản phẩm trừ trợ cấp",
+  "en": "Product taxes less subsidies",
+  "cap": 12.0,
+  "need": 12.0,
+  "cons": "Theo nhập khẩu và tiêu dùng",
+  "cons_en": "Follows imports and consumption"
+ },
+ {
+  "table": "ceil",
+  "vi": "GDP quý IV",
+  "en": "Q4 GDP",
+  "cap": 12.31,
+  "need": 12.53,
+  "cons": "Cộng theo tỷ trọng",
+  "cons_en": "Weighted sum"
+ },
+ {
+  "table": "ceil",
+  "vi": "GDP cả năm 2026",
+  "en": "Full-year 2026 GDP",
+  "cap": 9.93,
+  "need": 9.99,
+  "cons": "72,2% x 9,01% + 27,8% x quý IV",
+  "cons_en": "72.2% x 9.01% + 27.8% x Q4"
+ },
+ {
+  "table": "nd",
+  "id": "ceil",
+  "vi": [
+   "Trần tăng trưởng theo phía sản xuất: GDP quý IV tối đa khoảng 12,3%, cả năm khoảng 9,9%, thấp hơn mức cần cho mục tiêu 12,5% và 10%.",
+   "Chỗ kịch kim là dịch vụ cho người dân: thu nhập thực chỉ tăng khoảng 4,9%, nên dịch vụ tối đa khoảng 11,6% trong khi mục tiêu cần 12,2%; đây là bản sao phía sản xuất của chuyện tiêu dùng kịch trần ở phía chi tiêu.",
+   "Công nghiệp và xây dựng chỉ chạm mức cần 15,3% khi cả chế biến, xây dựng, khai khoáng và điện cùng chạy tối đa: chế biến bị chặn bởi đơn hàng, xây dựng bị chặn bởi sức thi công.",
+   "Vì vậy nguồn lực dồn vào xây dựng qua đầu tư công, vào chế biến khu vực FDI và một phần vào hàng tồn kho, đúng với việc tích lũy tài sản gánh tăng trưởng ở phía chi tiêu.",
+   "Đối chiếu hai phía: ở phía chi tiêu, khi tiêu dùng đã chạm trần, muốn quý IV đạt 12,5% thì tích lũy tài sản phải tăng 31–32%; phía sản xuất cho thấy nhà máy và công trường chỉ vừa chạm mức cần, còn dịch vụ cho người dân không theo kịp, nên trần cả năm khoảng 9,9%.",
+   "Điều đọng lại: trần thực tế của năm 2026 quanh 9,9–10%; đạt 10% đòi hỏi mọi ngành cùng chạm trần, nên xác suất chỉ khoảng 15–20%, và kịch bản tích cực của chúng tôi đã nằm sát trần."
+  ],
+  "en": [
+   "The production-side ceiling: Q4 GDP at most about 12.3% and the full year about 9.9%, below what the 12.5% and 10% targets require.",
+   "The binding constraint is services for households: real earnings rise only about 4.9%, so services can reach about 11.6% against the 12.2% the target needs; this is the production-side mirror of consumption hitting its ceiling on the spending side.",
+   "Industry and construction reach the required 15.3% only if manufacturing, construction, mining and power all run at full stretch: manufacturing is capped by orders, construction by building capacity.",
+   "So resources flow into construction through public investment, into FDI manufacturing and partly into inventories, matching capital formation carrying growth on the spending side.",
+   "Matching the two sides: on the spending side, with consumption at its ceiling, a 12.5% Q4 needs capital formation to grow 31–32%; on the production side factories and building sites only just reach what is needed and household services fall short, so the full-year ceiling is about 9.9%.",
+   "The takeaway: the realistic ceiling for 2026 is about 9.9–10%; 10% requires every sector at its ceiling, hence only a 15–20% probability, and our upside case already sits near that ceiling."
+  ],
+  "kl": "Theo sức làm ra, quý IV tối đa khoảng 12,3% và cả năm khoảng 9,9%: mục tiêu 10% khó đạt, nút thắt là dịch vụ cho người dân.",
+  "kl_en": "On production capacity, Q4 tops out near 12.3% and the year near 9.9%: the 10% target is unlikely, and household services are the bottleneck."
+ },
+ {
+  "table": "sens",
+  "vi": "Chế biến, chế tạo",
+  "en": "Manufacturing",
+  "w": 0.245
+ },
+ {
+  "table": "sens",
+  "vi": "Xây dựng",
+  "en": "Construction",
+  "w": 0.085
+ },
+ {
+  "table": "sens",
+  "vi": "Khai khoáng, điện, nước",
+  "en": "Mining, power, water",
+  "w": 0.055
+ },
+ {
+  "table": "sens",
+  "vi": "Bán buôn, bán lẻ",
+  "en": "Wholesale, retail",
+  "w": 0.1
+ },
+ {
+  "table": "sens",
+  "vi": "Vận tải, kho bãi",
+  "en": "Transport, storage",
+  "w": 0.035
+ },
+ {
+  "table": "sens",
+  "vi": "Tài chính, ngân hàng, bảo hiểm",
+  "en": "Finance, banking, insurance",
+  "w": 0.05
+ },
+ {
+  "table": "sens",
+  "vi": "Lưu trú, ăn uống",
+  "en": "Hotels, restaurants",
+  "w": 0.025
+ },
+ {
+  "table": "sens",
+  "vi": "Dịch vụ khác",
+  "en": "Other services",
+  "w": 0.215
+ },
+ {
+  "table": "sens",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture",
+  "w": 0.11
+ },
+ {
+  "table": "sens",
+  "vi": "Thuế sản phẩm trừ trợ cấp",
+  "en": "Product taxes",
+  "w": 0.08
+ },
+ {
+  "table": "nd",
+  "id": "q4",
+  "vi": [
+   "Đạt 12,5% trong quý IV đòi hỏi công nghiệp và xây dựng tăng khoảng 15,3%, cao hơn 2,8 điểm so quý III, và dịch vụ khoảng 12,2%, cao hơn 2,7 điểm: cả hai đều chưa từng đạt trong một quý gần đây.",
+   "Chúng tôi gán xác suất 55% cho kịch bản cơ sở, 20% cho kịch bản tích cực và 25% cho kịch bản tiêu cực, cùng bộ xác suất với bản phân tích chi tiêu; bình quân theo xác suất cho quý IV khoảng 11,1% và cả năm khoảng 9,6%.",
+   "Từ kịch bản cơ sở 11,24% lên 12,5% còn thiếu 1,26 điểm. Chỉ chế biến, chế tạo và nhóm dịch vụ khác đủ lớn để bù phần này mà tốc độ cần thêm còn trong tầm với, khoảng 5–6 điểm.",
+   "Điều đọng lại: 12,5% chỉ đạt được khi nhà máy, công trường và khu vực dịch vụ công cùng tăng tốc; thiếu một trong ba, mục tiêu gần như chắc chắn hụt."
+  ],
+  "en": [
+   "Reaching 12.5% in Q4 requires industry and construction to grow about 15.3%, 2.8 points above Q3, and services about 12.2%, 2.7 points higher: neither has been reached in any recent quarter.",
+   "We assign 55% to the base case, 20% to the upside and 25% to the downside, the same probabilities as the spending-side analysis; the probability-weighted Q4 is about 11.1% and the full year about 9.6%.",
+   "From the 11.24% base case to 12.5% leaves 1.26 points. Only manufacturing and other services are large enough to close it with an extra 5–6 points of growth.",
+   "The takeaway: 12.5% is reachable only if factories, building sites and public services all accelerate together; missing one, the target is almost certainly missed."
+  ],
+  "kl": "Kịch bản cơ sở: quý IV khoảng 11,2%, cả năm khoảng 9,6%; xác suất đạt 12,5% chỉ khoảng 15–20%.",
+  "kl_en": "Base case: Q4 about 11.2%, full year about 9.6%; the chance of reaching 12.5% is only about 15–20%."
+ },
+ {
+  "table": "nd",
+  "id": "summary",
+  "vi": [
+   "Tăng trưởng đang hẹp dần: phần đóng góp của công nghiệp và xây dựng lên 51,57% (cùng kỳ 46,41%), nhóm dịch vụ khác gồm bất động sản, giáo dục, y tế giảm từ 23,3% xuống 17,9% mức tăng 9 tháng.",
+   "Sản lượng chạy nhanh hơn giá trị: sản lượng chế biến quý III tăng 15,3% nhưng giá trị tăng thêm của ngành chỉ tăng 12,28%, vì linh kiện nhập khẩu chiếm phần lớn giá trị đơn hàng.",
+   "Tăng trưởng đến từ năng suất chứ không từ thêm người: việc làm chỉ tăng 1,4%, năng suất lao động tăng khoảng 8,5%, nhưng thu nhập thực của người lao động chỉ tăng khoảng 4,9%.",
+   "Ghép hai phương pháp, chúng tôi ước khoảng 1,9–2,8 điểm trong 9,95% là tồn kho và tài sản quý: phần sản lượng đã làm ra nhưng chưa thành tiêu thụ hay nhà xưởng, máy móc.",
+   "Quý IV cần công nghiệp và xây dựng tăng khoảng 15,3% và dịch vụ khoảng 12,2% để đạt 12,5%; kịch bản cơ sở của chúng tôi theo ngành là 11,2% (xác suất 55%), đưa cả năm lên khoảng 9,6%; trần theo phía sản xuất là quý IV khoảng 12,3%, cả năm khoảng 9,9%."
+  ],
+  "en": [
+   "Growth is narrowing: industry and construction's share of the gain rose to 51.57% (46.41% a year ago), while other services (property, education, health) fell from 23.3% to 17.9% of nine-month growth.",
+   "Output runs ahead of value: manufacturing output rose 15.3% in Q3 but its value added only 12.28%, as imported components make up most of the order value.",
+   "Growth comes from productivity, not more workers: jobs rose only 1.4%, productivity about 8.5%, but workers' real earnings only about 4.9%.",
+   "Joining both methods, we estimate 1.9–2.8 points of the 9.95% are inventories and valuables: output already made but not yet consumption or plant and machinery.",
+   "Q4 needs industry and construction to grow about 15.3% and services about 12.2% to reach 12.5%; our sector base case is 11.2% (55% probability), taking the year to about 9.6%; the chance of 12.5% is about 15–20%."
+  ],
+  "kl": "Tăng nhanh nhưng hẹp và mỏng; theo dõi tồn kho, đơn hàng và thu nhập thực để biết tăng trưởng có bền hay không.",
+  "kl_en": "Fast but narrow and thin; watch inventories, orders and real earnings to judge whether growth will last."
+ },
+ {
+  "table": "score",
+  "vi": "Chế biến, chế tạo",
+  "en": "Manufacturing",
+  "own": "FDI (điện tử); trong nước (thép, thực phẩm)",
+  "own_en": "FDI (electronics); domestic (steel, food)",
+  "s26": 33.85,
+  "s25": 31.73,
+  "trend": "Tăng tốc",
+  "trend_en": "Accelerating",
+  "tone": "g",
+  "q4": "Phụ thuộc đơn hàng; tồn kho +11,9%",
+  "q4_en": "Depends on orders; inventories +11.9%",
+  "dur": 3
+ },
+ {
+  "table": "score",
+  "vi": "Xây dựng",
+  "en": "Construction",
+  "own": "Trong nước",
+  "own_en": "Domestic",
+  "s26": 8.23,
+  "s25": 7.99,
+  "trend": "Tăng tốc",
+  "trend_en": "Accelerating",
+  "tone": "g",
+  "q4": "Được đầu tư công kéo lên",
+  "q4_en": "Pulled up by public investment",
+  "dur": 3
+ },
+ {
+  "table": "score",
+  "vi": "Khai khoáng, điện, nước",
+  "en": "Mining, power, water",
+  "own": "Nhà nước",
+  "own_en": "State",
+  "s26": 7.54,
+  "s25": 3.33,
+  "trend": "Tăng tốc",
+  "trend_en": "Accelerating",
+  "tone": "g",
+  "q4": "Theo giá dầu và nhà máy",
+  "q4_en": "Follows oil prices and factories",
+  "dur": 2
+ },
+ {
+  "table": "score",
+  "vi": "Thương mại, vận tải",
+  "en": "Trade, transport",
+  "own": "Trong nước",
+  "own_en": "Domestic",
+  "s26": 19.2,
+  "s25": 19.64,
+  "trend": "Giữ nhịp",
+  "trend_en": "Steady",
+  "tone": "n",
+  "q4": "Theo hàng hóa của nhà máy",
+  "q4_en": "Follows factory goods",
+  "dur": 4
+ },
+ {
+  "table": "score",
+  "vi": "Tài chính, ngân hàng",
+  "en": "Finance, banking",
+  "own": "Trong nước",
+  "own_en": "Domestic",
+  "s26": 5.27,
+  "s25": 5.16,
+  "trend": "Giữ nhịp",
+  "trend_en": "Steady",
+  "tone": "n",
+  "q4": "Theo tín dụng 16–17%",
+  "q4_en": "Follows 16–17% credit growth",
+  "dur": null
+ },
+ {
+  "table": "score",
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture, forestry, fishery",
+  "own": "Hộ gia đình",
+  "own_en": "Households",
+  "s26": 5.35,
+  "s25": 5.35,
+  "trend": "Giữ nhịp",
+  "trend_en": "Steady",
+  "tone": "n",
+  "q4": "Ổn định, thu nhập thấp",
+  "q4_en": "Stable, low income",
+  "dur": 4
+ },
+ {
+  "table": "score",
+  "vi": "Lưu trú, ăn uống",
+  "en": "Hotels, restaurants",
+  "own": "Trong nước",
+  "own_en": "Domestic",
+  "s26": 2.69,
+  "s25": 3.5,
+  "trend": "Chậm lại",
+  "trend_en": "Slowing",
+  "tone": "r",
+  "q4": "Chạm trần thu nhập thực",
+  "q4_en": "Capped by real incomes",
+  "dur": 3
+ },
+ {
+  "table": "score",
+  "vi": "Dịch vụ công, bất động sản",
+  "en": "Public services, property",
+  "own": "Nhà nước, tư nhân",
+  "own_en": "State, private",
+  "s26": 17.87,
+  "s25": 23.29,
+  "trend": "Chậm lại",
+  "trend_en": "Slowing",
+  "tone": "r",
+  "q4": "Chi thường xuyên chậm, nhà ở trầm",
+  "q4_en": "Slow current spending, weak housing",
+  "dur": null
+ },
+ {
+  "table": "nd",
+  "id": "score",
+  "vi": [
+   "Ba nhóm tăng tốc làm ra 49,62% mức tăng 9 tháng nhưng độ bền chỉ 2–3 trên 5; nhóm dịch vụ công, bất động sản mất 5,42 điểm phần đóng góp, giảm mạnh nhất.",
+   "Khu vực FDI làm ra 80,7% kim ngạch xuất khẩu và xuất siêu 14,86 tỷ USD; khu vực trong nước nhập siêu 34,28 tỷ USD, nên cả nước nhập siêu khoảng 19,4 tỷ USD."
+  ],
+  "en": [
+   "The three accelerating groups produced 49.62% of nine-month growth but score only 2–3 out of 5 on durability; public services and property lost 5.42 points of share, the biggest drop.",
+   "The FDI sector made 80.7% of exports and a 14.86 bn USD surplus; domestic firms ran a 34.28 bn USD deficit, so the country ran a deficit of about 19.4 bn USD."
+  ],
+  "kl": "Động cơ nhanh nhất lại kém bền nhất; năm 2027 cần dịch vụ và doanh nghiệp trong nước gánh thêm.",
+  "kl_en": "The fastest engines are the least durable; in 2027 services and domestic firms need to carry more."
+ },
+ {
+  "table": "fdi",
+  "vi": "Ngành chủ lực",
+  "en": "Main industries",
+  "fdi": "Điện tử, máy tính, điện thoại; một phần dệt may, giày dép",
+  "fdi_en": "Electronics, computers, phones; part of textiles and footwear",
+  "dom": "Thép, vật liệu, thực phẩm, thủy sản chế biến; xây dựng, bán lẻ, quán ăn, ngân hàng, nông nghiệp; mỏ và điện do Nhà nước",
+  "dom_en": "Steel, materials, food, processed seafood; construction, retail, restaurants, banking, farming; mining and power held by the State"
+ },
+ {
+  "table": "fdi",
+  "vi": "Xuất khẩu hàng hóa",
+  "en": "Goods exports",
+  "fdi": "350,41 tỷ USD, +29,4%; 80,7% tổng kim ngạch",
+  "fdi_en": "$350.41bn, +29.4%; 80.7% of the total",
+  "dom": "Khoảng 84 tỷ USD, tăng khoảng 6%; 19,3%",
+  "dom_en": "About $84bn, up about 6%; 19.3%"
+ },
+ {
+  "table": "fdi",
+  "vi": "Nhập khẩu hàng hóa",
+  "en": "Goods imports",
+  "fdi": "335,55 tỷ USD, +42,0%",
+  "fdi_en": "$335.55bn, +42.0%",
+  "dom": "118,17 tỷ USD, +23,5%",
+  "dom_en": "$118.17bn, +23.5%"
+ },
+ {
+  "table": "fdi",
+  "vi": "Cán cân hàng hóa",
+  "en": "Goods trade balance",
+  "fdi": "Xuất siêu 14,86 tỷ USD",
+  "fdi_en": "Surplus $14.86bn",
+  "dom": "Nhập siêu 34,28 tỷ USD",
+  "dom_en": "Deficit $34.28bn"
+ },
+ {
+  "table": "fdi",
+  "vi": "Vốn đầu tư toàn xã hội",
+  "en": "Total investment",
+  "fdi": "17%",
+  "fdi_en": "17%",
+  "dom": "Tư nhân 53%, Nhà nước 30%",
+  "dom_en": "Private 53%, State 30%"
+ },
+ {
+  "table": "fdi",
+  "vi": "Vốn FDI giải ngân vào chế biến",
+  "en": "FDI disbursed into manufacturing",
+  "fdi": "17,4 tỷ USD, 82,6% tổng giải ngân",
+  "fdi_en": "$17.4bn, 82.6% of FDI disbursed",
+  "dom": "",
+  "dom_en": ""
+ },
+ {
+  "table": "fdi",
+  "vi": "Lợi nhuận chuyển ra nước ngoài",
+  "en": "Profits sent abroad",
+  "fdi": "Khoảng 20–21 tỷ USD mỗi năm",
+  "fdi_en": "About $20–21bn a year",
+  "dom": "",
+  "dom_en": ""
+ },
+ {
+  "table": "nd",
+  "id": "fdi",
+  "vi": [
+   "Ngược lại, tư nhân trong nước chiếm 53% vốn đầu tư toàn xã hội và Nhà nước 30%, khu vực FDI chỉ 17%: câu hỏi phụ thuộc FDI phải tách làm hai, rất nặng ở phía ngoại tệ, không áp đảo ở phía đầu tư.",
+   "Khoảng 20–21 tỷ USD lợi nhuận FDI chuyển ra nước ngoài mỗi năm là phần chiếc bánh làm ở Việt Nam nhưng không ở lại; đây là lý do GDP tăng nhanh hơn thu nhập người Việt giữ lại.",
+   "Điều đọng lại: khâu nối giữa hai động cơ còn yếu; doanh nghiệp Việt chưa bán được nhiều linh kiện vào chuỗi FDI, nên tăng trưởng chỉ bền khi phần giá trị giữ lại dày lên."
+  ],
+  "en": [
+   "Domestic private firms hold 53% of total investment and the State 30%, FDI only 17%: dependence on FDI is heavy on the foreign-currency side, not on the investment side.",
+   "About $20–21bn of FDI profits leave the country each year: the slice of the pie made in Vietnam that does not stay.",
+   "The link between the two engines is weak; Vietnamese firms sell few parts into FDI supply chains, so growth only lasts if the value kept at home thickens."
+  ],
+  "kl": "FDI quyết định xuất khẩu và ngoại tệ, khu vực trong nước quyết định đầu tư và việc làm; điểm yếu là khâu nối giữa hai bên.",
+  "kl_en": "FDI drives exports and foreign currency, domestic firms drive investment and jobs; the weak point is the link between them."
+ },
+ {
+  "table": "rates",
+  "vi": "Bất động sản",
+  "en": "Property",
+  "up": "Chịu nặng: vay mua nhà 14–16%",
+  "up_en": "Hit hard: mortgages 14–16%",
+  "fx": "Chịu thiệt nếu nợ USD",
+  "fx_en": "Loses if indebted in USD",
+  "t_up": "r",
+  "t_fx": "r"
+ },
+ {
+  "table": "rates",
+  "vi": "Xây dựng",
+  "en": "Construction",
+  "up": "Chịu: vốn lưu động đắt",
+  "up_en": "Hit: dearer working capital",
+  "fx": "Vật liệu nhập đắt hơn",
+  "fx_en": "Imported materials cost more",
+  "t_up": "r",
+  "t_fx": ""
+ },
+ {
+  "table": "rates",
+  "vi": "Bán lẻ",
+  "en": "Retail",
+  "up": "Chịu: mua trả góp chậm",
+  "up_en": "Hit: instalment buying slows",
+  "fx": "Hàng nhập đắt hơn",
+  "fx_en": "Imports cost more",
+  "t_up": "r",
+  "t_fx": ""
+ },
+ {
+  "table": "rates",
+  "vi": "Dệt may, thủy sản, gỗ",
+  "en": "Textiles, seafood, wood",
+  "up": "Ít",
+  "up_en": "Little",
+  "fx": "Được lợi về giá bán",
+  "fx_en": "Gains on selling prices",
+  "t_up": "",
+  "t_fx": "g"
+ },
+ {
+  "table": "rates",
+  "vi": "Điện tử khu vực FDI",
+  "en": "FDI electronics",
+  "up": "Ít",
+  "up_en": "Little",
+  "fx": "Ít: mua linh kiện và bán thành phẩm đều bằng USD",
+  "fx_en": "Little: buys parts and sells products in USD",
+  "t_up": "",
+  "t_fx": ""
+ },
+ {
+  "table": "rates",
+  "vi": "Ngân hàng",
+  "en": "Banks",
+  "up": "Biên lãi tăng, nợ xấu tăng",
+  "up_en": "Wider margins, more bad debt",
+  "fx": "Rủi ro với khách hàng nợ USD",
+  "fx_en": "Risk from USD borrowers",
+  "t_up": "",
+  "t_fx": ""
+ },
+ {
+  "table": "nd",
+  "id": "rates",
+  "vi": [
+   "Chìa khóa lãi suất quý IV nằm ở Fed: khi Fed tăng tiếp, ngành dùng nhiều vốn vay chịu trước, còn ngành xuất khẩu của doanh nghiệp Việt (dệt may, thủy sản, gỗ) có chút lợi về giá khi tiền đồng yếu đi.",
+   "Điện tử khu vực FDI ít chịu tác động vì đầu vào và đầu ra cùng bằng USD; cú sốc tỷ giá vì vậy dồn lên khu vực trong nước, nơi đang nhập siêu 34,28 tỷ USD."
+  ],
+  "en": [
+   "The key to Q4 interest rates lies with the Fed: if it hikes again, borrowing-heavy sectors suffer first, while Vietnamese-owned exporters (textiles, seafood, wood) gain a little on prices as the dong weakens.",
+   "FDI electronics is little affected as inputs and outputs are both in USD; an exchange-rate shock therefore falls on the domestic sector, which runs a $34.28bn trade deficit."
+  ],
+  "kl": "Nếu lãi suất tăng, bất động sản, xây dựng và bán lẻ chịu trước; doanh nghiệp xuất khẩu trong nước có chút lợi khi tiền đồng yếu.",
+  "kl_en": "If rates rise, property, construction and retail suffer first; domestic exporters gain a little from a weaker dong."
+ },
+ {
+  "table": "cmp2",
+  "vi": "Cơ sở (55%)",
+  "en": "Base (55%)",
+  "ct": "11–11,5% · 9,6–9,7%",
+  "sx": "11,24% · 9,63%",
+  "ct_en": "11–11.5% · 9.6–9.7%",
+  "sx_en": "11.24% · 9.63%"
+ },
+ {
+  "table": "cmp2",
+  "vi": "Tích cực (20%)",
+  "en": "Positive (20%)",
+  "ct": "12–12,5% · 9,9–10%",
+  "sx": "12,25% · 9,91%",
+  "ct_en": "12–12.5% · 9.9–10%",
+  "sx_en": "12.25% · 9.91%"
+ },
+ {
+  "table": "cmp2",
+  "vi": "Tiêu cực (25%)",
+  "en": "Negative (25%)",
+  "ct": "9,5–10% · 9,2–9,3%",
+  "sx": "9,96% · 9,27%",
+  "ct_en": "9.5–10% · 9.2–9.3%",
+  "sx_en": "9.96% · 9.27%"
+ },
+ {
+  "table": "cmp2",
+  "vi": "Trần",
+  "en": "Ceiling",
+  "ct": "Tích lũy tài sản phải tăng 31–32% để đạt 12,5%",
+  "sx": "12,3% · 9,9%",
+  "ct_en": "Capital formation must grow 31–32% to reach 12.5%",
+  "sx_en": "12.3% · 9.9%"
+ },
+ {
+  "table": "nd",
+  "id": "cmp2",
+  "vi": [
+   "Hai cách khớp nhau vì cùng hỏi một câu theo hai chiều: phía chi tiêu hỏi ai đủ tiền mua, phía sản xuất hỏi ai đủ sức làm ra; phía chi tiêu thường cho số cao hơn một chút, cùng chiều với chênh lệch thống kê quý III, nên trần thực tế năm 2026 quanh 9,9–10%."
+  ],
+  "en": [
+   "The two methods agree because they ask one question from two directions: the spending side asks who can afford to buy, the production side asks who can make it; the spending side tends to read slightly higher, in line with Q3's statistical discrepancy, so the realistic 2026 ceiling is around 9.9–10%."
+  ],
+  "kl": "Hai phương pháp cho cùng kết quả: dự báo GDP 2026 của TVN khoảng 9,6%, trần thực tế 9,9–10%.",
+  "kl_en": "The two methods agree: TVN forecasts 2026 GDP at about 9.6%, with a realistic ceiling of 9.9–10%."
+ },
+ {
+  "table": "y27",
+  "vi": "Chế biến, chế tạo",
+  "en": "Manufacturing",
+  "txt": "Chậm lại trước vì nền cao và phải xả kho; giá trị giữ lại có thể dày lên khi nhà máy FDI mới làm thành phẩm",
+  "txt_en": "Slows first on a high base and inventory run-down; value kept may thicken as new FDI plants make finished goods"
+ },
+ {
+  "table": "y27",
+  "vi": "Xây dựng",
+  "en": "Construction",
+  "txt": "Vẫn là động cơ vì đầu tư công tiếp tục, không còn cú dồn vốn cuối năm",
+  "txt_en": "Still an engine as public investment continues, without the year-end rush"
+ },
+ {
+  "table": "y27",
+  "vi": "Lưu trú, ăn uống, bán lẻ",
+  "en": "Hotels, restaurants, retail",
+  "txt": "Hồi phục chậm, theo nhịp thu nhập thực; Tết năm nào cũng ở quý I nên không đổi mức tăng so cùng kỳ",
+  "txt_en": "Slow recovery in line with real incomes; Tết falls in Q1 every year, so it does not change year-on-year growth"
+ },
+ {
+  "table": "y27",
+  "vi": "Khai khoáng, dầu khí",
+  "en": "Mining, oil and gas",
+  "txt": "Theo giá dầu",
+  "txt_en": "Follows oil prices"
+ },
+ {
+  "table": "nd",
+  "id": "y27",
+  "vi": [
+   "GDP 2027 nhiều khả năng về vùng 7–8%, kịch bản cơ sở khoảng 7,6% (ADB cũng dự báo khoảng 7,6%): đây là bình thường hóa sau một năm chạy vượt sức, không phải suy giảm; biến số quyết định vẫn là chu kỳ điện tử toàn cầu."
+  ],
+  "en": [
+   "2027 GDP is likely to settle in the 7–8% range, base case about 7.6% (ADB also forecasts about 7.6%): a normalisation after a year running above capacity, not a downturn; the global electronics cycle remains the deciding variable."
+  ],
+  "kl": "GDP 2027 khoảng 7,6% trong kịch bản cơ sở: bình thường hóa, không phải suy giảm; biến số quyết định là chu kỳ điện tử.",
+  "kl_en": "2027 GDP about 7.6% in the base case: normalisation, not a slump; the deciding variable is the electronics cycle."
+ },
+ {
+  "table": "tax",
+  "id": "tax",
+  "vi": "Thuế sản phẩm trừ trợ cấp",
+  "en": "Product taxes less subsidies",
+  "pts_q3": 0.63,
+  "pts_9m": 0.56,
+  "note": "TVN ước theo tỷ trọng khoảng 8% GDP; Cục Thống kê chia tỷ lệ đóng góp cho ba khu vực theo mức tăng tổng giá trị tăng thêm",
+  "note_en": "TVN estimate from a weight of about 8% of GDP; the statistics office splits contribution shares across the three sectors on gross value-added growth"
+ },
+ {
+  "table": "mxcol",
+  "id": "NN",
+  "order": 1,
+  "vi": "Nông, lâm, thủy sản",
+  "en": "Agriculture, forestry, fishery",
+  "kv": "nn",
+  "fact": "Quý III +4,21%, góp 0,48 điểm",
+  "fact_en": "Q3 +4.21%, adds 0.48 pts"
+ },
+ {
+  "table": "mxcol",
+  "id": "CB",
+  "order": 2,
+  "vi": "Chế biến, chế tạo",
+  "en": "Manufacturing",
+  "kv": "cn",
+  "fact": "Giá trị tăng thêm quý III +12,28%, góp khoảng 3,2 điểm",
+  "fact_en": "Q3 value added +12.28%, adds about 3.2 pts"
+ },
+ {
+  "table": "mxcol",
+  "id": "XD",
+  "order": 3,
+  "vi": "Xây dựng",
+  "en": "Construction",
+  "kv": "cn",
+  "fact": "Quý III +14,22%, nhanh nhất mọi ngành",
+  "fact_en": "Q3 +14.22%, fastest of all industries"
+ },
+ {
+  "table": "mxcol",
+  "id": "KD",
+  "order": 4,
+  "vi": "Khai khoáng, điện",
+  "en": "Mining, power",
+  "kv": "cn",
+  "fact": "Khai khoáng quý III +12,2%; sản lượng điện +12,8%",
+  "fact_en": "Mining Q3 +12.2%; electricity output +12.8%"
+ },
+ {
+  "table": "mxcol",
+  "id": "TV",
+  "order": 5,
+  "vi": "Thương mại, vận tải",
+  "en": "Trade, transport",
+  "kv": "dv",
+  "fact": "Bán buôn, bán lẻ 9 tháng +9,85%; vận tải +11,03%",
+  "fact_en": "Wholesale and retail 9M +9.85%; transport +11.03%"
+ },
+ {
+  "table": "mxcol",
+  "id": "DS",
+  "order": 6,
+  "vi": "Lưu trú, ăn uống",
+  "en": "Accommodation, food",
+  "kv": "dv",
+  "fact": "9 tháng +8,83%; năm trước +10,15%",
+  "fact_en": "9M +8.83%; a year earlier +10.15%"
+ },
+ {
+  "table": "mxcol",
+  "id": "TC",
+  "order": 7,
+  "vi": "Tài chính, bất động sản",
+  "en": "Finance, real estate",
+  "kv": "dv",
+  "fact": "Tài chính, ngân hàng 9 tháng +9,45%; tín dụng +16,69%",
+  "fact_en": "Finance and banking 9M +9.45%; credit +16.69%"
+ },
+ {
+  "table": "mxcol",
+  "id": "DC",
+  "order": 8,
+  "vi": "Dịch vụ công",
+  "en": "Public services",
+  "kv": "dv",
+  "fact": "Nhóm dịch vụ công, bất động sản: phần trong mức tăng 9 tháng 17,9%, năm trước 23,3%",
+  "fact_en": "Public services and real estate: 17.9% of 9M growth, down from 23.3%"
+ },
+ {
+  "table": "mxrow",
+  "id": "C",
+  "order": 1,
+  "vi": "Tiêu dùng hộ (C)",
+  "en": "Household consumption (C)",
+  "fact": "9 tháng +9,75%, góp 6,88 điểm (Cục Thống kê)",
+  "fact_en": "9M +9.75%, adds 6.88 pts (GSO)"
+ },
+ {
+  "table": "mxrow",
+  "id": "G",
+  "order": 2,
+  "vi": "Tiêu dùng Nhà nước (G)",
+  "en": "Government consumption (G)",
+  "fact": "9 tháng +1,22%",
+  "fact_en": "9M +1.22%"
+ },
+ {
+  "table": "mxrow",
+  "id": "I",
+  "order": 3,
+  "vi": "Tích lũy tài sản (I)",
+  "en": "Gross capital formation (I)",
+  "fact": "Quý III +21,39%, góp 7,06 điểm",
+  "fact_en": "Q3 +21.39%, adds 7.06 pts"
+ },
+ {
+  "table": "mxrow",
+  "id": "X",
+  "order": 4,
+  "vi": "Xuất khẩu (X)",
+  "en": "Exports (X)",
+  "fact": "Quý III +23,27%; gồm chi tiêu của khách quốc tế",
+  "fact_en": "Q3 +23.27%; includes international visitors' spending"
+ },
+ {
+  "table": "mxrow",
+  "id": "M",
+  "order": 5,
+  "vi": "Nhập khẩu (M, trừ ra)",
+  "en": "Imports (M, subtracted)",
+  "fact": "Quý III +28,75%; xuất khẩu ròng trừ 3,79 điểm",
+  "fact_en": "Q3 +28.75%; net exports subtract 3.79 pts"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "NN",
+  "lv": 2,
+  "vi": "Lương thực, thực phẩm",
+  "en": "Food"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "CB",
+  "lv": 2,
+  "vi": "Hàng tiêu dùng",
+  "en": "Consumer goods"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "XD",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "KD",
+  "lv": 1,
+  "vi": "Điện sinh hoạt",
+  "en": "Household electricity"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "TV",
+  "lv": 3,
+  "vi": "Bán lẻ thực 9 tháng +7,8%",
+  "en": "Real retail 9M +7.8%"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "DS",
+  "lv": 3,
+  "vi": "Lưu trú, ăn uống +8,83%",
+  "en": "Accommodation and food +8.83%"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "TC",
+  "lv": 2,
+  "vi": "Nhà ở, dịch vụ ngân hàng",
+  "en": "Housing, banking services"
+ },
+ {
+  "table": "mxcell",
+  "row": "C",
+  "col": "DC",
+  "lv": 1,
+  "vi": "Y tế, giáo dục tư",
+  "en": "Private health, education"
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "NN",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "CB",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "XD",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "KD",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "TV",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "DS",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "TC",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "G",
+  "col": "DC",
+  "lv": 3,
+  "vi": "G chỉ +1,22%",
+  "en": "G only +1.22%"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "NN",
+  "lv": 1,
+  "vi": "Tồn kho nông sản",
+  "en": "Farm inventories"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "CB",
+  "lv": 3,
+  "vi": "Máy móc; tồn kho +11,9%",
+  "en": "Machinery; inventories +11.9%"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "XD",
+  "lv": 3,
+  "vi": "Xây dựng quý III +14,22%",
+  "en": "Construction Q3 +14.22%"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "KD",
+  "lv": 1,
+  "vi": "Tồn kho dầu, than",
+  "en": "Oil and coal stocks"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "TV",
+  "lv": 1,
+  "vi": "Kho bãi",
+  "en": "Warehousing"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "DS",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "TC",
+  "lv": 2,
+  "vi": "Công trình bất động sản",
+  "en": "Real estate construction"
+ },
+ {
+  "table": "mxcell",
+  "row": "I",
+  "col": "DC",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "NN",
+  "lv": 2,
+  "vi": "Nông sản xuất siêu",
+  "en": "Farm trade surplus"
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "CB",
+  "lv": 3,
+  "vi": "80,7% xuất khẩu do FDI",
+  "en": "80.7% of exports by FDI"
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "XD",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "KD",
+  "lv": 2,
+  "vi": "Dầu thô",
+  "en": "Crude oil"
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "TV",
+  "lv": 2,
+  "vi": "Vận tải hàng +15,8%",
+  "en": "Freight +15.8%"
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "DS",
+  "lv": 2,
+  "vi": "Khách quốc tế +14,5%",
+  "en": "International visitors +14.5%"
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "TC",
+  "lv": 1,
+  "vi": "Dịch vụ tài chính",
+  "en": "Financial services"
+ },
+ {
+  "table": "mxcell",
+  "row": "X",
+  "col": "DC",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "NN",
+  "lv": 1,
+  "vi": "Thức ăn chăn nuôi",
+  "en": "Animal feed"
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "CB",
+  "lv": 3,
+  "vi": "Linh kiện +71,7%",
+  "en": "Components +71.7%"
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "XD",
+  "lv": 2,
+  "vi": "Máy móc, thép",
+  "en": "Machinery, steel"
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "KD",
+  "lv": 2,
+  "vi": "Xăng dầu",
+  "en": "Fuel"
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "TV",
+  "lv": 1,
+  "vi": "Cước vận tải",
+  "en": "Freight charges"
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "DS",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "TC",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "mxcell",
+  "row": "M",
+  "col": "DC",
+  "lv": 0,
+  "vi": "",
+  "en": ""
+ },
+ {
+  "table": "nd",
+  "id": "matrix",
+  "vi": [
+   "Đọc theo ma trận, hai cấu phần tăng nhanh nhất (I và X) đều đi qua cùng hai ngành: chế biến và xây dựng. Đó là lý do phía sản xuất cho thấy công nghiệp, xây dựng làm ra gần một nửa mức tăng.",
+   "Ngược lại, hàng C của ma trận đi qua thương mại, lưu trú, ăn uống và nông nghiệp, đúng những ngành có phần đóng góp giảm. Tăng trưởng mạnh ở chỗ bán cho nhà máy và cho nước ngoài, yếu ở chỗ bán cho người dân."
+  ],
+  "en": [
+   "Read through the matrix, the two fastest components (I and X) both run through the same two industries: manufacturing and construction. That is why the production side shows industry and construction making almost half of growth.",
+   "By contrast, the C row runs through trade, accommodation, food and agriculture, exactly the industries whose share of growth fell. Growth is strong where industries sell to factories and abroad, and weak where they sell to households."
+  ]
+ }
+]

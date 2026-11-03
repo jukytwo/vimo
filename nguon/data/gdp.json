@@ -1,0 +1,191 @@
+[
+ {
+  "table": "contrib",
+  "period": "9 tháng",
+  "comp": "C",
+  "label": "C: tiêu dùng hộ",
+  "value": 6.88
+ },
+ {
+  "table": "contrib",
+  "period": "9 tháng",
+  "comp": "G",
+  "label": "G: tiêu dùng Nhà nước",
+  "value": 0.15
+ },
+ {
+  "table": "contrib",
+  "period": "9 tháng",
+  "comp": "I",
+  "label": "I: tích lũy tài sản",
+  "value": 5.9
+ },
+ {
+  "table": "contrib",
+  "period": "9 tháng",
+  "comp": "NX",
+  "label": "NX: xuất khẩu ròng",
+  "value": -4.22
+ },
+ {
+  "table": "contrib",
+  "period": "9 tháng",
+  "comp": "R",
+  "label": "Chênh lệch",
+  "value": 0.3
+ },
+ {
+  "table": "contrib",
+  "period": "9 tháng",
+  "comp": "GDP",
+  "label": "GDP",
+  "value": 9.01
+ },
+ {
+  "table": "contrib",
+  "period": "Quý III",
+  "comp": "C",
+  "label": "C + G: tiêu dùng cuối cùng",
+  "value": 7.4
+ },
+ {
+  "table": "contrib",
+  "period": "Quý III",
+  "comp": "I",
+  "label": "I: tích lũy tài sản",
+  "value": 7.06
+ },
+ {
+  "table": "contrib",
+  "period": "Quý III",
+  "comp": "NX",
+  "label": "NX: xuất khẩu ròng",
+  "value": -3.79
+ },
+ {
+  "table": "contrib",
+  "period": "Quý III",
+  "comp": "R",
+  "label": "Chênh lệch",
+  "value": -0.72
+ },
+ {
+  "table": "contrib",
+  "period": "Quý III",
+  "comp": "GDP",
+  "label": "GDP",
+  "value": 9.95
+ },
+ {
+  "table": "growth",
+  "comp": "C",
+  "label": "Tiêu dùng hộ gia đình",
+  "growth_9m": 9.75,
+  "growth_q3": null,
+  "meaning": "Tăng nhanh hơn nhiều so với thu nhập thực của người lao động; phần chênh dựa vào vay nợ, giá tài sản và kiều hối"
+ },
+ {
+  "table": "growth",
+  "comp": "G",
+  "label": "Tiêu dùng Nhà nước",
+  "growth_9m": 1.22,
+  "growth_q3": null,
+  "meaning": "Thấp hơn cùng kỳ gần 11 điểm: siết chi bộ máy, dồn tiền sang đầu tư"
+ },
+ {
+  "table": "growth",
+  "comp": "C+G",
+  "label": "Tiêu dùng cuối cùng",
+  "growth_9m": 8.51,
+  "growth_q3": 8.96,
+  "meaning": "Quý III Cục Thống kê chỉ công bố gộp C và G"
+ },
+ {
+  "table": "growth",
+  "comp": "I",
+  "label": "Tích lũy tài sản",
+  "growth_9m": 17.88,
+  "growth_q3": 21.39,
+  "meaning": "Gồm vốn Nhà nước, FDI, tư nhân và tồn kho"
+ },
+ {
+  "table": "growth",
+  "comp": "X",
+  "label": "Xuất khẩu hàng hóa và dịch vụ",
+  "growth_9m": 21.29,
+  "growth_q3": 23.27,
+  "meaning": "Do khu vực FDI dẫn dắt"
+ },
+ {
+  "table": "growth",
+  "comp": "M",
+  "label": "Nhập khẩu hàng hóa và dịch vụ",
+  "growth_9m": 27.19,
+  "growth_q3": 28.75,
+  "meaning": "Linh kiện, máy móc cho FDI và đầu tư"
+ },
+ {
+  "table": "supply",
+  "sector": "Nông, lâm nghiệp và thủy sản",
+  "q3": 4.21,
+  "m9": 4.02,
+  "contrib": 0.45
+ },
+ {
+  "table": "supply",
+  "sector": "Công nghiệp và xây dựng",
+  "q3": 12.5,
+  "m9": 11.21,
+  "contrib": 4.19
+ },
+ {
+  "table": "supply",
+  "sector": "Dịch vụ",
+  "q3": 9.54,
+  "m9": 8.69,
+  "contrib": 3.81
+ },
+ {
+  "table": "supply",
+  "sector": "Thuế sản phẩm trừ trợ cấp",
+  "q3": null,
+  "m9": null,
+  "contrib": 0.56
+ },
+ {
+  "table": "gni",
+  "step": "Giá xuất khẩu",
+  "value": 100,
+  "kind": "total"
+ },
+ {
+  "table": "gni",
+  "step": "Linh kiện nhập khẩu",
+  "value": 80,
+  "kind": "out"
+ },
+ {
+  "table": "gni",
+  "step": "Giá trị làm ra ở Việt Nam (GDP)",
+  "value": 20,
+  "kind": "gdp"
+ },
+ {
+  "table": "gni",
+  "step": "Lương công nhân Việt",
+  "value": 5,
+  "kind": "vn"
+ },
+ {
+  "table": "gni",
+  "step": "Thuế nộp ở Việt Nam",
+  "value": 2,
+  "kind": "vn"
+ },
+ {
+  "table": "gni",
+  "step": "Lợi nhuận chuyển về công ty mẹ",
+  "value": 13,
+  "kind": "out"
+ }
+]

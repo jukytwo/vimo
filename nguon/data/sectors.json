@@ -1,0 +1,90 @@
+[
+ {
+  "table": "sectors",
+  "group": "Ưu tiên",
+  "sector": "Thép, vật liệu xây dựng",
+  "why": "Đi cùng I: đầu tư công dồn cuối năm",
+  "c": 0,
+  "g": 0,
+  "i": 2,
+  "nx": 0,
+  "px": 0
+ },
+ {
+  "table": "sectors",
+  "group": "Ưu tiên",
+  "sector": "Cảng, logistics",
+  "why": "Đi cùng xuất khẩu và hạ tầng",
+  "c": 0,
+  "g": 0,
+  "i": 1,
+  "nx": 2,
+  "px": 0
+ },
+ {
+  "table": "sectors",
+  "group": "Ưu tiên",
+  "sector": "Lọc hóa dầu",
+  "why": "Hưởng lợi khi giá dầu cao",
+  "c": 1,
+  "g": 0,
+  "i": 0,
+  "nx": 0,
+  "px": 2
+ },
+ {
+  "table": "sectors",
+  "group": "Chọn lọc",
+  "sector": "Ngân hàng",
+  "why": "Tín dụng tăng nhưng chi phí vốn lên, rủi ro nợ xấu bất động sản",
+  "c": 1,
+  "g": 0,
+  "i": 1,
+  "nx": 0,
+  "px": -1
+ },
+ {
+  "table": "sectors",
+  "group": "Chọn lọc",
+  "sector": "Bán lẻ",
+  "why": "C của số đông còn yếu, dựa vào vay",
+  "c": -1,
+  "g": 0,
+  "i": 0,
+  "nx": 0,
+  "px": -1
+ },
+ {
+  "table": "sectors",
+  "group": "Thận trọng",
+  "sector": "Bất động sản, khu công nghiệp",
+  "why": "Lãi vay nhà 14–16%, nợ xấu tăng nhanh hơn dư nợ",
+  "c": -1,
+  "g": 0,
+  "i": 1,
+  "nx": 0,
+  "px": -2
+ },
+ {
+  "table": "sectors",
+  "group": "Thận trọng",
+  "sector": "Dệt may, da giày xuất khẩu Mỹ",
+  "why": "Chịu thuế Mục 301, NX và việc làm chịu sức ép",
+  "c": 0,
+  "g": 0,
+  "i": 0,
+  "nx": -2,
+  "px": 0
+ },
+ {
+  "table": "sectors",
+  "group": "Thận trọng",
+  "sector": "Ngành nhạy lãi suất, tỷ giá",
+  "why": "Bộ ba bất khả thi giữ tiền đồng đắt",
+  "c": 0,
+  "g": 0,
+  "i": 0,
+  "nx": 0,
+  "px": -2
+ }
+]

@@ -1,0 +1,736 @@
+[
+ {
+  "table": "param",
+  "id": "cg",
+  "order": 0,
+  "group": "Cầu trong nước",
+  "label": "Tiêu dùng cuối cùng (C + G) tăng, trước tác động giá",
+  "unit": "%",
+  "base": 7.25,
+  "min": 4,
+  "max": 11,
+  "step": 0.25,
+  "hint": "Nền quý IV không có Tết; quý III là 8,96%"
+ },
+ {
+  "table": "param",
+  "id": "credit",
+  "order": 1,
+  "group": "Cầu trong nước",
+  "label": "Tín dụng cả năm tăng",
+  "unit": "%",
+  "base": 16.5,
+  "min": 13,
+  "max": 20,
+  "step": 0.5,
+  "hint": "Đến 30/9 tăng 11,59% so cuối 2025"
+ },
+ {
+  "table": "param",
+  "id": "rate",
+  "order": 2,
+  "group": "Cầu trong nước",
+  "label": "Lãi suất cho vay thay đổi",
+  "unit": "điểm %",
+  "base": 0,
+  "min": -1,
+  "max": 2,
+  "step": 0.25,
+  "hint": "So với mặt bằng hiện tại"
+ },
+ {
+  "table": "param",
+  "id": "ibase",
+  "order": 3,
+  "group": "Đầu tư",
+  "label": "Tích lũy tài sản (I) tăng, phần nền",
+  "unit": "%",
+  "base": 26.5,
+  "min": 10,
+  "max": 40,
+  "step": 0.5,
+  "hint": "Quý III tăng 21,39%"
+ },
+ {
+  "table": "param",
+  "id": "pubinv",
+  "order": 4,
+  "group": "Đầu tư",
+  "label": "Giải ngân đầu tư công cả năm",
+  "unit": "% kế hoạch",
+  "base": 88,
+  "min": 70,
+  "max": 105,
+  "step": 1,
+  "hint": "9 tháng đạt 59,9% kế hoạch"
+ },
+ {
+  "table": "param",
+  "id": "fdi",
+  "order": 5,
+  "group": "Đầu tư",
+  "label": "FDI giải ngân quý IV tăng",
+  "unit": "%",
+  "base": 12,
+  "min": 0,
+  "max": 30,
+  "step": 1,
+  "hint": "9 tháng tăng 12,1%"
+ },
+ {
+  "table": "param",
+  "id": "x",
+  "order": 6,
+  "group": "Bên ngoài",
+  "label": "Xuất khẩu hàng hóa và dịch vụ tăng (thực)",
+  "unit": "%",
+  "base": 23,
+  "min": 5,
+  "max": 35,
+  "step": 0.5,
+  "hint": "Quý III tăng 23,27%"
+ },
+ {
+  "table": "param",
+  "id": "mlink",
+  "order": 7,
+  "group": "Bên ngoài",
+  "label": "Nhập khẩu đi kèm mỗi 100 đồng xuất khẩu thêm",
+  "unit": "đồng",
+  "base": 90,
+  "min": 60,
+  "max": 100,
+  "step": 5,
+  "hint": "Linh kiện FDI: nhập 90 xuất 100"
+ },
+ {
+  "table": "param",
+  "id": "fx",
+  "order": 8,
+  "group": "Bên ngoài",
+  "label": "Tỷ giá USD/VND tăng so đầu năm",
+  "unit": "%",
+  "base": 2.0,
+  "min": -1,
+  "max": 6,
+  "step": 0.25,
+  "hint": "Tỷ giá trung tâm +2,01%"
+ },
+ {
+  "table": "param",
+  "id": "brent",
+  "order": 9,
+  "group": "Giá cả",
+  "label": "Giá dầu Brent",
+  "unit": "USD/thùng",
+  "base": 102,
+  "min": 65,
+  "max": 135,
+  "step": 1,
+  "hint": "Ngày 02/10: 102,25 USD"
+ },
+ {
+  "table": "param",
+  "id": "food",
+  "order": 10,
+  "group": "Giá cả",
+  "label": "Giá lương thực, thực phẩm quý IV tăng",
+  "unit": "%",
+  "base": 4,
+  "min": -4,
+  "max": 14,
+  "step": 0.5,
+  "hint": "Nhóm chiếm khoảng 1/3 rổ CPI"
+ },
+ {
+  "table": "param",
+  "id": "admin",
+  "order": 11,
+  "group": "Giá cả",
+  "label": "Điều chỉnh giá điện, y tế, giáo dục",
+  "unit": "điểm CPI",
+  "base": 0.3,
+  "min": 0,
+  "max": 1.2,
+  "step": 0.1,
+  "hint": "Phần giá do Nhà nước điều chỉnh"
+ },
+ {
+  "table": "coef",
+  "id": "w_cg",
+  "value": 0.8256,
+  "label": "Quyền số tiêu dùng cuối cùng (C + G)"
+ },
+ {
+  "table": "coef",
+  "id": "w_i",
+  "value": 0.33,
+  "label": "Quyền số tích lũy tài sản (I)"
+ },
+ {
+  "table": "coef",
+  "id": "w_x",
+  "value": 0.9,
+  "label": "Quyền số xuất khẩu (X)"
+ },
+ {
+  "table": "coef",
+  "id": "w_m",
+  "value": 0.86,
+  "label": "Quyền số nhập khẩu (M)"
+ },
+ {
+  "table": "coef",
+  "id": "resid",
+  "value": 0.3,
+  "label": "Chênh lệch thống kê (như 9 tháng)"
+ },
+ {
+  "table": "coef",
+  "id": "m_base",
+  "value": 28.5,
+  "label": "Nhập khẩu tăng ở kịch bản cơ sở (%)"
+ },
+ {
+  "table": "coef",
+  "id": "i_pub",
+  "value": 0.3,
+  "label": "I tăng thêm khi giải ngân đầu tư công thêm 1 điểm kế hoạch (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "i_fdi",
+  "value": 0.17,
+  "label": "I tăng thêm khi FDI giải ngân tăng thêm 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "i_credit",
+  "value": 1.2,
+  "label": "I tăng thêm khi tín dụng tăng thêm 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "i_rate",
+  "value": -2.0,
+  "label": "I thay đổi khi lãi suất cho vay tăng 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "c_credit",
+  "value": 0.25,
+  "label": "C + G tăng thêm khi tín dụng tăng thêm 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "c_rate",
+  "value": -0.6,
+  "label": "C + G thay đổi khi lãi suất cho vay tăng 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "c_cpi",
+  "value": -0.6,
+  "label": "C + G thực giảm khi CPI quý IV cao hơn nền 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "x_fx",
+  "value": 0.3,
+  "label": "Xuất khẩu tăng thêm khi tỷ giá tăng thêm 1% (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "m_fx",
+  "value": -0.1,
+  "label": "Nhập khẩu thay đổi khi tỷ giá tăng thêm 1% (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "m_fdi",
+  "value": 0.15,
+  "label": "Nhập khẩu tăng thêm khi FDI giải ngân tăng thêm 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "m_i",
+  "value": 0.25,
+  "label": "Nhập khẩu tăng thêm khi I tăng thêm 1 điểm (máy móc, vật tư) (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "gdp_oil",
+  "value": -0.015,
+  "label": "GDP quý IV thay đổi khi Brent tăng 1 USD, qua chi phí đầu vào (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_base",
+  "value": 5.1,
+  "label": "CPI bình quân quý IV ở kịch bản cơ sở (%)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_oil",
+  "value": 0.034,
+  "label": "CPI tăng khi Brent tăng 1 USD (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_fx",
+  "value": 0.12,
+  "label": "CPI tăng khi tỷ giá tăng thêm 1% (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_food",
+  "value": 0.34,
+  "label": "CPI tăng khi giá lương thực, thực phẩm tăng thêm 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_credit",
+  "value": 0.1,
+  "label": "CPI tăng khi tín dụng tăng thêm 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_rate",
+  "value": -0.1,
+  "label": "CPI thay đổi khi lãi suất cho vay tăng 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_gap",
+  "value": 0.15,
+  "label": "CPI tăng khi GDP quý IV cao hơn nền 1 điểm (điểm %)"
+ },
+ {
+  "table": "coef",
+  "id": "gdp_ref",
+  "value": 11.2,
+  "label": "GDP quý IV ở kịch bản cơ sở (%)"
+ },
+ {
+  "table": "coef",
+  "id": "gdp_9m",
+  "value": 9.01,
+  "label": "GDP 9 tháng (%)"
+ },
+ {
+  "table": "coef",
+  "id": "share_9m",
+  "value": 0.72,
+  "label": "Tỷ trọng 9 tháng trong GDP năm"
+ },
+ {
+  "table": "coef",
+  "id": "cpi_9m",
+  "value": 4.52,
+  "label": "CPI bình quân 9 tháng (%)"
+ },
+ {
+  "table": "coef",
+  "id": "t_gdp_y",
+  "value": 10.0,
+  "label": "Mục tiêu GDP cả năm (%)"
+ },
+ {
+  "table": "coef",
+  "id": "t_gdp_q4",
+  "value": 12.5,
+  "label": "GDP quý IV cần đạt (%)"
+ },
+ {
+  "table": "coef",
+  "id": "t_cpi",
+  "value": 4.5,
+  "label": "Mục tiêu lạm phát (%)"
+ },
+ {
+  "table": "coef",
+  "id": "pub_plan",
+  "label": "Kế hoạch vốn đầu tư công năm 2026 (nghìn tỷ đồng, ước tính TVN từ 95–100% kế hoạch tương ứng quý IV 388–443 nghìn tỷ)",
+  "value": 1100
+ },
+ {
+  "table": "coef",
+  "id": "pub_9m",
+  "label": "Đầu tư công đã giải ngân 9 tháng (nghìn tỷ đồng, khoảng 60% kế hoạch)",
+  "value": 657
+ },
+ {
+  "table": "coef",
+  "id": "cr_2025",
+  "label": "Dư nợ tín dụng cuối năm 2025 (nghìn tỷ đồng, suy từ 20,75 triệu tỷ ngày 30/9 và +11,59% từ đầu năm)",
+  "value": 18595
+ },
+ {
+  "table": "coef",
+  "id": "cr_now",
+  "label": "Dư nợ tín dụng ngày 30/9/2026 (nghìn tỷ đồng)",
+  "value": 20750
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:cg",
+  "preset": "Cơ sở",
+  "param": "cg",
+  "value": 7.25
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:credit",
+  "preset": "Cơ sở",
+  "param": "credit",
+  "value": 16.5
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:rate",
+  "preset": "Cơ sở",
+  "param": "rate",
+  "value": 0
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:ibase",
+  "preset": "Cơ sở",
+  "param": "ibase",
+  "value": 26.5
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:pubinv",
+  "preset": "Cơ sở",
+  "param": "pubinv",
+  "value": 88
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:fdi",
+  "preset": "Cơ sở",
+  "param": "fdi",
+  "value": 12
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:x",
+  "preset": "Cơ sở",
+  "param": "x",
+  "value": 23
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:mlink",
+  "preset": "Cơ sở",
+  "param": "mlink",
+  "value": 90
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:fx",
+  "preset": "Cơ sở",
+  "param": "fx",
+  "value": 2.0
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:brent",
+  "preset": "Cơ sở",
+  "param": "brent",
+  "value": 102
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:food",
+  "preset": "Cơ sở",
+  "param": "food",
+  "value": 4
+ },
+ {
+  "table": "preset",
+  "id": "Cơ sở:admin",
+  "preset": "Cơ sở",
+  "param": "admin",
+  "value": 0.3
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:cg",
+  "preset": "Tích cực",
+  "param": "cg",
+  "value": 7.6
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:credit",
+  "preset": "Tích cực",
+  "param": "credit",
+  "value": 17
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:rate",
+  "preset": "Tích cực",
+  "param": "rate",
+  "value": 0
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:ibase",
+  "preset": "Tích cực",
+  "param": "ibase",
+  "value": 27
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:pubinv",
+  "preset": "Tích cực",
+  "param": "pubinv",
+  "value": 96
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:fdi",
+  "preset": "Tích cực",
+  "param": "fdi",
+  "value": 15
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:x",
+  "preset": "Tích cực",
+  "param": "x",
+  "value": 25
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:mlink",
+  "preset": "Tích cực",
+  "param": "mlink",
+  "value": 90
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:fx",
+  "preset": "Tích cực",
+  "param": "fx",
+  "value": 2.0
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:brent",
+  "preset": "Tích cực",
+  "param": "brent",
+  "value": 92
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:food",
+  "preset": "Tích cực",
+  "param": "food",
+  "value": 3
+ },
+ {
+  "table": "preset",
+  "id": "Tích cực:admin",
+  "preset": "Tích cực",
+  "param": "admin",
+  "value": 0.25
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:cg",
+  "preset": "Tiêu cực",
+  "param": "cg",
+  "value": 6.75
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:credit",
+  "preset": "Tiêu cực",
+  "param": "credit",
+  "value": 16
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:rate",
+  "preset": "Tiêu cực",
+  "param": "rate",
+  "value": 0.25
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:ibase",
+  "preset": "Tiêu cực",
+  "param": "ibase",
+  "value": 25.5
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:pubinv",
+  "preset": "Tiêu cực",
+  "param": "pubinv",
+  "value": 80
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:fdi",
+  "preset": "Tiêu cực",
+  "param": "fdi",
+  "value": 9
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:x",
+  "preset": "Tiêu cực",
+  "param": "x",
+  "value": 21
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:mlink",
+  "preset": "Tiêu cực",
+  "param": "mlink",
+  "value": 90
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:fx",
+  "preset": "Tiêu cực",
+  "param": "fx",
+  "value": 3
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:brent",
+  "preset": "Tiêu cực",
+  "param": "brent",
+  "value": 112
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:food",
+  "preset": "Tiêu cực",
+  "param": "food",
+  "value": 5.5
+ },
+ {
+  "table": "preset",
+  "id": "Tiêu cực:admin",
+  "preset": "Tiêu cực",
+  "param": "admin",
+  "value": 0.4
+ },
+ {
+  "table": "feas",
+  "id": "pubinv",
+  "order": 1,
+  "kind": "gdp",
+  "dir": "up",
+  "ok": 95,
+  "hard": 100,
+  "label": "Đẩy giải ngân đầu tư công",
+  "ref": "Kịch bản tích cực 95% kế hoạch; trần là 100% kế hoạch được giao"
+ },
+ {
+  "table": "feas",
+  "id": "credit",
+  "order": 2,
+  "kind": "gdp",
+  "dir": "up",
+  "ok": 17,
+  "hard": 18,
+  "label": "Bơm thêm tín dụng",
+  "ref": "Kịch bản tích cực 17%; trên 18% rủi ro nợ xấu và tỷ lệ cho vay trên huy động vượt ngưỡng an toàn"
+ },
+ {
+  "table": "feas",
+  "id": "rate",
+  "order": 3,
+  "kind": "gdp",
+  "dir": "down",
+  "ok": -0.25,
+  "hard": -0.5,
+  "label": "Hạ lãi suất cho vay",
+  "ref": "Lạm phát sát mục tiêu nên dư địa hạ lãi suất hẹp; giảm quá 0,5 điểm dễ gây áp lực tỷ giá"
+ },
+ {
+  "table": "feas",
+  "id": "ibase",
+  "order": 4,
+  "kind": "gdp",
+  "dir": "up",
+  "ok": 27,
+  "hard": 28.5,
+  "label": "Khơi thông đầu tư tư nhân",
+  "ref": "Kịch bản tích cực 27%; quý III đạt 21,39% nên trên 28,5% là bước nhảy rất lớn"
+ },
+ {
+  "table": "feas",
+  "id": "fdi",
+  "order": 5,
+  "kind": "gdp",
+  "dir": "up",
+  "ok": 15,
+  "hard": 20,
+  "label": "Đẩy giải ngân FDI",
+  "ref": "Kịch bản tích cực 15%; 9 tháng giải ngân 21,07 tỷ USD, tăng 12,1%"
+ },
+ {
+  "table": "feas",
+  "id": "cg",
+  "order": 6,
+  "kind": "gdp",
+  "dir": "up",
+  "ok": 7.6,
+  "hard": 8.5,
+  "label": "Kích cầu tiêu dùng",
+  "ref": "Kịch bản tích cực 7,6%; thu nhập thực chỉ tăng 4,87% nên trên 8,5% khó bền"
+ },
+ {
+  "table": "feas",
+  "id": "x",
+  "order": 7,
+  "kind": "ext",
+  "dir": "up",
+  "ok": 25,
+  "hard": 28,
+  "label": "Xuất khẩu tăng tốc",
+  "ref": "Phụ thuộc đơn hàng nước ngoài, không điều hành trực tiếp; kịch bản tích cực 25%"
+ },
+ {
+  "table": "feas",
+  "id": "admin",
+  "order": 8,
+  "kind": "cpi",
+  "dir": "down",
+  "ok": 0,
+  "hard": 0,
+  "label": "Hoãn điều chỉnh giá điện, y tế, giáo dục",
+  "ref": "Lùi các đợt điều chỉnh giá do Nhà nước quản lý sang năm sau"
+ },
+ {
+  "table": "feas",
+  "id": "food",
+  "order": 9,
+  "kind": "cpi",
+  "dir": "down",
+  "ok": 3,
+  "hard": 2,
+  "label": "Bình ổn giá lương thực, thực phẩm",
+  "ref": "Dự trữ, nhập khẩu bổ sung; kịch bản tích cực 3%"
+ },
+ {
+  "table": "feas",
+  "id": "fx",
+  "order": 10,
+  "kind": "cpi",
+  "dir": "down",
+  "ok": 1.5,
+  "hard": 1,
+  "label": "Giữ ổn định tỷ giá",
+  "ref": "Bán ngoại tệ can thiệp, điều tiết thanh khoản; kịch bản tích cực giữ khoảng 1,5–2%"
+ }
+]
