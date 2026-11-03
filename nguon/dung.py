@@ -39,6 +39,20 @@ def ban_claude(ds):
     return ds
 
 
+def bo_sung():
+    """Bảng số WiData (vm-widata.js + widata.json) cho các bản trên claude.ai, nơi trang không tự tải tệp được."""
+    w = open(os.path.join(GOC, "widata.json"), encoding="utf-8").read()
+    json.loads(w)
+    js = open(os.path.join(GOC, "vm-widata.js"), encoding="utf-8").read()
+    so = "window.__vmWidataSo = " + w.strip().replace("</", "<\\/") + ";"
+    return so, js
+
+
+def chen_cuoi(html, them):
+    i = html.rfind("</body>")
+    return html + them if i < 0 else html[:i] + them + html[i:]
+
+
 def khoi(ds):
     return json.dumps({"datasets": ds}, ensure_ascii=False).replace("</", "<\\/")
 
@@ -70,10 +84,17 @@ def dung():
     # hai bản trên claude.ai
     out = os.path.join(N, "out"); os.makedirs(os.path.join(out, "dashboard"), exist_ok=True)
     dc = ban_claude(ds)
+    so, js = bo_sung()
+    them = "<script>" + so + "</script>\n<script>" + js + "</script>\n"
     for ten in ("web", "offline"):
         k = open(os.path.join(N, "khung", ten + ".html.txt"), encoding="utf-8").read()
         assert k.count("__VM_DATA__") == 1, ten
-        open(os.path.join(out, ten + ".html"), "w", encoding="utf-8").write(k.replace("__VM_DATA__", khoi(dc)))
+        open(os.path.join(out, ten + ".html"), "w", encoding="utf-8").write(chen_cuoi(k.replace("__VM_DATA__", khoi(dc)), them))
+    # tệp phụ của dashboard (bộ files trong dashboard): vm-ui.js, vm-widata.js, widata.js
+    fd = os.path.join(out, "dashboard_files"); os.makedirs(fd, exist_ok=True)
+    open(os.path.join(fd, "vm-ui.js"), "w", encoding="utf-8").write(open(os.path.join(GOC, "vm-ui.js"), encoding="utf-8").read())
+    open(os.path.join(fd, "vm-widata.js"), "w", encoding="utf-8").write(js)
+    open(os.path.join(fd, "widata.js"), "w", encoding="utf-8").write(so + "\n")
     # dashboard: mỗi bộ một tệp JSON (đăng làm tài sản rồi trỏ datasets/<bộ>.source.url tới nó).
     # Dashboard giữ đường dẫn clip tương đối như bản GitHub.
     for k, v in ds.items():

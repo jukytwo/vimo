@@ -31,6 +31,15 @@ Hai bản trên claude.ai dùng đường dẫn clip đầy đủ (`https://juky
 - Web app và bản offline: sửa `nguon/khung/<bản>.html.txt`, giữ đúng một chỗ `__VM_DATA__`. Đuôi `.txt` để GitHub Pages không chạy khung như một trang.
 - Rồi chạy dựng, kiểm, commit, đăng như trên.
 
+## Bảng số WiData trên các bản claude.ai
+
+`vm-widata.js` và `widata.json` ở gốc kho là nguồn của "Bảng số vĩ mô đầy đủ" và "Dự báo của các tổ chức". Bản GitHub tự tải `widata.json`; ba bản trên claude.ai không tự tải tệp được nên `dung.py` nhúng sẵn số (`window.__vmWidataSo`) vào web app, bản offline và xuất `nguon/out/dashboard_files/` (vm-ui.js, vm-widata.js, widata.js) cho dashboard. Đổi `widata.json` thì chạy dựng và đăng lại các bản.
+
+## Dashboard
+
+Trang của dashboard nằm trong bộ `files` của chính dashboard (index.html, tools.js, i18n.js, ux.js, share.js, report.js, qa.js, extra.js) và nạp thêm `widata.js`, `vm-ui.js`, `vm-widata.js` (từ 03/11/2026). Khi `vm-ui.js`, `vm-widata.js` hay `widata.json` đổi: chạy dựng rồi ghi ba tệp trong `nguon/out/dashboard_files/` vào bộ `files` (ArtifactData update `files/<tên>` với `{"text": ...}`).
+Người chưa đăng nhập claude.ai mở dashboard sẽ thấy trang trống (dashboard chỉ cho người đăng nhập đọc số liệu), nên nút chia sẻ trong dashboard trỏ về trang công khai https://jukytwo.github.io/vimo/.
+
 ## Mã nguồn đọc được (bản cũ)
 
 Bộ mã chưa làm rối nằm trong dashboard, bộ `files` (index.html, tools.js, i18n.js, ux.js, share.js, report.js, qa.js, extra.js) và bộ `kit` (build_app.py, build_offline.py, build_gh.py, protect.py, ...). Bộ này dừng ở khoảng 23/10/2026: thiếu các sửa đổi sau đó (khung TVN Insight, sửa giao diện 27/10, sửa nền tối, Bảng số WiData, kết luận xuống dòng theo câu...). KHÔNG dựng lại trang từ bộ này, vì làm thế sẽ mất các sửa đổi trên. Gộp bộ này về khớp với bản đang chạy là việc của đợt dọn mã tiếp theo.

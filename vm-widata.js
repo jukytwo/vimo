@@ -1,5 +1,5 @@
 /* vm-widata.js · Vĩ mô TVN: số liệu vĩ mô bổ sung từ WiData MCP (anh Vũ 30/10/2026 "gắn lên luôn").
-   Tệp độc lập, nạp sau mã trang, không sửa phần dựng sẵn. Đọc widata.json (xuất bằng C:\hermes\radar\radar\xuat_widata_vimo.py):
+   Tệp độc lập, nạp sau mã trang, không sửa phần dựng sẵn. Đọc widata.json, hoặc window.__vmWidataSo khi trang nhúng sẵn số (web app, bản offline, dashboard trên claude.ai; nguon/dung.py nhúng) (xuất bằng C:\hermes\radar\radar\xuat_widata_vimo.py):
    - cuối trang 01 Tổng quan: "Bảng số vĩ mô đầy đủ", gập sẵn, mỗi chỉ tiêu một ô (số mới nhất, kỳ, so kỳ trước, đường 24 kỳ);
    - trang 08 Dự báo: "Dự báo của các tổ chức" (trung vị, thấp – cao, bấm dòng xem từng nơi).
    Mọi khối ghi nguồn "WiData MCP by WiGroup". */
@@ -76,9 +76,11 @@
     });
   }
   function chay() {
-    fetch("widata.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (w) {
+    (window.__vmWidataSo ? Promise.resolve({ ok: true, json: function () { return window.__vmWidataSo; } }) : fetch("widata.json", { cache: "no-cache" })).then(function (r) { return r.ok ? r.json() : null; }).then(function (w) {
       if (!w) return; css(); tongQuan(w); duBao(w);
     }).catch(function () {});
   }
-  if (D.readyState === "loading") D.addEventListener("DOMContentLoaded", chay); else chay();
+  // chờ trang dựng xong phần Tổng quan rồi mới gắn (bản nhúng sẵn chạy ngay khi nạp, sớm hơn bản GitHub nạp sau)
+  function sau() { setTimeout(chay, 400); }
+  if (D.readyState === "complete") sau(); else addEventListener("load", sau);
 })();
