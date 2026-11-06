@@ -3906,5 +3906,21 @@
  {
   "vi": "Chênh lệch thống kê giữa hai cách đo",
   "en": "Statistical discrepancy between the two methods"
+ },
+ {
+  "vi": "IIP tháng # #% (tháng # #%); PMI # (từ #); đơn hàng xuất khẩu giảm tháng thứ ba",
+  "en": "IIP month #: #% (month #: #%); PMI # (from #); export orders fell for a third month"
+ },
+ {
+  "vi": "Tháng # xuất siêu # tỷ USD; # tháng nhập siêu # tỷ USD (# tháng: #)",
+  "en": "Month #: trade surplus of # billion USD; # months: trade deficit of # billion USD (# months: #)"
+ },
+ {
+  "vi": "Tháng #: #%; quý III: #%",
+  "en": "Month #: #%; Q3: #%"
+ },
+ {
+  "vi": "dồn vào giao thông (#%), nhà ở, điện nước (#%)",
+  "en": "driven by transport (#%) and housing, utilities (#%)"
  }
 ]
