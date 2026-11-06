@@ -24,6 +24,7 @@ Hai bản trên claude.ai dùng đường dẫn clip đầy đủ (`https://juky
    - Bản offline: Artifact publish, url bản offline, file_path `nguon/out/offline.html`.
    - Dashboard, với mỗi bộ đã đổi: ArtifactData get `datasets/<bộ>` (lấy version và id tài sản cũ trong source.url); Artifact publish url dashboard, asset true, file_path `nguon/out/dashboard/<bộ>.json`; ArtifactData update `datasets/<bộ>` với `{"source": {"kind": "file", "name": "<bộ>.json", "url": "/_blob/<id mới>"}, "updated": {"at": "<giờ ISO +07:00>", "by": "Claude"}}` và if_version; xong mới xóa tài sản cũ.
 6. Đối chiếu sau khi đăng: đọc lại hai trang claude.ai, chạy `python3 nguon/dung.py --kiem <web.html đã lưu> <offline.html đã lưu>`.
+7. Số liệu tháng mới (Cục Thống kê công bố khoảng ngày 6 hằng tháng): ngoài `nguon/data`, nhãn tháng của CPI còn viết cứng ở bốn nơi, phải đổi theo: `index.html`, `nguon/khung/web.html.txt`, `nguon/khung/offline.html.txt` (dải số đầu trang "CPI tháng N"/"Sep CPI", câu Hỏi đáp "CPI tháng N tăng", "Lạm phát tháng N là" và bản tiếng Anh) và dashboard (bộ `files`: `index.html` dải số, `qa.js` ba câu Hỏi đáp). Câu mới không có trường `_en` thì thêm mẫu vào `i18n.json` (số thay bằng `#`). Số tháng lấy từ kho độc lập web Vĩ mô KQKD (`C:\hermes\tvn-vimo-kqkd-web\du_lieu\kho_doc_lap`, đọc bằng tvn-trading-venv) và đối chiếu WiData MCP. Làm lần đầu ngày 06/11/2026 cho số tháng 10.
 
 ## Sửa giao diện
 
