@@ -3,7 +3,7 @@
   "table": "info",
   "id": "kb",
   "report": "GDP quý III/2026: ai mua, ai làm ra 9,95%, và ai được hưởng (TVN & Partners, bản tổng thể 17/10/2026)",
-  "n": 140
+  "n": 141
  },
  {
   "table": "core",
@@ -989,5 +989,12 @@
   "ch": "Cập nhật số liệu 23/10/2026",
   "sec": "Đầu tư công và mục tiêu 2027",
   "t": "Theo báo cáo nhanh của Bộ Tài chính, đến hết 8/10/2026 vốn đầu tư công nguồn ngân sách giải ngân 652.125,4 tỷ đồng, đạt 63,8% kế hoạch Thủ tướng giao (1.022.607 tỷ đồng); để đạt 100% kế hoạch cần giải ngân thêm khoảng 370,5 nghìn tỷ đồng từ 9/10 đến hết năm (TVN tính). Số này là giải ngân của Bộ Tài chính, khác phạm vi với vốn đầu tư thực hiện từ ngân sách của Cục Thống kê (661,8 nghìn tỷ đồng, 59,9% kế hoạch sau 9 tháng) dùng trong báo cáo TVN. Ngày 17/10/2026, tại kỳ họp thứ 2 Quốc hội khóa XVI, Chính phủ trình mục tiêu năm 2027: GDP tăng từ 10% trở lên, CPI khoảng 4,5%, GDP bình quân đầu người 6.100 USD, năng suất lao động tăng 8,6%; báo cáo nêu 9 tháng 2026 CPI bình quân tăng 4,52%, thu ngân sách cả năm 2026 ước 3,06 triệu tỷ đồng, tăng 14%. IMF dự báo GDP 2027 tăng 7,5%, ADB dự báo 7,6%."
+ },
+ {
+  "table": "chunk",
+  "id": "k141",
+  "ch": "Cập nhật số liệu 06/11/2026",
+  "sec": "Số liệu tháng 10/2026",
+  "t": "Theo Cục Thống kê công bố ngày 06/11/2026, tháng 10/2026: CPI tăng 5,09% so cùng kỳ (tháng 9: 5,08%), tăng 0,20% so tháng 9; lạm phát cơ bản 4,04% (tháng 9: 4,45%); CPI bình quân 10 tháng 4,58%. Nhóm giao thông tăng 15,6% và nhà ở, điện nước 6,5% vẫn là hai nguồn chính. Sản xuất công nghiệp (IIP) tăng 15,0% (chế biến, chế tạo +15,7%), chậm lại từ 16,7% tháng 9. Xuất khẩu đạt 64,67 tỷ USD, tăng 51,4%; nhập khẩu 57,36 tỷ USD, tăng 43,1%; xuất siêu 7,31 tỷ USD. Lũy kế 10 tháng xuất khẩu 499,23 tỷ USD (+27,5%), nhập khẩu 511,31 tỷ USD (+37,4%), nhập siêu 12,07 tỷ USD (9 tháng: 19,42). Tổng bán lẻ hàng hóa và dịch vụ tăng 14,7% (giá hiện hành). Khách quốc tế 1,85 triệu lượt (tháng 9: 1,77). Vốn đầu tư thực hiện từ ngân sách tháng 10 khoảng 121,6 nghìn tỷ đồng, tăng 19,8%. FDI giải ngân 10 tháng 24,08 tỷ USD, tăng 13,1% (WiData MCP by WiGroup). Đối chiếu ngưỡng đổi kịch bản của TVN: IIP trên 10%, vốn ngân sách trên 100 nghìn tỷ đồng và xuất khẩu tăng so tháng 9, nên chưa nâng xác suất kịch bản Tiêu cực; CPI 5,09% nằm trong khoảng 5,0–5,3% của kịch bản cơ sở."
  }
 ]

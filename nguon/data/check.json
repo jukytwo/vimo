@@ -87,7 +87,7 @@
   "group": "Sản xuất",
   "pair": "IIP, GDP và PMI",
   "verdict": "Phân kỳ",
-  "evidence": "IIP tháng 9 +16,7%; PMI 51,9 (từ 53,3); đơn hàng xuất khẩu giảm tháng thứ hai"
+  "evidence": "IIP tháng 10 +15,0% (tháng 9 +16,7%); PMI 52,3 (từ 51,9); đơn hàng xuất khẩu giảm tháng thứ ba"
  },
  {
   "table": "matrix",
@@ -185,7 +185,7 @@
   "group": "Ngoại thương, FDI, thị trường",
   "pair": "Cán cân thương mại tháng và lũy kế",
   "verdict": "Cảnh báo",
-  "evidence": "Tháng 9 xuất siêu 1,27 tỷ USD; 9 tháng nhập siêu 19,42 tỷ USD"
+  "evidence": "Tháng 10 xuất siêu 7,31 tỷ USD; 10 tháng nhập siêu 12,07 tỷ USD (9 tháng: 19,42)"
  },
  {
   "table": "matrix",
@@ -292,9 +292,19 @@
   "source": "Cục Thống kê (CPI tháng 9/2026)"
  },
  {
+  "table": "trend",
+  "series": "cpi",
+  "order": 6,
+  "month": "T10",
+  "period": "Tháng 10/2026",
+  "value": 5.09,
+  "unit": "%",
+  "source": "Cục Thống kê (CPI tháng 10/2026)"
+ },
+ {
   "table": "pmi_iip",
   "month": "T10",
   "pmi": 52.3,
-  "iip": null
+  "iip": 15.0
  }
 ]

@@ -62,14 +62,14 @@
  {
   "table": "headline",
   "id": "cpi_9",
-  "label": "CPI tháng 9",
-  "value": 5.08,
+  "label": "CPI tháng 10",
+  "value": 5.09,
   "unit": "%",
-  "note": "dồn vào xăng, nhà ở, học phí",
+  "note": "dồn vào giao thông (+15,6%), nhà ở, điện nước (+6,5%)",
   "tone": "bad",
-  "period": "Tháng 9/2026",
-  "upd": "2026-10-07",
-  "period_en": "Sep 2026"
+  "period": "Tháng 10/2026",
+  "upd": "2026-11-06",
+  "period_en": "Oct 2026"
  },
  {
   "table": "headline",
@@ -211,15 +211,15 @@
   "id": "m_cpi",
   "order": 0,
   "label": "CPI so cùng kỳ",
-  "value": 5.08,
+  "value": 5.09,
   "unit": "%",
-  "period": "Tháng 9/2026",
-  "upd": "2026-10-07",
-  "read": "Cao hơn mục tiêu khoảng 4,5%; bình quân quý III 4,8%.",
+  "period": "Tháng 10/2026",
+  "upd": "2026-11-06",
+  "read": "Cao hơn mục tiêu khoảng 4,5%; tăng 0,20% so tháng 9; lạm phát cơ bản hạ còn 4,04%.",
   "tone": "bad",
   "label_en": "CPI, year on year",
-  "read_en": "Above the ~4.5% target; Q3 average 4.8%.",
-  "period_en": "Sep 2026"
+  "read_en": "Above the ~4.5% target; +0.20% on September; core inflation eased to 4.04%.",
+  "period_en": "Oct 2026"
  },
  {
   "table": "monthly",
@@ -241,15 +241,15 @@
   "id": "m_iip",
   "order": 2,
   "label": "Sản xuất công nghiệp (IIP)",
-  "value": 16.7,
+  "value": 15.0,
   "unit": "%",
-  "period": "Tháng 9/2026",
-  "upd": "2026-10-07",
-  "read": "Nhanh hơn bình quân quý III (14,8%): phía sản xuất còn khỏe.",
+  "period": "Tháng 10/2026",
+  "upd": "2026-11-06",
+  "read": "Chậm lại từ 16,7% tháng 9 nhưng vẫn trên bình quân quý III (14,8%): phía sản xuất còn khỏe.",
   "tone": "good",
   "label_en": "Industrial production (IIP)",
-  "read_en": "Faster than the Q3 average (14.8%): output is still strong.",
-  "period_en": "Sep 2026"
+  "read_en": "Slower than 16.7% in September but still above the Q3 average (14.8%): output is still strong.",
+  "period_en": "Oct 2026"
  },
  {
   "table": "monthly",
