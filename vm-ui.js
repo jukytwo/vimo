@@ -380,6 +380,45 @@
   else setTimeout(start, 200);
 })();
 
+/* 10 · Bộ màu chung với TVN Insight (chốt 12/11/2026, thư i-20261112-c5ss, m-20261112-t33u, i-20261112-k8tc).
+   Nguồn duy nhất: https://jukytwo.github.io/bantin/tvn-tokens.css (Team giữ). Bản GitHub nạp thẳng tệp đó;
+   bản trên claude.ai không nạp được CSS ngoài nên dùng bản chép TOK dưới đây (Team báo đổi tệp thì chép lại).
+   Biến cũ của Vĩ mô (--color-bg, --bt-card...) trỏ sang biến chung; html[data-theme] luôn khớp sáng tối thật của .vm
+   để bộ chung chọn đúng khối sáng hay tối. Màu GDP --c-* chỉ lấy của bộ chung ở nền tối (bộ chung chưa có bản sáng). */
+(function () {
+  if (window.__vmTok) return; window.__vmTok = 1;
+  var D = document, H = D.documentElement, W = window;
+  var TOK = ":root{--bg:#F6F7FA;--surface:#FFFFFF;--ink:#16213A;--mute:#5B6579;--line:#DCE2EC;--navy:#1F3864;--gold:#C8992F;--chip:#EEF2F8;--up:#1E7A46;--dn:#B23A3A;--l0:#2E8B57;--l1:#C8992F;--l2:#D9822B;--l3:#C0392B;--c-c:#FBBF24;--c-g:#2DD4BF;--c-i:#6E9BFF;--c-nx:#FB7190;--c-r:#64748B;--chart-grid:#E3E8F0;--chart-axis:#9AA6BC;--note:#EDF1F7;--f:\"Be Vietnam Pro\",system-ui,-apple-system,\"Segoe UI\",Roboto,sans-serif;--r-card:14px;--r-tile:12px;--r-chip:16px}@media (prefers-color-scheme:dark){:root:not([data-theme=\"light\"]){--bg:#0E1524;--surface:#16203A;--ink:#E7ECF5;--mute:#9AA6BC;--line:#2A3757;--navy:#8FB0E8;--gold:#E2BE6A;--chip:#1D2A47;--up:#4CC38A;--dn:#F07070;--chart-grid:#1C2D50;--chart-axis:#3A4E78;--note:#192841;color-scheme:dark}}:root[data-theme=\"dark\"]{--bg:#0E1524;--surface:#16203A;--ink:#E7ECF5;--mute:#9AA6BC;--line:#2A3757;--navy:#8FB0E8;--gold:#E2BE6A;--chip:#1D2A47;--up:#4CC38A;--dn:#F07070;--chart-grid:#1C2D50;--chart-axis:#3A4E78;--note:#192841;color-scheme:dark}";
+  var GH = /(^|\.)github\.io$|^127\.0\.0\.1$|^localhost$/.test(location.hostname);
+  if (GH) { var l = D.createElement('link'); l.rel = 'stylesheet'; l.id = 'vmx-tok-link'; l.href = '/bantin/tvn-tokens.css';
+    l.onerror = function () { inl(); }; D.head.insertBefore(l, D.head.firstChild); }
+  else inl();
+  function inl() { if (D.getElementById('vmx-tok')) return; var s = D.createElement('style'); s.id = 'vmx-tok'; s.textContent = TOK; D.head.insertBefore(s, D.head.firstChild); }
+  var map = D.createElement('style'); map.id = 'vmx-tok-map';
+  map.textContent = [
+    'html.vmx-tok{--app-ground:var(--bg)!important}',
+    'html.vmx-tok .vm{--color-bg:var(--bg)!important;--color-panel:var(--surface)!important;--color-fg:var(--ink)!important;--color-fg-muted:var(--mute)!important;--color-border-line:var(--line)!important;' +
+      '--bt-card:var(--surface)!important;--bt-ink:var(--ink)!important;--bt-mute:var(--mute)!important;--bt-line:var(--line)!important;--bt-chip:var(--chip)!important;--tvn-ice:var(--chip)!important;--track:var(--line)!important;' +
+      '--cds-chart-grid:var(--chart-grid)!important;--cds-chart-axis:var(--chart-axis)!important}',
+    'html.vmx-tok[data-theme="dark"] .vm{--c-c:inherit!important;--c-g:inherit!important;--c-i:inherit!important;--c-nx:inherit!important;--c-r:inherit!important}'
+  ].join('\n');
+  (D.head || H).appendChild(map);
+  var mq = W.matchMedia ? W.matchMedia('(prefers-color-scheme: dark)') : null, vm = null;
+  function toi() {
+    if (vm) { if (vm.classList.contains('vm-dark')) return true; if (vm.classList.contains('vm-light')) return false; }
+    var m = H.getAttribute('data-mode'); if (m === 'dark') return true; if (m === 'light') return false;
+    return !!(mq && mq.matches);
+  }
+  function khop() { var t = toi() ? 'dark' : 'light'; if (H.getAttribute('data-theme') !== t) H.setAttribute('data-theme', t); }
+  function batDau() {
+    vm = D.querySelector('.vm'); khop(); H.classList.add('vmx-tok');
+    if (vm) new MutationObserver(khop).observe(vm, { attributes: true, attributeFilter: ['class'] });
+    new MutationObserver(khop).observe(H, { attributes: true, attributeFilter: ['data-mode'] });
+    if (mq) { if (mq.addEventListener) mq.addEventListener('change', khop); else if (mq.addListener) mq.addListener(khop); }
+  }
+  if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', batDau); else batDau();
+})();
+
 /* Nút "Xem dạng câu chuyện" (anh Vũ duyệt 27/10/2026): mở /vimo/cau-chuyen/, 73 thẻ có giọng đọc kèm bài phân tích đầy đủ.
    Chỉ hiện ở bản GitHub (bản trên claude.ai không có thư mục cau-chuyen). Nhúng trong TVN Insight thì mở toàn màn hình (target _top);
    nút quay về trong trang câu chuyện lùi lại đúng chỗ cũ. */
