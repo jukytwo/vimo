@@ -397,6 +397,7 @@
   var map = D.createElement('style'); map.id = 'vmx-tok-map';
   map.textContent = [
     'html.vmx-tok{--app-ground:var(--bg)!important}',
+    'html.vmx-tok:not(.vmx-embed) body{background:var(--bg)!important}',
     'html.vmx-tok .vm{--color-bg:var(--bg)!important;--color-panel:var(--surface)!important;--color-fg:var(--ink)!important;--color-fg-muted:var(--mute)!important;--color-border-line:var(--line)!important;' +
       '--bt-card:var(--surface)!important;--bt-ink:var(--ink)!important;--bt-mute:var(--mute)!important;--bt-line:var(--line)!important;--bt-chip:var(--chip)!important;--tvn-ice:var(--chip)!important;--track:var(--line)!important;' +
       '--cds-chart-grid:var(--chart-grid)!important;--cds-chart-axis:var(--chart-axis)!important}',
