@@ -3922,5 +3922,13 @@
  {
   "vi": "dồn vào giao thông (#%), nhà ở, điện nước (#%)",
   "en": "driven by transport (#%) and housing, utilities (#%)"
+ },
+ {
+  "vi": "FDI đăng ký #% và FDI giải ngân #% (# tháng; chênh hơn # điểm)",
+  "en": "Registered FDI #% and disbursed FDI #% (# months; gap of more than # points)"
+ },
+ {
+  "vi": "CPI tháng # #% so cùng kỳ (tháng #: #%); giá bán đầu ra PMI tăng chậm nhất từ #/#",
+  "en": "CPI, month #: #% year on year (month #: #%); PMI output prices rising at the slowest pace since #/#"
  }
 ]

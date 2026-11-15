@@ -86,8 +86,8 @@
   "table": "matrix",
   "group": "Sản xuất",
   "pair": "IIP, GDP và PMI",
-  "verdict": "Phân kỳ",
-  "evidence": "IIP tháng 10 +15,0% (tháng 9 +16,7%); PMI 52,3 (từ 51,9); đơn hàng xuất khẩu giảm tháng thứ ba"
+  "verdict": "Cảnh báo",
+  "evidence": "IIP tháng 10 +15,0% (tháng 9 +14,2%); PMI 52,3 (từ 51,9); đơn hàng xuất khẩu giảm tháng thứ ba"
  },
  {
   "table": "matrix",
@@ -157,7 +157,7 @@
   "group": "Cầu, dịch vụ và giá",
   "pair": "CPI và giá bán đầu ra PMI",
   "verdict": "Phân kỳ",
-  "evidence": "CPI 5,08% so cùng kỳ; giá bán đầu ra PMI tăng chậm nhất từ 6/2025"
+  "evidence": "CPI tháng 9 5,08% so cùng kỳ (tháng 10: 5,09%); giá bán đầu ra PMI tăng chậm nhất từ 6/2025"
  },
  {
   "table": "matrix",
@@ -192,7 +192,7 @@
   "group": "Ngoại thương, FDI, thị trường",
   "pair": "FDI đăng ký và FDI giải ngân",
   "verdict": "Cảnh báo",
-  "evidence": "FDI đăng ký +76,4% và FDI giải ngân +12,1% (Chênh hơn 60 điểm)"
+  "evidence": "FDI đăng ký +74,0% và FDI giải ngân +13,1% (10 tháng; chênh hơn 60 điểm)"
  },
  {
   "table": "matrix",
@@ -229,7 +229,7 @@
   "table": "pmi_iip",
   "month": "T9",
   "pmi": 51.9,
-  "iip": 16.7
+  "iip": 14.2
  },
  {
   "table": "trend",
