@@ -69,14 +69,19 @@
     '.vmx-wnote{font-size:12.5px;color:var(--color-muted,#5b6577);margin:6px 0 0;font-weight:600}',
     /* nhúng trong TVN Insight */
     'html.vmx-embed .vm-top .vm-logo,html.vmx-embed #vmBack,html.vmx-embed #vmBackF,html.vmx-embed .qa-fab{display:none!important}',
-    '@media(max-width:760px){html.vmx-embed .app-bar{display:flex!important;position:sticky!important;top:0!important;bottom:auto!important;left:auto;right:auto;z-index:75;overflow-x:auto;gap:6px;padding:6px 8px!important;border-top:0!important;border-bottom:3px solid #c8992f!important;box-shadow:0 10px 24px -14px rgba(0,0,0,.55)!important;scrollbar-width:none}',
+    /* 15/11/2026: thanh mục con chia đều các ô (biểu tượng trên, chữ dưới), không cuộn ngang nên không còn cắt chữ "Người dân" */
+    '@media(max-width:760px){html.vmx-embed .app-bar{display:grid!important;grid-template-columns:none!important;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);position:sticky!important;top:0!important;bottom:auto!important;left:auto;right:auto;z-index:75;overflow:visible!important;gap:2px!important;padding:4px!important;border-top:0!important;border-bottom:3px solid #c8992f!important;box-shadow:0 10px 24px -14px rgba(0,0,0,.55)!important;scrollbar-width:none}',
     'html.vmx-embed .app-bar::-webkit-scrollbar{display:none}',
-    'html.vmx-embed .app-bar button{display:inline-flex!important;flex:0 0 auto;align-items:center;gap:6px;min-height:40px!important;padding:6px 12px!important;font-size:13px!important;border-radius:20px!important}',
+    'html.vmx-embed .app-bar button{display:grid!important;justify-items:center;align-content:center;gap:3px!important;min-width:0!important;min-height:44px!important;padding:4px 2px!important;font-size:13px!important;line-height:1.2!important;text-align:center!important;white-space:normal!important;border-radius:12px!important}',
+    'html.vmx-embed .app-bar button span{white-space:normal!important;overflow-wrap:anywhere}',
     'html.vmx-embed .app-bar svg{width:16px!important;height:16px!important}',
     'html.vmx-embed .app-bar,html.vmx-embed .app-bar button{font-family:var(--font-anthropic-sans,"Be Vietnam Pro",system-ui,sans-serif)!important}',
     'html.vmx-embed body>a[href="https://tvnpartners.com.vn"][data-noi18n]{display:none!important}html.vmx-embed body{padding-top:0!important}',
     'html.vmx-embed #dash-root{padding-bottom:24px!important}',
     'html.vmx-embed .sim-dock{bottom:0!important}}',
+    /* 15/11/2026, màn hẹp: chữ thanh mục con theo cỡ cũ 10,5px; khi nhúng bỏ lề hai bên của #dash-root (khung TVN Insight đã có lề) để báo cáo không lồng hai lớp khung;
+       dải số đầu trang 3 cột thay 4 để nhãn dài như "Công nghiệp, xây dựng" còn tối đa 2 dòng */
+    '@media(max-width:560px){html.vmx-embed .app-bar button{font-size:10.5px!important;gap:2px!important;padding:3px 2px!important;line-height:1.15!important}html.vmx-embed .app-bar svg{width:19px!important;height:19px!important}html.vmx-embed body #dash-root{padding-left:0!important;padding-right:0!important}.vm .vm-tick{grid-template-columns:repeat(3,minmax(0,1fr))!important}}',
     /* nền tối: ô Đọc nhanh đang dùng chữ navy cố định (đo 27/10/2026: tương phản 1,4:1) */
     '.vm-dark .vm-quick .vq-h{color:#F2F5FB!important}',
     '.vm-dark .vm-quick li b,.vm-dark .vm-quick .vq-y b{color:#F7D57E!important}'
