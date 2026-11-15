@@ -12,8 +12,8 @@
   "id": "asof",
   "label": "Số liệu đến",
   "value": null,
-  "text": "06/11/2026",
-  "text_en": "06/11/2026"
+  "text": "15/11/2026",
+  "text_en": "15/11/2026"
  },
  {
   "table": "info",
@@ -60,8 +60,8 @@
   "id": "last_upd",
   "label": "Lần cập nhật gần nhất",
   "value": null,
-  "text": "2026-11-06",
-  "text_en": "2026-11-06"
+  "text": "2026-11-15",
+  "text_en": "2026-11-15"
  },
  {
   "table": "info",
@@ -3704,6 +3704,40 @@
   "target": null
  },
  {
+  "table": "datacal",
+  "fc": null,
+  "fc_note": null,
+  "fc_note_en": null,
+  "trend": null,
+  "target": null,
+  "prev_label": "Đến 29/10",
+  "prev_label_en": "To 29 Oct",
+  "stars": 4,
+  "date": "2026-11-05",
+  "period": "10 tháng 2026 (đến 31/10)",
+  "period_en": "Ten months of 2026 (to 31 Oct)",
+  "unit": "tỷ USD",
+  "dir": 1,
+  "dec": 2,
+  "src": "Cục Hải quan (số sơ bộ)",
+  "src_en": "Customs (preliminary)",
+  "page": "p3",
+  "id": "d32",
+  "ind": "Xuất khẩu lũy kế 10 tháng (Hải quan)",
+  "ind_en": "Cumulative exports, ten months (Customs)",
+  "prev": 493.64,
+  "actual": 499.23,
+  "extra": "+27,5% so cùng kỳ",
+  "extra_en": "+27.5% y/y",
+  "nghia": "Giá trị hàng hóa bán ra nước ngoài cộng dồn từ đầu năm đến hết tháng 10, theo số Hải quan.",
+  "nghia_en": "Value of goods sold abroad from January to end-October, per Customs.",
+  "visao": "Số Hải quan chốt hết tháng 10: xuất khẩu 10 tháng 499,23 tỷ USD, tăng 27,5%, giữ nhịp so với mức 493,64 tỷ USD đến 29/10; riêng tháng 10 đạt 64,67 tỷ USD, tăng 8,7% so tháng 9 và 53,8% so cùng kỳ (Cục Thống kê ghi cùng 64,67 tỷ USD nhưng tăng 51,4% so cùng kỳ; Cục Xuất nhập khẩu, Bộ Công Thương, ước 10 tháng 499 tỷ USD, tăng 27,4%). Nguồn: Cục Hải quan, số sơ bộ công bố 05/11/2026 (Tạp chí Thuế và Hải quan, Tạp chí Kinh tế - Tài chính, 05/11).",
+  "visao_en": "Customs figures to end-October: ten-month exports USD 499.23bn, up 27.5%, keeping pace with USD 493.64bn to 29 October; October alone was USD 64.67bn, up 8.7% m/m and 53.8% y/y (the Statistics Office reports the same USD 64.67bn but +51.4% y/y; the Ministry of Industry and Trade's Import-Export Department estimates USD 499bn for ten months, +27.4%). Source: Customs, preliminary figures released 5 Nov 2026 (Tax and Customs magazine, Economy and Finance Review, 5 Nov).",
+  "ah": "Xuất khẩu tháng 10 tăng so tháng 9, đỡ xuất khẩu ròng quý IV và nguồn cung ngoại tệ.",
+  "ah_en": "October exports rose from September, supporting Q4 net exports and FX supply.",
+  "order": 29.5
+ },
+ {
   "table": "changes",
   "id": "u202611031230",
   "upd": "2026-11-03T12:30",
@@ -3868,5 +3902,15 @@
   "target": "x-month",
   "text": "Số liệu tháng 10 (Cục Thống kê, 06/11): CPI 5,09% (so tháng 9 +0,20%, cơ bản 4,04%); IIP +15,0%; xuất khẩu 64,67 tỷ USD (+51,4%), xuất siêu 7,31 tỷ USD, 10 tháng nhập siêu 12,07 tỷ USD; bán lẻ +14,7%; FDI giải ngân 10 tháng 24,08 tỷ USD (+13,1%). Chưa chạm điều kiện nâng kịch bản Tiêu cực",
   "text_en": "October data (Statistics Office, 06/11): CPI 5.09% (+0.20% m/m, core 4.04%); IIP +15.0%; exports USD 64.67bn (+51.4%), surplus USD 7.31bn, 10-month deficit USD 12.07bn; retail +14.7%; FDI disbursed in 10 months USD 24.08bn (+13.1%). No trigger for a higher Negative weight"
+ },
+ {
+  "table": "changes",
+  "id": "u202611150950",
+  "upd": "2026-11-15T09:50",
+  "kind": "site",
+  "page": "p1",
+  "target": "x-cal",
+  "text": "Lịch số liệu thêm xuất khẩu 10 tháng theo Cục Hải quan (số sơ bộ, 05/11): 499,23 tỷ USD, tăng 27,5%; riêng tháng 10 đạt 64,67 tỷ USD, tăng 8,7% so tháng 9",
+  "text_en": "Data calendar adds ten-month exports per Customs (preliminary, 5 Nov): USD 499.23bn, up 27.5%; October alone USD 64.67bn, up 8.7% m/m"
  }
 ]
