@@ -474,3 +474,48 @@
   var sl = W.VM && W.VM.setLang;
   if (typeof sl === 'function') W.VM.setLang = function () { var r = sl.apply(this, arguments); setTimeout(dat, 50); return r; };
 })();
+
+/* Đánh giá bản tin TVN Insight 16/11/2026 (Vũ max): chỉ chạy khi nhúng trong Insight (html.vmx-embed).
+   V5: trang nhúng dài 14,4 màn ở 375 px. Mục 01 Tổng quan chỉ giữ dải số, Đọc nhanh, công thức GDP, lời giải và biểu đồ GDP;
+       lịch số liệu, đường đọc 6 câu, hỏi đáp, đèn cảnh báo, bản đồ tác động, kết luận lặp lại gập sau nút "Mở đủ 9 mục ›".
+   T3: cùng bộ chữ v2: tiêu đề Lora (thay Times New Roman), chữ thường Be Vietnam Pro. */
+(function () {
+  if (window.__vmUi1116) return; window.__vmUi1116 = 1;
+  var D = document, H = D.documentElement;
+  if (!H.classList.contains('vmx-embed')) return;
+  H.classList.add('vmx-gon');
+  var lk = D.createElement('link'); lk.rel = 'stylesheet';
+  lk.href = 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@600;700&display=swap';
+  (D.head || H).appendChild(lk);
+  var g = 'html.vmx-embed.vmx-gon #p1';
+  var css = D.createElement('style'); css.id = 'vmx-css-1116';
+  css.textContent = [
+    g + '>.vm-chap~.vm-chap,' + g + '>.inv,' + g + '>.vm-concl,' +
+    g + '>.vm-chap:first-child>.x-cal,' + g + '>.vm-chap:first-child>.route,' + g + '>.vm-chap:first-child>.qa-home{display:none!important}',
+    /* phần đầu: bỏ khối lặp ý hoặc phụ (có gì mới, làm nổi cấu phần, tìm, công thức phía sản xuất, clip, khẩu hiệu, chân trang liên hệ) */
+    'html.vmx-embed.vmx-gon #x-upd,html.vmx-embed.vmx-gon #vm-focus,html.vmx-embed.vmx-gon #x-search,html.vmx-embed.vmx-gon #hero-sub,' +
+      'html.vmx-embed.vmx-gon #cong-thuc-sx,html.vmx-embed.vmx-gon #x-media,html.vmx-embed.vmx-gon .vm-slogan,html.vmx-embed.vmx-gon .vm-foot{display:none!important}',
+    '.vmx-them{display:none}',
+    g + ' .vmx-them{display:grid;justify-self:center;gap:3px;margin:18px auto 6px;text-align:center;font:700 16px/1.3 "Be Vietnam Pro",system-ui,sans-serif;' +
+      'color:var(--color-fg,#13213b);background:var(--color-panel,#fff);border:1px solid var(--color-border-line,#dfe5ef);border-radius:999px;padding:12px 26px;min-height:48px;cursor:pointer}',
+    '.vmx-them small{font-size:12.5px;font-weight:500;color:var(--color-muted,#5b6577)}',
+    '.vm-dark .vmx-them{color:#F2F5FB;background:#111a2b;border-color:#2a3650}.vm-dark .vmx-them small{color:#AEB8CC}',
+    'html.vmx-embed .vm-h,html.vmx-embed .vm-title{font-family:Lora,Georgia,serif!important;letter-spacing:0!important;font-variant-numeric:normal}',
+    'html.vmx-embed body{font-family:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif}'
+  ].join('\n');
+  (D.head || H).appendChild(css);
+  function dat() {
+    var c = D.querySelector('#p1>.vm-chap'); if (!c) return false;
+    var b = D.getElementById('vmx-them');
+    if (!b) {
+      b = D.createElement('button'); b.type = 'button'; b.id = 'vmx-them'; b.className = 'vmx-them'; b.setAttribute('data-noi18n', '');
+      b.addEventListener('click', function () { H.classList.remove('vmx-gon'); });
+    }
+    var en = !!(window.VM && window.VM.lang === 'en');
+    b.innerHTML = en ? 'Open all 9 sections ›<small>data calendar, early warning lights, impact map, Q&amp;A</small>'
+                     : 'Mở đủ 9 mục ›<small>lịch số liệu, đèn cảnh báo sớm, bản đồ tác động, hỏi đáp</small>';
+    if (c.nextElementSibling !== b) c.after(b);
+    return true;
+  }
+  var n = 0, t = setInterval(function () { if (dat() && ++n > 20) clearInterval(t); }, 500);
+})();
